@@ -1,0 +1,2040 @@
+
+-------------------------------
+    Initial Data Prep       
+-------------------------------
+
+----------------------------------------------
+DataFrame drivetime_input
+
+General description of the drivetime_input DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 17506 entries, 0 to 17505
+Data columns (total 13 columns):
+data_set             17506 non-null object
+total_cost           17506 non-null int64
+lot_sale_days        17506 non-null int64
+overage              17506 non-null object
+mileage              17506 non-null int64
+vehicle_type         17506 non-null object
+domestic_import      17506 non-null object
+vehicle_age          17506 non-null int64
+vehicle_age_group    17506 non-null object
+color_set            17506 non-null object
+makex                17506 non-null object
+state                17506 non-null object
+make_model           17506 non-null object
+dtypes: int64(4), object(9)
+memory usage: 1.7+ MB
+None
+
+drivetime_input DataFrame (first and last five rows):
+  data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+0    BUILD        4037            135     YES    67341   FAMILY.LARGE   
+1    BUILD        4662             18      NO    69384   FAMILY.SMALL   
+2    BUILD        4459             65      NO    58239        ECONOMY   
+3    BUILD        4279              1      NO    58999        ECONOMY   
+4    BUILD        4472             37      NO    47234  FAMILY.MEDIUM   
+
+  domestic_import  vehicle_age vehicle_age_group color_set    makex state  \
+0        Domestic            8            SEVEN+    SILVER    BUICK    CA   
+1          Import            4              FOUR    SILVER    MAZDA    TX   
+2          Import            4              FOUR       RED      GEO    FL   
+3          Import            3         ONE-THREE       RED      KIA    TX   
+4        Domestic            6               SIX      BLUE  MERCURY    NM   
+
+         make_model  
+0     BUICK.CENTURY  
+1     MAZDA.PROTEGE  
+2         GEO.METRO  
+3        KIA.SEPHIA  
+4  MERCURY.MYSTIQUE  
+
+      data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+17501  HOLDOUT        3793             23      NO    48016        ECONOMY   
+17502  HOLDOUT        5061             60      NO    72985        ECONOMY   
+17503  HOLDOUT        4857              8      NO    93040  FAMILY.MEDIUM   
+17504  HOLDOUT        3361             46      NO    70751        ECONOMY   
+17505  HOLDOUT        4068             59      NO    61770  FAMILY.MEDIUM   
+
+      domestic_import  vehicle_age vehicle_age_group color_set     makex  \
+17501          Import            5              FIVE      BLUE       GEO   
+17502        Domestic            4              FOUR     WHITE      FORD   
+17503        Domestic            8            SEVEN+    SILVER  CADILLAC   
+17504        Domestic            8            SEVEN+     WHITE     BUICK   
+17505          Import            7            SEVEN+    PURPLE    NISSAN   
+
+      state        make_model  
+17501    CA         GEO.METRO  
+17502    VA       FORD.ESCORT  
+17503    AZ  CADILLAC.DEVILLE  
+17504    VA     BUICK.SKYLARK  
+17505    AZ     NISSAN.SENTRA  
+
+----------------------------------------------
+DataFrame drivetime_build
+
+General description of the drivetime_build DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 8753 entries, 0 to 8752
+Data columns (total 13 columns):
+data_set             8753 non-null object
+total_cost           8753 non-null int64
+lot_sale_days        8753 non-null int64
+overage              8753 non-null object
+mileage              8753 non-null int64
+vehicle_type         8753 non-null object
+domestic_import      8753 non-null object
+vehicle_age          8753 non-null int64
+vehicle_age_group    8753 non-null object
+color_set            8753 non-null object
+makex                8753 non-null object
+state                8753 non-null object
+make_model           8753 non-null object
+dtypes: int64(4), object(9)
+memory usage: 957.4+ KB
+None
+       data_set   total_cost  lot_sale_days overage        mileage  \
+count      8753  8753.000000    8753.000000    8753    8753.000000   
+unique        1          NaN            NaN       2            NaN   
+top       BUILD          NaN            NaN      NO            NaN   
+freq       8753          NaN            NaN    6967            NaN   
+mean        NaN  4886.428196      46.887124     NaN   76926.544842   
+std         NaN   934.108000      52.834002     NaN   16980.644110   
+min         NaN  1492.000000       0.000000     NaN      82.000000   
+25%         NaN  4291.000000       7.000000     NaN   67054.000000   
+50%         NaN  4840.000000      24.000000     NaN   77935.000000   
+75%         NaN  5445.000000      75.000000     NaN   89057.000000   
+max         NaN  9813.000000     300.000000     NaN  119250.000000   
+
+         vehicle_type domestic_import  vehicle_age vehicle_age_group  \
+count            8753            8753  8753.000000              8753   
+unique              5               2          NaN                 5   
+top     FAMILY.MEDIUM        Domestic          NaN            SEVEN+   
+freq             3449            6026          NaN              2314   
+mean              NaN             NaN     5.449446               NaN   
+std               NaN             NaN     1.756285               NaN   
+min               NaN             NaN     1.000000               NaN   
+25%               NaN             NaN     4.000000               NaN   
+50%               NaN             NaN     5.000000               NaN   
+75%               NaN             NaN     7.000000               NaN   
+max               NaN             NaN    12.000000               NaN   
+
+       color_set makex state        make_model  
+count       8753  8753  8753              8753  
+unique         8    20     8                99  
+top        WHITE  FORD    TX  CHEVROLET.LUMINA  
+freq        1768  1174  2187               514  
+mean         NaN   NaN   NaN               NaN  
+std          NaN   NaN   NaN               NaN  
+min          NaN   NaN   NaN               NaN  
+25%          NaN   NaN   NaN               NaN  
+50%          NaN   NaN   NaN               NaN  
+75%          NaN   NaN   NaN               NaN  
+max          NaN   NaN   NaN               NaN  
+
+drivetime_build DataFrame (first and last five rows):
+  data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+0    BUILD        4037            135     YES    67341   FAMILY.LARGE   
+1    BUILD        4662             18      NO    69384   FAMILY.SMALL   
+2    BUILD        4459             65      NO    58239        ECONOMY   
+3    BUILD        4279              1      NO    58999        ECONOMY   
+4    BUILD        4472             37      NO    47234  FAMILY.MEDIUM   
+
+  domestic_import  vehicle_age vehicle_age_group color_set    makex state  \
+0        Domestic            8            SEVEN+    SILVER    BUICK    CA   
+1          Import            4              FOUR    SILVER    MAZDA    TX   
+2          Import            4              FOUR       RED      GEO    FL   
+3          Import            3         ONE-THREE       RED      KIA    TX   
+4        Domestic            6               SIX      BLUE  MERCURY    NM   
+
+         make_model  
+0     BUICK.CENTURY  
+1     MAZDA.PROTEGE  
+2         GEO.METRO  
+3        KIA.SEPHIA  
+4  MERCURY.MYSTIQUE  
+
+     data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+8748    BUILD        3791             11      NO    65819   FAMILY.LARGE   
+8749    BUILD        4380              4      NO    66057   FAMILY.LARGE   
+8750    BUILD        6392              2      NO   100705         LUXURY   
+8751    BUILD        4725             11      NO    88144  FAMILY.MEDIUM   
+8752    BUILD        5416             23      NO    64920   FAMILY.LARGE   
+
+     domestic_import  vehicle_age vehicle_age_group color_set       makex  \
+8748        Domestic            9            SEVEN+    SILVER       BUICK   
+8749        Domestic            6               SIX     GREEN   CHEVROLET   
+8750          Import            6               SIX    SILVER       HONDA   
+8751          Import            5              FIVE       RED  MITSUBISHI   
+8752        Domestic            4              FOUR      BLUE        FORD   
+
+     state         make_model  
+8748    FL   BUICK.ROADMASTER  
+8749    NM   CHEVROLET.LUMINA  
+8750    CA       HONDA.ACCORD  
+8751    TX  MITSUBISHI.GALANT  
+8752    CA        FORD.TAURUS  
+
+----------------------------------------------
+DataFrame drivetime_dev
+
+General description of the drivetime_dev DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4376 entries, 8753 to 13128
+Data columns (total 13 columns):
+data_set             4376 non-null object
+total_cost           4376 non-null int64
+lot_sale_days        4376 non-null int64
+overage              4376 non-null object
+mileage              4376 non-null int64
+vehicle_type         4376 non-null object
+domestic_import      4376 non-null object
+vehicle_age          4376 non-null int64
+vehicle_age_group    4376 non-null object
+color_set            4376 non-null object
+makex                4376 non-null object
+state                4376 non-null object
+make_model           4376 non-null object
+dtypes: int64(4), object(9)
+memory usage: 478.6+ KB
+None
+       data_set   total_cost  lot_sale_days overage        mileage  \
+count      4376  4376.000000    4376.000000    4376    4376.000000   
+unique        1          NaN            NaN       2            NaN   
+top         DEV          NaN            NaN      NO            NaN   
+freq       4376          NaN            NaN    3527            NaN   
+mean        NaN  4903.206810      46.717779     NaN   77230.736517   
+std         NaN   936.435078      53.173386     NaN   17054.756208   
+min         NaN  1537.000000       0.000000     NaN    4595.000000   
+25%         NaN  4308.000000       7.000000     NaN   67516.000000   
+50%         NaN  4858.000000      24.000000     NaN   78214.000000   
+75%         NaN  5436.500000      73.000000     NaN   89504.250000   
+max         NaN  9327.000000     300.000000     NaN  114732.000000   
+
+         vehicle_type domestic_import  vehicle_age vehicle_age_group  \
+count            4376            4376  4376.000000              4376   
+unique              5               2          NaN                 5   
+top     FAMILY.MEDIUM        Domestic          NaN            SEVEN+   
+freq             1713            3002          NaN              1127   
+mean              NaN             NaN     5.460238               NaN   
+std               NaN             NaN     1.753435               NaN   
+min               NaN             NaN     1.000000               NaN   
+25%               NaN             NaN     4.000000               NaN   
+50%               NaN             NaN     5.000000               NaN   
+75%               NaN             NaN     7.000000               NaN   
+max               NaN             NaN    12.000000               NaN   
+
+       color_set makex state        make_model  
+count       4376  4376  4376              4376  
+unique         8    20     8                94  
+top        WHITE  FORD    TX  CHEVROLET.LUMINA  
+freq         902   567  1017               243  
+mean         NaN   NaN   NaN               NaN  
+std          NaN   NaN   NaN               NaN  
+min          NaN   NaN   NaN               NaN  
+25%          NaN   NaN   NaN               NaN  
+50%          NaN   NaN   NaN               NaN  
+75%          NaN   NaN   NaN               NaN  
+max          NaN   NaN   NaN               NaN  
+
+drivetime_dev DataFrame (first and last five rows):
+     data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+8753      DEV        4995             13      NO    54837        ECONOMY   
+8754      DEV        5595             24      NO    79505   FAMILY.LARGE   
+8755      DEV        4663             78      NO   103951  FAMILY.MEDIUM   
+8756      DEV        5304             48      NO    64407   FAMILY.LARGE   
+8757      DEV        3938              4      NO    88379   FAMILY.SMALL   
+
+     domestic_import  vehicle_age vehicle_age_group color_set       makex  \
+8753        Domestic            3         ONE-THREE    PURPLE        FORD   
+8754        Domestic            7            SEVEN+     GREEN  OLDSMOBILE   
+8755        Domestic            6               SIX      BLUE  OLDSMOBILE   
+8756        Domestic            8            SEVEN+     WHITE        FORD   
+8757          Import            5              FIVE      GOLD       MAZDA   
+
+     state                  make_model  
+8753    GA                 FORD.ESCORT  
+8754    TX           OLDSMOBILE.AURORA  
+8755    FL  OLDSMOBILE.CUTLASS SUPREME  
+8756    FL         FORD.CROWN VICTORIA  
+8757    FL               MAZDA.PROTEGE  
+
+      data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+13124      DEV        2322             51      NO   101893   FAMILY.SMALL   
+13125      DEV        5257             90      NO    96746        ECONOMY   
+13126      DEV        4916             22      NO    94936  FAMILY.MEDIUM   
+13127      DEV        3571              4      NO    90145        ECONOMY   
+13128      DEV        5268             69      NO    77768        ECONOMY   
+
+      domestic_import  vehicle_age vehicle_age_group color_set   makex state  \
+13124          Import            7            SEVEN+       RED     GEO    TX   
+13125          Import            5              FIVE     GREEN  NISSAN    GA   
+13126        Domestic            5              FIVE     GREEN   DODGE    AZ   
+13127          Import            7            SEVEN+     GREEN  TOYOTA    CA   
+13128        Domestic            4              FOUR     GREEN    FORD    GA   
+
+           make_model  
+13124       GEO.PRIZM  
+13125   NISSAN.SENTRA  
+13126  DODGE.INTREPID  
+13127   TOYOTA.TERCEL  
+13128     FORD.ESCORT  
+
+----------------------------------------------
+DataFrame drivetime_holdout
+
+General description of the drivetime_holdout DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4377 entries, 13129 to 17505
+Data columns (total 13 columns):
+data_set             4377 non-null object
+total_cost           4377 non-null int64
+lot_sale_days        4377 non-null int64
+overage              4377 non-null object
+mileage              4377 non-null int64
+vehicle_type         4377 non-null object
+domestic_import      4377 non-null object
+vehicle_age          4377 non-null int64
+vehicle_age_group    4377 non-null object
+color_set            4377 non-null object
+makex                4377 non-null object
+state                4377 non-null object
+make_model           4377 non-null object
+dtypes: int64(4), object(9)
+memory usage: 478.7+ KB
+None
+       data_set   total_cost  lot_sale_days overage        mileage  \
+count      4377  4377.000000    4377.000000    4377    4377.000000   
+unique        1          NaN            NaN       2            NaN   
+top     HOLDOUT          NaN            NaN      NO            NaN   
+freq       4377          NaN            NaN    3517            NaN   
+mean        NaN  4903.832762      46.784556     NaN   76718.021019   
+std         NaN   934.599220      52.167332     NaN   16897.880255   
+min         NaN  1375.000000       0.000000     NaN    1036.000000   
+25%         NaN  4314.000000       8.000000     NaN   67292.000000   
+50%         NaN  4864.000000      25.000000     NaN   77751.000000   
+75%         NaN  5445.000000      73.000000     NaN   88815.000000   
+max         NaN  9648.000000     300.000000     NaN  115341.000000   
+
+         vehicle_type domestic_import  vehicle_age vehicle_age_group  \
+count            4377            4377  4377.000000              4377   
+unique              5               2          NaN                 5   
+top     FAMILY.MEDIUM        Domestic          NaN            SEVEN+   
+freq             1735            3007          NaN              1096   
+mean              NaN             NaN     5.405072               NaN   
+std               NaN             NaN     1.738294               NaN   
+min               NaN             NaN     1.000000               NaN   
+25%               NaN             NaN     4.000000               NaN   
+50%               NaN             NaN     5.000000               NaN   
+75%               NaN             NaN     7.000000               NaN   
+max               NaN             NaN    12.000000               NaN   
+
+       color_set makex state   make_model  
+count       4377  4377  4377         4377  
+unique         8    20     8           92  
+top        WHITE  FORD    TX  FORD.TAURUS  
+freq         933   546  1144          252  
+mean         NaN   NaN   NaN          NaN  
+std          NaN   NaN   NaN          NaN  
+min          NaN   NaN   NaN          NaN  
+25%          NaN   NaN   NaN          NaN  
+50%          NaN   NaN   NaN          NaN  
+75%          NaN   NaN   NaN          NaN  
+max          NaN   NaN   NaN          NaN  
+
+drivetime_holdout DataFrame (first and last five rows):
+      data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+13129  HOLDOUT        4944             30      NO    79188  FAMILY.MEDIUM   
+13130  HOLDOUT        5541             19      NO    72594   FAMILY.LARGE   
+13131  HOLDOUT        4870             39      NO    82492  FAMILY.MEDIUM   
+13132  HOLDOUT        5397             30      NO    71153  FAMILY.MEDIUM   
+13133  HOLDOUT        4983             23      NO    93462   FAMILY.LARGE   
+
+      domestic_import  vehicle_age vehicle_age_group color_set       makex  \
+13129        Domestic            5              FIVE      GOLD        FORD   
+13130        Domestic            7            SEVEN+      BLUE       BUICK   
+13131          Import            6               SIX     GREEN       MAZDA   
+13132        Domestic            5              FIVE    SILVER        FORD   
+13133        Domestic            6               SIX       RED  OLDSMOBILE   
+
+      state     make_model  
+13129    TX    FORD.TAURUS  
+13130    TX  BUICK.LESABRE  
+13131    TX      MAZDA.626  
+13132    TX    FORD.TAURUS  
+13133    NV  OLDSMOBILE.88  
+
+      data_set  total_cost  lot_sale_days overage  mileage   vehicle_type  \
+17501  HOLDOUT        3793             23      NO    48016        ECONOMY   
+17502  HOLDOUT        5061             60      NO    72985        ECONOMY   
+17503  HOLDOUT        4857              8      NO    93040  FAMILY.MEDIUM   
+17504  HOLDOUT        3361             46      NO    70751        ECONOMY   
+17505  HOLDOUT        4068             59      NO    61770  FAMILY.MEDIUM   
+
+      domestic_import  vehicle_age vehicle_age_group color_set     makex  \
+17501          Import            5              FIVE      BLUE       GEO   
+17502        Domestic            4              FOUR     WHITE      FORD   
+17503        Domestic            8            SEVEN+    SILVER  CADILLAC   
+17504        Domestic            8            SEVEN+     WHITE     BUICK   
+17505          Import            7            SEVEN+    PURPLE    NISSAN   
+
+      state        make_model  
+17501    CA         GEO.METRO  
+17502    VA       FORD.ESCORT  
+17503    AZ  CADILLAC.DEVILLE  
+17504    VA     BUICK.SKYLARK  
+17505    AZ     NISSAN.SENTRA  
+
+-------------------------------
+     Study 1 Data Prep         
+-------------------------------
+
+General description of the prelim_model_data DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 8753 entries, 0 to 8752
+Data columns (total 21 columns):
+total_cost            8753 non-null int64
+mileage               8753 non-null int64
+vehicle_age           8753 non-null int64
+domestic_import       8753 non-null object
+vehicle_type          8753 non-null object
+color_set             8753 non-null object
+mfg_Domestic          8753 non-null uint8
+mfg_Import            8753 non-null uint8
+body_ECONOMY          8753 non-null uint8
+body_FAMILY.LARGE     8753 non-null uint8
+body_FAMILY.MEDIUM    8753 non-null uint8
+body_FAMILY.SMALL     8753 non-null uint8
+body_LUXURY           8753 non-null uint8
+color_BLACK           8753 non-null uint8
+color_BLUE            8753 non-null uint8
+color_GOLD            8753 non-null uint8
+color_GREEN           8753 non-null uint8
+color_PURPLE          8753 non-null uint8
+color_RED             8753 non-null uint8
+color_SILVER          8753 non-null uint8
+color_WHITE           8753 non-null uint8
+dtypes: int64(3), object(3), uint8(15)
+memory usage: 606.9+ KB
+None
+
+prelim_model_data DataFrame (first and last five rows):
+   total_cost  mileage  vehicle_age domestic_import   vehicle_type color_set  \
+0        4037    67341            8        Domestic   FAMILY.LARGE    SILVER   
+1        4662    69384            4          Import   FAMILY.SMALL    SILVER   
+2        4459    58239            4          Import        ECONOMY       RED   
+3        4279    58999            3          Import        ECONOMY       RED   
+4        4472    47234            6        Domestic  FAMILY.MEDIUM      BLUE   
+
+   mfg_Domestic  mfg_Import  body_ECONOMY  body_FAMILY.LARGE     ...       \
+0             1           0             0                  1     ...        
+1             0           1             0                  0     ...        
+2             0           1             1                  0     ...        
+3             0           1             1                  0     ...        
+4             1           0             0                  0     ...        
+
+   body_FAMILY.SMALL  body_LUXURY  color_BLACK  color_BLUE  color_GOLD  \
+0                  0            0            0           0           0   
+1                  1            0            0           0           0   
+2                  0            0            0           0           0   
+3                  0            0            0           0           0   
+4                  0            0            0           1           0   
+
+   color_GREEN  color_PURPLE  color_RED  color_SILVER  color_WHITE  
+0            0             0          0             1            0  
+1            0             0          0             1            0  
+2            0             0          1             0            0  
+3            0             0          1             0            0  
+4            0             0          0             0            0  
+
+[5 rows x 21 columns]
+
+      total_cost  mileage  vehicle_age domestic_import   vehicle_type  \
+8748        3791    65819            9        Domestic   FAMILY.LARGE   
+8749        4380    66057            6        Domestic   FAMILY.LARGE   
+8750        6392   100705            6          Import         LUXURY   
+8751        4725    88144            5          Import  FAMILY.MEDIUM   
+8752        5416    64920            4        Domestic   FAMILY.LARGE   
+
+     color_set  mfg_Domestic  mfg_Import  body_ECONOMY  body_FAMILY.LARGE  \
+8748    SILVER             1           0             0                  1   
+8749     GREEN             1           0             0                  1   
+8750    SILVER             0           1             0                  0   
+8751       RED             0           1             0                  0   
+8752      BLUE             1           0             0                  1   
+
+         ...       body_FAMILY.SMALL  body_LUXURY  color_BLACK  color_BLUE  \
+8748     ...                       0            0            0           0   
+8749     ...                       0            0            0           0   
+8750     ...                       0            1            0           0   
+8751     ...                       0            0            0           0   
+8752     ...                       0            0            0           1   
+
+      color_GOLD  color_GREEN  color_PURPLE  color_RED  color_SILVER  \
+8748           0            0             0          0             1   
+8749           0            1             0          0             0   
+8750           0            0             0          0             1   
+8751           0            0             0          1             0   
+8752           0            0             0          0             0   
+
+      color_WHITE  
+8748            0  
+8749            0  
+8750            0  
+8751            0  
+8752            0  
+
+[5 rows x 21 columns]
+
+General description of the model_data DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 8753 entries, 0 to 8752
+Data columns (total 15 columns):
+total_cost            8753 non-null int64
+mileage               8753 non-null int64
+vehicle_age           8753 non-null int64
+mfg_Domestic          8753 non-null uint8
+body_ECONOMY          8753 non-null uint8
+body_FAMILY.LARGE     8753 non-null uint8
+body_FAMILY.MEDIUM    8753 non-null uint8
+body_FAMILY.SMALL     8753 non-null uint8
+color_BLACK           8753 non-null uint8
+color_BLUE            8753 non-null uint8
+color_GOLD            8753 non-null uint8
+color_GREEN           8753 non-null uint8
+color_PURPLE          8753 non-null uint8
+color_RED             8753 non-null uint8
+color_SILVER          8753 non-null uint8
+dtypes: int64(3), uint8(12)
+memory usage: 376.1 KB
+None
+\model_data DataFrame (first and last five rows):
+   total_cost  mileage  vehicle_age  mfg_Domestic  body_ECONOMY  \
+0        4037    67341            8             1             0   
+1        4662    69384            4             0             0   
+2        4459    58239            4             0             1   
+3        4279    58999            3             0             1   
+4        4472    47234            6             1             0   
+
+   body_FAMILY.LARGE  body_FAMILY.MEDIUM  body_FAMILY.SMALL  color_BLACK  \
+0                  1                   0                  0            0   
+1                  0                   0                  1            0   
+2                  0                   0                  0            0   
+3                  0                   0                  0            0   
+4                  0                   1                  0            0   
+
+   color_BLUE  color_GOLD  color_GREEN  color_PURPLE  color_RED  color_SILVER  
+0           0           0            0             0          0             1  
+1           0           0            0             0          0             1  
+2           0           0            0             0          1             0  
+3           0           0            0             0          1             0  
+4           1           0            0             0          0             0  
+
+      total_cost  mileage  vehicle_age  mfg_Domestic  body_ECONOMY  \
+8748        3791    65819            9             1             0   
+8749        4380    66057            6             1             0   
+8750        6392   100705            6             0             0   
+8751        4725    88144            5             0             0   
+8752        5416    64920            4             1             0   
+
+      body_FAMILY.LARGE  body_FAMILY.MEDIUM  body_FAMILY.SMALL  color_BLACK  \
+8748                  1                   0                  0            0   
+8749                  1                   0                  0            0   
+8750                  0                   0                  0            0   
+8751                  0                   1                  0            0   
+8752                  1                   0                  0            0   
+
+      color_BLUE  color_GOLD  color_GREEN  color_PURPLE  color_RED  \
+8748           0           0            0             0          0   
+8749           0           0            1             0          0   
+8750           0           0            0             0          0   
+8751           0           0            0             0          1   
+8752           1           0            0             0          0   
+
+      color_SILVER  
+8748             1  
+8749             0  
+8750             1  
+8751             0  
+8752             0  
+
+Dimensions of model_data: (8753, 15)
+
+-------------------------------
+     Study 1 Modeling          
+-------------------------------
+
+Fold index: 0 ------------------------------------------
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (7002, 14)
+X_test: (1751, 14)
+y_train: (7002,)
+y_test: (1751,)
+
+Regression model evaluation for: Linear_Regression
+  Scikit Learn method: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
+Coefficient of determination (R-squared): 0.174177087751
+{'copy_X': True, 'fit_intercept': True, 'n_jobs': 1, 'normalize': True}
+Root mean-squared error: 801.403732197
+
+Regression model evaluation for: Ridge_Regression
+  Scikit Learn method: Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None, normalize=True,
+   random_state=9999, solver='cholesky', tol=0.001)
+Coefficient of determination (R-squared): 0.110118024861
+{'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'normalize': True, 'random_state': 9999, 'solver': 'cholesky', 'tol': 0.001}
+Root mean-squared error: 831.905703168
+
+Regression model evaluation for: Lasso_Regression
+  Scikit Learn method: Lasso(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=True, positive=False, precompute=False, random_state=9999,
+   selection='cyclic', tol=0.0001, warm_start=False)
+Coefficient of determination (R-squared): 0.175694928131
+{'alpha': 0.1, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': True, 'positive': False, 'precompute': False, 'random_state': 9999, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Root mean-squared error: 800.666914188
+
+Regression model evaluation for: Random_Forest_Regression
+  Scikit Learn method: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=14, max_leaf_nodes=None, min_impurity_split=0.01,
+           min_samples_leaf=50, min_samples_split=200,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=1,
+           oob_score=False, random_state=9999, verbose=0, warm_start=False)
+Coefficient of determination (R-squared): 0.164340783223
+{'bootstrap': True, 'criterion': 'mse', 'max_depth': None, 'max_features': 14, 'max_leaf_nodes': None, 'min_impurity_split': 0.01, 'min_samples_leaf': 50, 'min_samples_split': 200, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': 1, 'oob_score': False, 'random_state': 9999, 'verbose': 0, 'warm_start': False}
+Root mean-squared error: 806.162329238
+
+Fold index: 1 ------------------------------------------
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (7002, 14)
+X_test: (1751, 14)
+y_train: (7002,)
+y_test: (1751,)
+
+Regression model evaluation for: Linear_Regression
+  Scikit Learn method: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
+Coefficient of determination (R-squared): 0.23172003439
+{'copy_X': True, 'fit_intercept': True, 'n_jobs': 1, 'normalize': True}
+Root mean-squared error: 833.680354239
+
+Regression model evaluation for: Ridge_Regression
+  Scikit Learn method: Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None, normalize=True,
+   random_state=9999, solver='cholesky', tol=0.001)
+Coefficient of determination (R-squared): 0.117500529797
+{'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'normalize': True, 'random_state': 9999, 'solver': 'cholesky', 'tol': 0.001}
+Root mean-squared error: 893.505108684
+
+Regression model evaluation for: Lasso_Regression
+  Scikit Learn method: Lasso(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=True, positive=False, precompute=False, random_state=9999,
+   selection='cyclic', tol=0.0001, warm_start=False)
+Coefficient of determination (R-squared): 0.222737521167
+{'alpha': 0.1, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': True, 'positive': False, 'precompute': False, 'random_state': 9999, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Root mean-squared error: 838.539769869
+
+Regression model evaluation for: Random_Forest_Regression
+  Scikit Learn method: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=14, max_leaf_nodes=None, min_impurity_split=0.01,
+           min_samples_leaf=50, min_samples_split=200,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=1,
+           oob_score=False, random_state=9999, verbose=0, warm_start=False)
+Coefficient of determination (R-squared): 0.218911026527
+{'bootstrap': True, 'criterion': 'mse', 'max_depth': None, 'max_features': 14, 'max_leaf_nodes': None, 'min_impurity_split': 0.01, 'min_samples_leaf': 50, 'min_samples_split': 200, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': 1, 'oob_score': False, 'random_state': 9999, 'verbose': 0, 'warm_start': False}
+Root mean-squared error: 840.601318324
+
+Fold index: 2 ------------------------------------------
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (7002, 14)
+X_test: (1751, 14)
+y_train: (7002,)
+y_test: (1751,)
+
+Regression model evaluation for: Linear_Regression
+  Scikit Learn method: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
+Coefficient of determination (R-squared): 0.158889032367
+{'copy_X': True, 'fit_intercept': True, 'n_jobs': 1, 'normalize': True}
+Root mean-squared error: 912.599471527
+
+Regression model evaluation for: Ridge_Regression
+  Scikit Learn method: Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None, normalize=True,
+   random_state=9999, solver='cholesky', tol=0.001)
+Coefficient of determination (R-squared): 0.0933946796251
+{'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'normalize': True, 'random_state': 9999, 'solver': 'cholesky', 'tol': 0.001}
+Root mean-squared error: 947.463954645
+
+Regression model evaluation for: Lasso_Regression
+  Scikit Learn method: Lasso(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=True, positive=False, precompute=False, random_state=9999,
+   selection='cyclic', tol=0.0001, warm_start=False)
+Coefficient of determination (R-squared): 0.154423190277
+{'alpha': 0.1, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': True, 'positive': False, 'precompute': False, 'random_state': 9999, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Root mean-squared error: 915.018967821
+
+Regression model evaluation for: Random_Forest_Regression
+  Scikit Learn method: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=14, max_leaf_nodes=None, min_impurity_split=0.01,
+           min_samples_leaf=50, min_samples_split=200,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=1,
+           oob_score=False, random_state=9999, verbose=0, warm_start=False)
+Coefficient of determination (R-squared): 0.153232909587
+{'bootstrap': True, 'criterion': 'mse', 'max_depth': None, 'max_features': 14, 'max_leaf_nodes': None, 'min_impurity_split': 0.01, 'min_samples_leaf': 50, 'min_samples_split': 200, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': 1, 'oob_score': False, 'random_state': 9999, 'verbose': 0, 'warm_start': False}
+Root mean-squared error: 915.662757
+
+Fold index: 3 ------------------------------------------
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (7003, 14)
+X_test: (1750, 14)
+y_train: (7003,)
+y_test: (1750,)
+
+Regression model evaluation for: Linear_Regression
+  Scikit Learn method: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
+Coefficient of determination (R-squared): 0.186752266998
+{'copy_X': True, 'fit_intercept': True, 'n_jobs': 1, 'normalize': True}
+Root mean-squared error: 820.138937666
+
+Regression model evaluation for: Ridge_Regression
+  Scikit Learn method: Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None, normalize=True,
+   random_state=9999, solver='cholesky', tol=0.001)
+Coefficient of determination (R-squared): 0.119650707047
+{'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'normalize': True, 'random_state': 9999, 'solver': 'cholesky', 'tol': 0.001}
+Root mean-squared error: 853.30346775
+
+Regression model evaluation for: Lasso_Regression
+  Scikit Learn method: Lasso(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=True, positive=False, precompute=False, random_state=9999,
+   selection='cyclic', tol=0.0001, warm_start=False)
+Coefficient of determination (R-squared): 0.186307977565
+{'alpha': 0.1, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': True, 'positive': False, 'precompute': False, 'random_state': 9999, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Root mean-squared error: 820.362934177
+
+Regression model evaluation for: Random_Forest_Regression
+  Scikit Learn method: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=14, max_leaf_nodes=None, min_impurity_split=0.01,
+           min_samples_leaf=50, min_samples_split=200,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=1,
+           oob_score=False, random_state=9999, verbose=0, warm_start=False)
+Coefficient of determination (R-squared): 0.176743112017
+{'bootstrap': True, 'criterion': 'mse', 'max_depth': None, 'max_features': 14, 'max_leaf_nodes': None, 'min_impurity_split': 0.01, 'min_samples_leaf': 50, 'min_samples_split': 200, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': 1, 'oob_score': False, 'random_state': 9999, 'verbose': 0, 'warm_start': False}
+Root mean-squared error: 825.170488092
+
+Fold index: 4 ------------------------------------------
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (7003, 14)
+X_test: (1750, 14)
+y_train: (7003,)
+y_test: (1750,)
+
+Regression model evaluation for: Linear_Regression
+  Scikit Learn method: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)
+Coefficient of determination (R-squared): 0.161868816835
+{'copy_X': True, 'fit_intercept': True, 'n_jobs': 1, 'normalize': True}
+Root mean-squared error: 842.986015573
+
+Regression model evaluation for: Ridge_Regression
+  Scikit Learn method: Ridge(alpha=1, copy_X=True, fit_intercept=True, max_iter=None, normalize=True,
+   random_state=9999, solver='cholesky', tol=0.001)
+Coefficient of determination (R-squared): 0.105924203618
+{'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'normalize': True, 'random_state': 9999, 'solver': 'cholesky', 'tol': 0.001}
+Root mean-squared error: 870.665908371
+
+Regression model evaluation for: Lasso_Regression
+  Scikit Learn method: Lasso(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=True, positive=False, precompute=False, random_state=9999,
+   selection='cyclic', tol=0.0001, warm_start=False)
+Coefficient of determination (R-squared): 0.163393679523
+{'alpha': 0.1, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': True, 'positive': False, 'precompute': False, 'random_state': 9999, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
+Root mean-squared error: 842.218818773
+
+Regression model evaluation for: Random_Forest_Regression
+  Scikit Learn method: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=14, max_leaf_nodes=None, min_impurity_split=0.01,
+           min_samples_leaf=50, min_samples_split=200,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=1,
+           oob_score=False, random_state=9999, verbose=0, warm_start=False)
+Coefficient of determination (R-squared): 0.154560233403
+{'bootstrap': True, 'criterion': 'mse', 'max_depth': None, 'max_features': 14, 'max_leaf_nodes': None, 'min_impurity_split': 0.01, 'min_samples_leaf': 50, 'min_samples_split': 200, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': 1, 'oob_score': False, 'random_state': 9999, 'verbose': 0, 'warm_start': False}
+Root mean-squared error: 846.653496746
+
+----------------------------------------------
+Average results from 5-fold cross-validation
+
+Method                        R2
+Linear_Regression           0.182681
+Ridge_Regression            0.109318
+Lasso_Regression            0.180511
+Random_Forest_Regression    0.173558
+dtype: float64
+
+----------------------------------------------
+Average results from 5-fold cross-validation
+
+Method                        RMSE
+Linear_Regression           842.161702
+Ridge_Regression            879.368829
+Lasso_Regression            843.361481
+Random_Forest_Regression    846.850078
+dtype: float64
+
+-------------------------------
+ Study 2. 3, and 4 Data Prep   
+-------------------------------
+Preliminary holdout data descriptive statistics:
+        total_cost        mileage  vehicle_age
+count  4377.000000    4377.000000  4377.000000
+mean   4903.832762   76718.021019     5.405072
+std     934.599220   16897.880255     1.738294
+min    1375.000000    1036.000000     1.000000
+25%    4314.000000   67292.000000     4.000000
+50%    4864.000000   77751.000000     5.000000
+75%    5445.000000   88815.000000     7.000000
+max    9648.000000  115341.000000    12.000000
+
+General description of the prelim_holdout_data DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4377 entries, 13129 to 17505
+Data columns (total 21 columns):
+total_cost            4377 non-null int64
+mileage               4377 non-null int64
+vehicle_age           4377 non-null int64
+domestic_import       4377 non-null object
+vehicle_type          4377 non-null object
+color_set             4377 non-null object
+mfg_Domestic          4377 non-null uint8
+mfg_Import            4377 non-null uint8
+body_ECONOMY          4377 non-null uint8
+body_FAMILY.LARGE     4377 non-null uint8
+body_FAMILY.MEDIUM    4377 non-null uint8
+body_FAMILY.SMALL     4377 non-null uint8
+body_LUXURY           4377 non-null uint8
+color_BLACK           4377 non-null uint8
+color_BLUE            4377 non-null uint8
+color_GOLD            4377 non-null uint8
+color_GREEN           4377 non-null uint8
+color_PURPLE          4377 non-null uint8
+color_RED             4377 non-null uint8
+color_SILVER          4377 non-null uint8
+color_WHITE           4377 non-null uint8
+dtypes: int64(3), object(3), uint8(15)
+memory usage: 303.5+ KB
+None
+
+prelim_holdout_data DataFrame (first and last five rows):
+       total_cost  mileage  vehicle_age domestic_import   vehicle_type  \
+13129        4944    79188            5        Domestic  FAMILY.MEDIUM   
+13130        5541    72594            7        Domestic   FAMILY.LARGE   
+13131        4870    82492            6          Import  FAMILY.MEDIUM   
+13132        5397    71153            5        Domestic  FAMILY.MEDIUM   
+13133        4983    93462            6        Domestic   FAMILY.LARGE   
+
+      color_set  mfg_Domestic  mfg_Import  body_ECONOMY  body_FAMILY.LARGE  \
+13129      GOLD             1           0             0                  0   
+13130      BLUE             1           0             0                  1   
+13131     GREEN             0           1             0                  0   
+13132    SILVER             1           0             0                  0   
+13133       RED             1           0             0                  1   
+
+          ...       body_FAMILY.SMALL  body_LUXURY  color_BLACK  color_BLUE  \
+13129     ...                       0            0            0           0   
+13130     ...                       0            0            0           1   
+13131     ...                       0            0            0           0   
+13132     ...                       0            0            0           0   
+13133     ...                       0            0            0           0   
+
+       color_GOLD  color_GREEN  color_PURPLE  color_RED  color_SILVER  \
+13129           1            0             0          0             0   
+13130           0            0             0          0             0   
+13131           0            1             0          0             0   
+13132           0            0             0          0             1   
+13133           0            0             0          1             0   
+
+       color_WHITE  
+13129            0  
+13130            0  
+13131            0  
+13132            0  
+13133            0  
+
+[5 rows x 21 columns]
+
+       total_cost  mileage  vehicle_age domestic_import   vehicle_type  \
+17501        3793    48016            5          Import        ECONOMY   
+17502        5061    72985            4        Domestic        ECONOMY   
+17503        4857    93040            8        Domestic  FAMILY.MEDIUM   
+17504        3361    70751            8        Domestic        ECONOMY   
+17505        4068    61770            7          Import  FAMILY.MEDIUM   
+
+      color_set  mfg_Domestic  mfg_Import  body_ECONOMY  body_FAMILY.LARGE  \
+17501      BLUE             0           1             1                  0   
+17502     WHITE             1           0             1                  0   
+17503    SILVER             1           0             0                  0   
+17504     WHITE             1           0             1                  0   
+17505    PURPLE             0           1             0                  0   
+
+          ...       body_FAMILY.SMALL  body_LUXURY  color_BLACK  color_BLUE  \
+17501     ...                       0            0            0           1   
+17502     ...                       0            0            0           0   
+17503     ...                       0            0            0           0   
+17504     ...                       0            0            0           0   
+17505     ...                       0            0            0           0   
+
+       color_GOLD  color_GREEN  color_PURPLE  color_RED  color_SILVER  \
+17501           0            0             0          0             0   
+17502           0            0             0          0             0   
+17503           0            0             0          0             1   
+17504           0            0             0          0             0   
+17505           0            0             1          0             0   
+
+       color_WHITE  
+17501            0  
+17502            1  
+17503            0  
+17504            1  
+17505            0  
+
+[5 rows x 21 columns]
+
+General description of the holdout_data DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4377 entries, 13129 to 17505
+Data columns (total 21 columns):
+total_cost            4377 non-null int64
+mileage               4377 non-null int64
+vehicle_age           4377 non-null int64
+domestic_import       4377 non-null object
+vehicle_type          4377 non-null object
+color_set             4377 non-null object
+mfg_Domestic          4377 non-null uint8
+mfg_Import            4377 non-null uint8
+body_ECONOMY          4377 non-null uint8
+body_FAMILY.LARGE     4377 non-null uint8
+body_FAMILY.MEDIUM    4377 non-null uint8
+body_FAMILY.SMALL     4377 non-null uint8
+body_LUXURY           4377 non-null uint8
+color_BLACK           4377 non-null uint8
+color_BLUE            4377 non-null uint8
+color_GOLD            4377 non-null uint8
+color_GREEN           4377 non-null uint8
+color_PURPLE          4377 non-null uint8
+color_RED             4377 non-null uint8
+color_SILVER          4377 non-null uint8
+color_WHITE           4377 non-null uint8
+dtypes: int64(3), object(3), uint8(15)
+memory usage: 303.5+ KB
+None
+\holdout_data DataFrame (first and last five rows):
+       total_cost  mileage  vehicle_age  mfg_Domestic  body_ECONOMY  \
+13129        4944    79188            5             1             0   
+13130        5541    72594            7             1             0   
+13131        4870    82492            6             0             0   
+13132        5397    71153            5             1             0   
+13133        4983    93462            6             1             0   
+
+       body_FAMILY.LARGE  body_FAMILY.MEDIUM  body_FAMILY.SMALL  color_BLACK  \
+13129                  0                   1                  0            0   
+13130                  1                   0                  0            0   
+13131                  0                   1                  0            0   
+13132                  0                   1                  0            0   
+13133                  1                   0                  0            0   
+
+       color_BLUE  color_GOLD  color_GREEN  color_PURPLE  color_RED  \
+13129           0           1            0             0          0   
+13130           1           0            0             0          0   
+13131           0           0            1             0          0   
+13132           0           0            0             0          0   
+13133           0           0            0             0          1   
+
+       color_SILVER  
+13129             0  
+13130             0  
+13131             0  
+13132             1  
+13133             0  
+
+       total_cost  mileage  vehicle_age  mfg_Domestic  body_ECONOMY  \
+17501        3793    48016            5             0             1   
+17502        5061    72985            4             1             1   
+17503        4857    93040            8             1             0   
+17504        3361    70751            8             1             1   
+17505        4068    61770            7             0             0   
+
+       body_FAMILY.LARGE  body_FAMILY.MEDIUM  body_FAMILY.SMALL  color_BLACK  \
+17501                  0                   0                  0            0   
+17502                  0                   0                  0            0   
+17503                  0                   1                  0            0   
+17504                  0                   0                  0            0   
+17505                  0                   1                  0            0   
+
+       color_BLUE  color_GOLD  color_GREEN  color_PURPLE  color_RED  \
+17501           1           0            0             0          0   
+17502           0           0            0             0          0   
+17503           0           0            0             0          0   
+17504           0           0            0             0          0   
+17505           0           0            0             1          0   
+
+       color_SILVER  
+17501             0  
+17502             0  
+17503             1  
+17504             0  
+17505             0  
+
+Dimensions of holdout_data: (4377, 15)
+
+-------------------------------
+      Study 2 Modeling         
+-------------------------------
+
+Shape of input data for this phase of the modeling work: 
+Data Set: (Observations, Variables)
+X_train: (8753, 14)
+y_train: (8753,)
+X_holdout: (4377, 14)
+y_holdout: (4377,)
+
+----------------------------------------------
+Regression Model Results (fitted coefficients)
+    coefficient                description                name
+0   6706.095722                  Intercept           intercept
+1     -0.001990                    Mileage             mileage
+2   -209.965975     Vehicle Age (in years)         vehicle_age
+3   -113.070635      Domestic Manufacturer        mfg_Domestic
+4  -1034.026665        Body Type = Economy        body_ECONOMY
+5   -256.501454   Body Type = Large Family   body_FAMILY.LARGE
+6   -495.961373  Body Type = Medium Family  body_FAMILY.MEDIUM
+7   -668.490006   Body Type = Small Family   body_FAMILY.SMALL
+8    157.287467              Color = BLACK         color_BLACK
+9    -42.459285               Color = BLUE          color_BLUE
+10   131.509813               Color = GOLD          color_GOLD
+11    61.640238              Color = GREEN         color_GREEN
+12    46.336181             Color = PURPLE        color_PURPLE
+13   -35.988291                Color = RED           color_RED
+14    47.904799             Color = SILVER        color_SILVER
+
+Root mean-square error in training (build) data set:  840.02
+R-squared in training (build) data set:  0.437286
+
+Root mean-square error in holdout data set:  841.61
+R-squared in holdout data set:  0.43464
+
+-------------------------------
+      Study 3 Modeling         
+-------------------------------
+StandardScaler(copy=True, with_mean=True, with_std=True)
+[  7.69265448e+04   5.44944590e+00   6.88449674e-01   1.20073118e-01
+   1.65200503e-01   3.94036330e-01   1.78453102e-01   7.17468297e-02
+   1.45321604e-01   9.49388781e-02   1.99360219e-01   1.03050383e-01
+   8.07723066e-02   1.02821890e-01]
+[  1.69796741e+04   1.75618506e+00   4.63127110e-01   3.25047018e-01
+   3.71361410e-01   4.88642713e-01   3.82893709e-01   2.58068251e-01
+   3.52424794e-01   2.93130496e-01   3.99519364e-01   3.04024672e-01
+   2.72485121e-01   3.03726108e-01]
+
+Shape of input data for this phase of the modeling work: 
+Data Set: (Observations, Variables)
+X_train: (8753, 14)
+y_train: (8753,)
+X_holdout: (4377, 14)
+y_holdout: (4377,)
+
+----------------------------------------------
+Regression Model Results (fitted coefficients)
+    coefficient                description                name
+0   4886.428196                  Intercept           intercept
+1    -33.783050                    Mileage             mileage
+2   -368.739108     Vehicle Age (in years)         vehicle_age
+3    -52.366076      Domestic Manufacturer        mfg_Domestic
+4   -336.107284        Body Type = Economy        body_ECONOMY
+5    -95.254741   Body Type = Large Family   body_FAMILY.LARGE
+6   -242.347911  Body Type = Medium Family  body_FAMILY.MEDIUM
+7   -255.960618   Body Type = Small Family   body_FAMILY.SMALL
+8     40.590902              Color = BLACK         color_BLACK
+9    -14.963705               Color = BLUE          color_BLUE
+10    38.549537               Color = GOLD          color_GOLD
+11    24.626469              Color = GREEN         color_GREEN
+12    14.087342             Color = PURPLE        color_PURPLE
+13    -9.806274                Color = RED           color_RED
+14    14.549938             Color = SILVER        color_SILVER
+
+Root mean-square error in training (build) data set:  840.02
+R-squared in training (build) data set:  0.437286
+
+Root mean-square error in holdout data set:  841.56
+R-squared in holdout data set:  0.434743
+
+-------------------------------
+      Study 4 Modeling         
+-------------------------------
+
+Shape of input data for this phase of the modeling work: 
+Data Set: (Observations, Variables)
+X_train: (8753, 14)
+y_train: (8753,)
+X_holdout: (4377, 14)
+y_holdout: (4377,)
+
+---------------------------------------------------------------------------
+Random Forests Regression Model Explanatory Variable Importance Results
+                  description  importance                name
+0                     Mileage    0.139788             mileage
+1      Vehicle Age (in years)    0.473076         vehicle_age
+2       Domestic Manufacturer    0.069580        mfg_Domestic
+3         Body Type = Economy    0.135933        body_ECONOMY
+4    Body Type = Large Family    0.029620   body_FAMILY.LARGE
+5   Body Type = Medium Family    0.066887  body_FAMILY.MEDIUM
+6    Body Type = Small Family    0.073760   body_FAMILY.SMALL
+7               Color = BLACK    0.000502         color_BLACK
+8                Color = BLUE    0.004780          color_BLUE
+9                Color = GOLD    0.001188          color_GOLD
+10              Color = GREEN    0.003416         color_GREEN
+11             Color = PURPLE    0.000298        color_PURPLE
+12                Color = RED    0.000925           color_RED
+13             Color = SILVER    0.000246        color_SILVER
+
+Root mean-square error in training (build) data set:  829.22
+R-squared in training (build) data set:  0.460303
+
+Root mean-square error in holdout data set:  837.56
+R-squared in holdout data set:  0.443507
+
+----------------------------------
+ Study 5, 6, 7, and 8 Data Prep   
+----------------------------------
+
+Create build_data DataFrame
+Variables in prelim_build_data Index(['overage', 'total_cost', 'domestic_import', 'vehicle_type', 'color_set',
+       'makex', 'mileage', 'vehicle_age', 'overage_NO', 'overage_YES',
+       'mfg_Domestic', 'mfg_Import', 'body_ECONOMY', 'body_FAMILY.LARGE',
+       'body_FAMILY.MEDIUM', 'body_FAMILY.SMALL', 'body_LUXURY', 'color_BLACK',
+       'color_BLUE', 'color_GOLD', 'color_GREEN', 'color_PURPLE', 'color_RED',
+       'color_SILVER', 'color_WHITE', 'make_BUICK', 'make_CADILLAC',
+       'make_CHEVROLET', 'make_CHRYSLER', 'make_DAEWOO', 'make_DODGE',
+       'make_FORD', 'make_GEO', 'make_HONDA', 'make_HYUNDAI', 'make_KIA',
+       'make_MAZDA', 'make_MERCURY', 'make_MITSUBISHI', 'make_NISSAN',
+       'make_OLDSMOBILE', 'make_OTHER', 'make_PLYMOUTH', 'make_PONTIAC',
+       'make_TOYOTA'],
+      dtype='object')
+
+Check binary variable coding of the prelim_build_data DataFrame:
+     overage  total_cost domestic_import   vehicle_type color_set       makex  \
+0        YES        4037        Domestic   FAMILY.LARGE    SILVER       BUICK   
+1         NO        4662          Import   FAMILY.SMALL    SILVER       MAZDA   
+...      ...         ...             ...            ...       ...         ...   
+8751      NO        4725          Import  FAMILY.MEDIUM       RED  MITSUBISHI   
+8752      NO        5416        Domestic   FAMILY.LARGE      BLUE        FORD   
+
+      mileage  vehicle_age  overage_NO  overage_YES  mfg_Domestic  mfg_Import  \
+0       67341            8           0            1             1           0   
+1       69384            4           1            0             0           1   
+...       ...          ...         ...          ...           ...         ...   
+8751    88144            5           1            0             0           1   
+8752    64920            4           1            0             1           0   
+
+      body_ECONOMY  body_FAMILY.LARGE  body_FAMILY.MEDIUM  body_FAMILY.SMALL  \
+0                0                  1                   0                  0   
+1                0                  0                   0                  1   
+...            ...                ...                 ...                ...   
+8751             0                  0                   1                  0   
+8752             0                  1                   0                  0   
+
+      body_LUXURY  color_BLACK  color_BLUE  color_GOLD  color_GREEN  \
+0               0            0           0           0            0   
+1               0            0           0           0            0   
+...           ...          ...         ...         ...          ...   
+8751            0            0           0           0            0   
+8752            0            0           1           0            0   
+
+      color_PURPLE  color_RED  color_SILVER  color_WHITE  make_BUICK  \
+0                0          0             1            0           1   
+1                0          0             1            0           0   
+...            ...        ...           ...          ...         ...   
+8751             0          1             0            0           0   
+8752             0          0             0            0           0   
+
+      make_CADILLAC  make_CHEVROLET  make_CHRYSLER  make_DAEWOO  make_DODGE  \
+0                 0               0              0            0           0   
+1                 0               0              0            0           0   
+...             ...             ...            ...          ...         ...   
+8751              0               0              0            0           0   
+8752              0               0              0            0           0   
+
+      make_FORD  make_GEO  make_HONDA  make_HYUNDAI  make_KIA  make_MAZDA  \
+0             0         0           0             0         0           0   
+1             0         0           0             0         0           1   
+...         ...       ...         ...           ...       ...         ...   
+8751          0         0           0             0         0           0   
+8752          1         0           0             0         0           0   
+
+      make_MERCURY  make_MITSUBISHI  make_NISSAN  make_OLDSMOBILE  make_OTHER  \
+0                0                0            0                0           0   
+1                0                0            0                0           0   
+...            ...              ...          ...              ...         ...   
+8751             0                1            0                0           0   
+8752             0                0            0                0           0   
+
+      make_PLYMOUTH  make_PONTIAC  make_TOYOTA  
+0                 0             0            0  
+1                 0             0            0  
+...             ...           ...          ...  
+8751              0             0            0  
+8752              0             0            0  
+
+[8753 rows x 45 columns]
+
+General description of the build_data DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 8753 entries, 0 to 8752
+Data columns (total 40 columns):
+total_cost            8753 non-null float64
+mileage               8753 non-null float64
+vehicle_age           8753 non-null float64
+overage_NO            8753 non-null uint8
+overage_YES           8753 non-null uint8
+mfg_Domestic          8753 non-null uint8
+mfg_Import            8753 non-null uint8
+body_ECONOMY          8753 non-null uint8
+body_FAMILY.LARGE     8753 non-null uint8
+body_FAMILY.MEDIUM    8753 non-null uint8
+body_FAMILY.SMALL     8753 non-null uint8
+body_LUXURY           8753 non-null uint8
+color_BLACK           8753 non-null uint8
+color_BLUE            8753 non-null uint8
+color_GOLD            8753 non-null uint8
+color_GREEN           8753 non-null uint8
+color_PURPLE          8753 non-null uint8
+color_RED             8753 non-null uint8
+color_SILVER          8753 non-null uint8
+color_WHITE           8753 non-null uint8
+make_BUICK            8753 non-null uint8
+make_CADILLAC         8753 non-null uint8
+make_CHEVROLET        8753 non-null uint8
+make_CHRYSLER         8753 non-null uint8
+make_DAEWOO           8753 non-null uint8
+make_DODGE            8753 non-null uint8
+make_FORD             8753 non-null uint8
+make_GEO              8753 non-null uint8
+make_HONDA            8753 non-null uint8
+make_HYUNDAI          8753 non-null uint8
+make_KIA              8753 non-null uint8
+make_MAZDA            8753 non-null uint8
+make_MERCURY          8753 non-null uint8
+make_MITSUBISHI       8753 non-null uint8
+make_NISSAN           8753 non-null uint8
+make_OLDSMOBILE       8753 non-null uint8
+make_OTHER            8753 non-null uint8
+make_PLYMOUTH         8753 non-null uint8
+make_PONTIAC          8753 non-null uint8
+make_TOYOTA           8753 non-null uint8
+dtypes: float64(3), uint8(37)
+memory usage: 909.8 KB
+None
+      total_cost   mileage  vehicle_age  overage_NO  overage_YES  \
+0       0.305853  0.564405     0.636364           0            1   
+1       0.380964  0.581549     0.272727           1            0   
+...          ...       ...          ...         ...          ...   
+8751    0.388535  0.738974     0.363636           1            0   
+8752    0.471578  0.544089     0.272727           1            0   
+
+      mfg_Domestic  mfg_Import  body_ECONOMY  body_FAMILY.LARGE  \
+0                1           0             0                  1   
+1                0           1             0                  0   
+...            ...         ...           ...                ...   
+8751             0           1             0                  0   
+8752             1           0             0                  1   
+
+      body_FAMILY.MEDIUM  body_FAMILY.SMALL  body_LUXURY  color_BLACK  \
+0                      0                  0            0            0   
+1                      0                  1            0            0   
+...                  ...                ...          ...          ...   
+8751                   1                  0            0            0   
+8752                   0                  0            0            0   
+
+      color_BLUE  color_GOLD  color_GREEN  color_PURPLE  color_RED  \
+0              0           0            0             0          0   
+1              0           0            0             0          0   
+...          ...         ...          ...           ...        ...   
+8751           0           0            0             0          1   
+8752           1           0            0             0          0   
+
+      color_SILVER  color_WHITE  make_BUICK  make_CADILLAC  make_CHEVROLET  \
+0                1            0           1              0               0   
+1                1            0           0              0               0   
+...            ...          ...         ...            ...             ...   
+8751             0            0           0              0               0   
+8752             0            0           0              0               0   
+
+      make_CHRYSLER  make_DAEWOO  make_DODGE  make_FORD  make_GEO  make_HONDA  \
+0                 0            0           0          0         0           0   
+1                 0            0           0          0         0           0   
+...             ...          ...         ...        ...       ...         ...   
+8751              0            0           0          0         0           0   
+8752              0            0           0          1         0           0   
+
+      make_HYUNDAI  make_KIA  make_MAZDA  make_MERCURY  make_MITSUBISHI  \
+0                0         0           0             0                0   
+1                0         0           1             0                0   
+...            ...       ...         ...           ...              ...   
+8751             0         0           0             0                1   
+8752             0         0           0             0                0   
+
+      make_NISSAN  make_OLDSMOBILE  make_OTHER  make_PLYMOUTH  make_PONTIAC  \
+0               0                0           0              0             0   
+1               0                0           0              0             0   
+...           ...              ...         ...            ...           ...   
+8751            0                0           0              0             0   
+8752            0                0           0              0             0   
+
+      make_TOYOTA  
+0               0  
+1               0  
+...           ...  
+8751            0  
+8752            0  
+
+[8753 rows x 40 columns]
+
+Dimensions of build_data: (8753, 40)
+
+----------------------------------------------
+
+Create dev_data DataFrame
+Variables in prelim_dev_data Index(['overage', 'total_cost', 'domestic_import', 'vehicle_type', 'color_set',
+       'makex', 'mileage', 'vehicle_age', 'overage_NO', 'overage_YES',
+       'mfg_Domestic', 'mfg_Import', 'body_ECONOMY', 'body_FAMILY.LARGE',
+       'body_FAMILY.MEDIUM', 'body_FAMILY.SMALL', 'body_LUXURY', 'color_BLACK',
+       'color_BLUE', 'color_GOLD', 'color_GREEN', 'color_PURPLE', 'color_RED',
+       'color_SILVER', 'color_WHITE', 'make_BUICK', 'make_CADILLAC',
+       'make_CHEVROLET', 'make_CHRYSLER', 'make_DAEWOO', 'make_DODGE',
+       'make_FORD', 'make_GEO', 'make_HONDA', 'make_HYUNDAI', 'make_KIA',
+       'make_MAZDA', 'make_MERCURY', 'make_MITSUBISHI', 'make_NISSAN',
+       'make_OLDSMOBILE', 'make_OTHER', 'make_PLYMOUTH', 'make_PONTIAC',
+       'make_TOYOTA'],
+      dtype='object')
+
+Check binary variable coding of the prelim_dev_data DataFrame:
+      overage  total_cost domestic_import  vehicle_type color_set       makex  \
+8753       NO        4995        Domestic       ECONOMY    PURPLE        FORD   
+8754       NO        5595        Domestic  FAMILY.LARGE     GREEN  OLDSMOBILE   
+...       ...         ...             ...           ...       ...         ...   
+13127      NO        3571          Import       ECONOMY     GREEN      TOYOTA   
+13128      NO        5268        Domestic       ECONOMY     GREEN        FORD   
+
+       mileage  vehicle_age  overage_NO  overage_YES  mfg_Domestic  \
+8753     54837            3           1            0             1   
+8754     79505            7           1            0             1   
+...        ...          ...         ...          ...           ...   
+13127    90145            7           1            0             0   
+13128    77768            4           1            0             1   
+
+       mfg_Import  body_ECONOMY  body_FAMILY.LARGE  body_FAMILY.MEDIUM  \
+8753            0             1                  0                   0   
+8754            0             0                  1                   0   
+...           ...           ...                ...                 ...   
+13127           1             1                  0                   0   
+13128           0             1                  0                   0   
+
+       body_FAMILY.SMALL  body_LUXURY  color_BLACK  color_BLUE  color_GOLD  \
+8753                   0            0            0           0           0   
+8754                   0            0            0           0           0   
+...                  ...          ...          ...         ...         ...   
+13127                  0            0            0           0           0   
+13128                  0            0            0           0           0   
+
+       color_GREEN  color_PURPLE  color_RED  color_SILVER  color_WHITE  \
+8753             0             1          0             0            0   
+8754             1             0          0             0            0   
+...            ...           ...        ...           ...          ...   
+13127            1             0          0             0            0   
+13128            1             0          0             0            0   
+
+       make_BUICK  make_CADILLAC  make_CHEVROLET  make_CHRYSLER  make_DAEWOO  \
+8753            0              0               0              0            0   
+8754            0              0               0              0            0   
+...           ...            ...             ...            ...          ...   
+13127           0              0               0              0            0   
+13128           0              0               0              0            0   
+
+       make_DODGE  make_FORD  make_GEO  make_HONDA  make_HYUNDAI  make_KIA  \
+8753            0          1         0           0             0         0   
+8754            0          0         0           0             0         0   
+...           ...        ...       ...         ...           ...       ...   
+13127           0          0         0           0             0         0   
+13128           0          1         0           0             0         0   
+
+       make_MAZDA  make_MERCURY  make_MITSUBISHI  make_NISSAN  \
+8753            0             0                0            0   
+8754            0             0                0            0   
+...           ...           ...              ...          ...   
+13127           0             0                0            0   
+13128           0             0                0            0   
+
+       make_OLDSMOBILE  make_OTHER  make_PLYMOUTH  make_PONTIAC  make_TOYOTA  
+8753                 0           0              0             0            0  
+8754                 1           0              0             0            0  
+...                ...         ...            ...           ...          ...  
+13127                0           0              0             0            1  
+13128                0           0              0             0            0  
+
+[4376 rows x 45 columns]
+
+General description of the dev_data DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4376 entries, 8753 to 13128
+Data columns (total 40 columns):
+total_cost            4376 non-null float64
+mileage               4376 non-null float64
+vehicle_age           4376 non-null float64
+overage_NO            4376 non-null uint8
+overage_YES           4376 non-null uint8
+mfg_Domestic          4376 non-null uint8
+mfg_Import            4376 non-null uint8
+body_ECONOMY          4376 non-null uint8
+body_FAMILY.LARGE     4376 non-null uint8
+body_FAMILY.MEDIUM    4376 non-null uint8
+body_FAMILY.SMALL     4376 non-null uint8
+body_LUXURY           4376 non-null uint8
+color_BLACK           4376 non-null uint8
+color_BLUE            4376 non-null uint8
+color_GOLD            4376 non-null uint8
+color_GREEN           4376 non-null uint8
+color_PURPLE          4376 non-null uint8
+color_RED             4376 non-null uint8
+color_SILVER          4376 non-null uint8
+color_WHITE           4376 non-null uint8
+make_BUICK            4376 non-null uint8
+make_CADILLAC         4376 non-null uint8
+make_CHEVROLET        4376 non-null uint8
+make_CHRYSLER         4376 non-null uint8
+make_DAEWOO           4376 non-null uint8
+make_DODGE            4376 non-null uint8
+make_FORD             4376 non-null uint8
+make_GEO              4376 non-null uint8
+make_HONDA            4376 non-null uint8
+make_HYUNDAI          4376 non-null uint8
+make_KIA              4376 non-null uint8
+make_MAZDA            4376 non-null uint8
+make_MERCURY          4376 non-null uint8
+make_MITSUBISHI       4376 non-null uint8
+make_NISSAN           4376 non-null uint8
+make_OLDSMOBILE       4376 non-null uint8
+make_OTHER            4376 non-null uint8
+make_PLYMOUTH         4376 non-null uint8
+make_PONTIAC          4376 non-null uint8
+make_TOYOTA           4376 non-null uint8
+dtypes: float64(3), uint8(37)
+memory usage: 294.9 KB
+None
+       total_cost   mileage  vehicle_age  overage_NO  overage_YES  \
+8753     0.443902  0.456177     0.181818           1            0   
+8754     0.520924  0.680153     0.545455           1            0   
+...           ...       ...          ...         ...          ...   
+13127    0.261104  0.776760     0.545455           1            0   
+13128    0.478947  0.664382     0.272727           1            0   
+
+       mfg_Domestic  mfg_Import  body_ECONOMY  body_FAMILY.LARGE  \
+8753              1           0             1                  0   
+8754              1           0             0                  1   
+...             ...         ...           ...                ...   
+13127             0           1             1                  0   
+13128             1           0             1                  0   
+
+       body_FAMILY.MEDIUM  body_FAMILY.SMALL  body_LUXURY  color_BLACK  \
+8753                    0                  0            0            0   
+8754                    0                  0            0            0   
+...                   ...                ...          ...          ...   
+13127                   0                  0            0            0   
+13128                   0                  0            0            0   
+
+       color_BLUE  color_GOLD  color_GREEN  color_PURPLE  color_RED  \
+8753            0           0            0             1          0   
+8754            0           0            1             0          0   
+...           ...         ...          ...           ...        ...   
+13127           0           0            1             0          0   
+13128           0           0            1             0          0   
+
+       color_SILVER  color_WHITE  make_BUICK  make_CADILLAC  make_CHEVROLET  \
+8753              0            0           0              0               0   
+8754              0            0           0              0               0   
+...             ...          ...         ...            ...             ...   
+13127             0            0           0              0               0   
+13128             0            0           0              0               0   
+
+       make_CHRYSLER  make_DAEWOO  make_DODGE  make_FORD  make_GEO  \
+8753               0            0           0          1         0   
+8754               0            0           0          0         0   
+...              ...          ...         ...        ...       ...   
+13127              0            0           0          0         0   
+13128              0            0           0          1         0   
+
+       make_HONDA  make_HYUNDAI  make_KIA  make_MAZDA  make_MERCURY  \
+8753            0             0         0           0             0   
+8754            0             0         0           0             0   
+...           ...           ...       ...         ...           ...   
+13127           0             0         0           0             0   
+13128           0             0         0           0             0   
+
+       make_MITSUBISHI  make_NISSAN  make_OLDSMOBILE  make_OTHER  \
+8753                 0            0                0           0   
+8754                 0            0                1           0   
+...                ...          ...              ...         ...   
+13127                0            0                0           0   
+13128                0            0                0           0   
+
+       make_PLYMOUTH  make_PONTIAC  make_TOYOTA  
+8753               0             0            0  
+8754               0             0            0  
+...              ...           ...          ...  
+13127              0             0            1  
+13128              0             0            0  
+
+[4376 rows x 40 columns]
+
+Dimensions of dev_data: (4376, 40)
+
+----------------------------------------------
+
+Create final_test_data DataFrame
+Variables in prelim_final_test_data Index(['overage', 'total_cost', 'domestic_import', 'vehicle_type', 'color_set',
+       'makex', 'mileage', 'vehicle_age', 'overage_NO', 'overage_YES',
+       'mfg_Domestic', 'mfg_Import', 'body_ECONOMY', 'body_FAMILY.LARGE',
+       'body_FAMILY.MEDIUM', 'body_FAMILY.SMALL', 'body_LUXURY', 'color_BLACK',
+       'color_BLUE', 'color_GOLD', 'color_GREEN', 'color_PURPLE', 'color_RED',
+       'color_SILVER', 'color_WHITE', 'make_BUICK', 'make_CADILLAC',
+       'make_CHEVROLET', 'make_CHRYSLER', 'make_DAEWOO', 'make_DODGE',
+       'make_FORD', 'make_GEO', 'make_HONDA', 'make_HYUNDAI', 'make_KIA',
+       'make_MAZDA', 'make_MERCURY', 'make_MITSUBISHI', 'make_NISSAN',
+       'make_OLDSMOBILE', 'make_OTHER', 'make_PLYMOUTH', 'make_PONTIAC',
+       'make_TOYOTA'],
+      dtype='object')
+
+Check binary coding of the prelim_final_test_data DataFrame:
+      overage  total_cost domestic_import   vehicle_type color_set   makex  \
+13129      NO        4944        Domestic  FAMILY.MEDIUM      GOLD    FORD   
+13130      NO        5541        Domestic   FAMILY.LARGE      BLUE   BUICK   
+...       ...         ...             ...            ...       ...     ...   
+17504      NO        3361        Domestic        ECONOMY     WHITE   BUICK   
+17505      NO        4068          Import  FAMILY.MEDIUM    PURPLE  NISSAN   
+
+       mileage  vehicle_age  overage_NO  overage_YES  mfg_Domestic  \
+13129    79188            5           1            0             1   
+13130    72594            7           1            0             1   
+...        ...          ...         ...          ...           ...   
+17504    70751            8           1            0             1   
+17505    61770            7           1            0             0   
+
+       mfg_Import  body_ECONOMY  body_FAMILY.LARGE  body_FAMILY.MEDIUM  \
+13129           0             0                  0                   1   
+13130           0             0                  1                   0   
+...           ...           ...                ...                 ...   
+17504           0             1                  0                   0   
+17505           1             0                  0                   1   
+
+       body_FAMILY.SMALL  body_LUXURY  color_BLACK  color_BLUE  color_GOLD  \
+13129                  0            0            0           0           1   
+13130                  0            0            0           1           0   
+...                  ...          ...          ...         ...         ...   
+17504                  0            0            0           0           0   
+17505                  0            0            0           0           0   
+
+       color_GREEN  color_PURPLE  color_RED  color_SILVER  color_WHITE  \
+13129            0             0          0             0            0   
+13130            0             0          0             0            0   
+...            ...           ...        ...           ...          ...   
+17504            0             0          0             0            1   
+17505            0             1          0             0            0   
+
+       make_BUICK  make_CADILLAC  make_CHEVROLET  make_CHRYSLER  make_DAEWOO  \
+13129           0              0               0              0            0   
+13130           1              0               0              0            0   
+...           ...            ...             ...            ...          ...   
+17504           1              0               0              0            0   
+17505           0              0               0              0            0   
+
+       make_DODGE  make_FORD  make_GEO  make_HONDA  make_HYUNDAI  make_KIA  \
+13129           0          1         0           0             0         0   
+13130           0          0         0           0             0         0   
+...           ...        ...       ...         ...           ...       ...   
+17504           0          0         0           0             0         0   
+17505           0          0         0           0             0         0   
+
+       make_MAZDA  make_MERCURY  make_MITSUBISHI  make_NISSAN  \
+13129           0             0                0            0   
+13130           0             0                0            0   
+...           ...           ...              ...          ...   
+17504           0             0                0            0   
+17505           0             0                0            1   
+
+       make_OLDSMOBILE  make_OTHER  make_PLYMOUTH  make_PONTIAC  make_TOYOTA  
+13129                0           0              0             0            0  
+13130                0           0              0             0            0  
+...                ...         ...            ...           ...          ...  
+17504                0           0              0             0            0  
+17505                0           0              0             0            0  
+
+[4377 rows x 45 columns]
+
+General description of the final_test_data DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4377 entries, 13129 to 17505
+Data columns (total 40 columns):
+total_cost            4377 non-null float64
+mileage               4377 non-null float64
+vehicle_age           4377 non-null float64
+overage_NO            4377 non-null uint8
+overage_YES           4377 non-null uint8
+mfg_Domestic          4377 non-null uint8
+mfg_Import            4377 non-null uint8
+body_ECONOMY          4377 non-null uint8
+body_FAMILY.LARGE     4377 non-null uint8
+body_FAMILY.MEDIUM    4377 non-null uint8
+body_FAMILY.SMALL     4377 non-null uint8
+body_LUXURY           4377 non-null uint8
+color_BLACK           4377 non-null uint8
+color_BLUE            4377 non-null uint8
+color_GOLD            4377 non-null uint8
+color_GREEN           4377 non-null uint8
+color_PURPLE          4377 non-null uint8
+color_RED             4377 non-null uint8
+color_SILVER          4377 non-null uint8
+color_WHITE           4377 non-null uint8
+make_BUICK            4377 non-null uint8
+make_CADILLAC         4377 non-null uint8
+make_CHEVROLET        4377 non-null uint8
+make_CHRYSLER         4377 non-null uint8
+make_DAEWOO           4377 non-null uint8
+make_DODGE            4377 non-null uint8
+make_FORD             4377 non-null uint8
+make_GEO              4377 non-null uint8
+make_HONDA            4377 non-null uint8
+make_HYUNDAI          4377 non-null uint8
+make_KIA              4377 non-null uint8
+make_MAZDA            4377 non-null uint8
+make_MERCURY          4377 non-null uint8
+make_MITSUBISHI       4377 non-null uint8
+make_NISSAN           4377 non-null uint8
+make_OLDSMOBILE       4377 non-null uint8
+make_OTHER            4377 non-null uint8
+make_PLYMOUTH         4377 non-null uint8
+make_PONTIAC          4377 non-null uint8
+make_TOYOTA           4377 non-null uint8
+dtypes: float64(3), uint8(37)
+memory usage: 454.9 KB
+None
+       total_cost   mileage  vehicle_age  overage_NO  overage_YES  \
+13129    0.431403  0.683715     0.363636           1            0   
+13130    0.503566  0.626027     0.545455           1            0   
+...           ...       ...          ...         ...          ...   
+17504    0.240058  0.609903     0.636364           1            0   
+17505    0.325517  0.531333     0.545455           1            0   
+
+       mfg_Domestic  mfg_Import  body_ECONOMY  body_FAMILY.LARGE  \
+13129             1           0             0                  0   
+13130             1           0             0                  1   
+...             ...         ...           ...                ...   
+17504             1           0             1                  0   
+17505             0           1             0                  0   
+
+       body_FAMILY.MEDIUM  body_FAMILY.SMALL  body_LUXURY  color_BLACK  \
+13129                   1                  0            0            0   
+13130                   0                  0            0            0   
+...                   ...                ...          ...          ...   
+17504                   0                  0            0            0   
+17505                   1                  0            0            0   
+
+       color_BLUE  color_GOLD  color_GREEN  color_PURPLE  color_RED  \
+13129           0           1            0             0          0   
+13130           1           0            0             0          0   
+...           ...         ...          ...           ...        ...   
+17504           0           0            0             0          0   
+17505           0           0            0             1          0   
+
+       color_SILVER  color_WHITE  make_BUICK  make_CADILLAC  make_CHEVROLET  \
+13129             0            0           0              0               0   
+13130             0            0           1              0               0   
+...             ...          ...         ...            ...             ...   
+17504             0            1           1              0               0   
+17505             0            0           0              0               0   
+
+       make_CHRYSLER  make_DAEWOO  make_DODGE  make_FORD  make_GEO  \
+13129              0            0           0          1         0   
+13130              0            0           0          0         0   
+...              ...          ...         ...        ...       ...   
+17504              0            0           0          0         0   
+17505              0            0           0          0         0   
+
+       make_HONDA  make_HYUNDAI  make_KIA  make_MAZDA  make_MERCURY  \
+13129           0             0         0           0             0   
+13130           0             0         0           0             0   
+...           ...           ...       ...         ...           ...   
+17504           0             0         0           0             0   
+17505           0             0         0           0             0   
+
+       make_MITSUBISHI  make_NISSAN  make_OLDSMOBILE  make_OTHER  \
+13129                0            0                0           0   
+13130                0            0                0           0   
+...                ...          ...              ...         ...   
+17504                0            0                0           0   
+17505                0            1                0           0   
+
+       make_PLYMOUTH  make_PONTIAC  make_TOYOTA  
+13129              0             0            0  
+13130              0             0            0  
+...              ...           ...          ...  
+17504              0             0            0  
+17505              0             0            0  
+
+[4377 rows x 40 columns]
+
+Dimensions of final_test_data: (4377, 40)
+
+-------------------------------
+      Study 5 Modeling         
+-------------------------------
+
+Shape of X_build: (8753, 38)
+Shape of y_build: (8753, 2)
+Shape of X_final_test: (4377, 38)
+Shape of y_final_test: (4377, 2)
+
+Random forest classification elapsed time (seconds): 3.383
+
+---------------------------------------------------------------------------
+Random Forests Regression Model Explanatory Variable Importance Results
+           description  importance                name
+0           total_cost    0.292539          total_cost
+1              mileage    0.216747             mileage
+2          vehicle_age    0.120810         vehicle_age
+3         mfg_Domestic    0.007425        mfg_Domestic
+4           mfg_Import    0.006970          mfg_Import
+5         body_ECONOMY    0.032376        body_ECONOMY
+6    body_FAMILY.LARGE    0.011063   body_FAMILY.LARGE
+7   body_FAMILY.MEDIUM    0.019176  body_FAMILY.MEDIUM
+8    body_FAMILY.SMALL    0.011410   body_FAMILY.SMALL
+9          body_LUXURY    0.025572         body_LUXURY
+10         color_BLACK    0.004065         color_BLACK
+11          color_BLUE    0.013563          color_BLUE
+12          color_GOLD    0.009214          color_GOLD
+13         color_GREEN    0.014201         color_GREEN
+14        color_PURPLE    0.010823        color_PURPLE
+15           color_RED    0.010980           color_RED
+16        color_SILVER    0.009156        color_SILVER
+17         color_WHITE    0.013879         color_WHITE
+18          make_BUICK    0.035981          make_BUICK
+19       make_CADILLAC    0.001203       make_CADILLAC
+20      make_CHEVROLET    0.016027      make_CHEVROLET
+21       make_CHRYSLER    0.001789       make_CHRYSLER
+22         make_DAEWOO    0.011328         make_DAEWOO
+23          make_DODGE    0.001881          make_DODGE
+24           make_FORD    0.008709           make_FORD
+25            make_GEO    0.010159            make_GEO
+26          make_HONDA    0.003172          make_HONDA
+27        make_HYUNDAI    0.001499        make_HYUNDAI
+28            make_KIA    0.002479            make_KIA
+29          make_MAZDA    0.003542          make_MAZDA
+30        make_MERCURY    0.003560        make_MERCURY
+31     make_MITSUBISHI    0.000661     make_MITSUBISHI
+32         make_NISSAN    0.009141         make_NISSAN
+33     make_OLDSMOBILE    0.042481     make_OLDSMOBILE
+34          make_OTHER    0.001850          make_OTHER
+35       make_PLYMOUTH    0.002371       make_PLYMOUTH
+36        make_PONTIAC    0.008451        make_PONTIAC
+37         make_TOYOTA    0.003744         make_TOYOTA
+
+Random Forest Confusion Matrix (rows actual, columns predicted)
+
+             NO   YES 
+       NO  3307   210 
+      YES   654   206 
+
+Random Forest Predictive Accuracy:  0.803
+
+Summary of Random Forest Precision and Recall
+
+             precision    recall  f1-score   support
+
+         NO       0.83      0.94      0.88      3517
+        YES       0.50      0.24      0.32       860
+
+avg / total       0.77      0.80      0.77      4377
+
+precision = proportion of returned results that are relevant
+recall = proportion of relevant documents that are returned
+f1-score = harmonic mean of precision and recall
+
+-------------------------------
+      Study 6 Modeling         
+-------------------------------
+
+Shape of X_build: (8753, 38)
+First two X_build vehicles:
+[[ 0.30585266  0.56440487  0.63636364  1.          0.          0.          1.
+   0.          0.          0.          0.          0.          0.          0.
+   0.          0.          1.          0.          1.          0.          0.
+   0.          0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.          0.
+   0.          0.          0.        ]]
+Shape of X_dev: (4376, 38)
+First two X_dev vehicles:
+[[ 0.44390244  0.45617731  0.18181818  1.          0.          1.          0.
+   0.          0.          0.          0.          0.          0.          0.
+   1.          0.          0.          0.          0.          0.          0.
+   0.          0.          0.          1.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.          0.
+   0.          0.          0.        ]]
+Shape of X_final_test: (4377, 38)
+First two X_final_test vehicles:
+[[ 0.43140336  0.68371462  0.36363636  1.          0.          0.          0.
+   1.          0.          0.          0.          0.          1.          0.
+   0.          0.          0.          0.          0.          0.          0.
+   0.          0.          0.          1.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.          0.
+   0.          0.          0.        ]]
+Shape of y_build: (8753, 2)
+Shape of y_dev: (4376, 2)
+Shape of y_final_test: (4377, 2)
+
+----------------------------------------------
+2  nodes in first hidden layer
+2  nodes in second hidden layer
+0 Build set accuracy: 0.587341 Dev set accuracy: 0.600548
+20 Build set accuracy: 0.788073 Dev set accuracy: 0.797532
+40 Build set accuracy: 0.795727 Dev set accuracy: 0.805302
+60 Build set accuracy: 0.795841 Dev set accuracy: 0.805759
+80 Build set accuracy: 0.795956 Dev set accuracy: 0.805987
+99 Build set accuracy: 0.795956 Dev set accuracy: 0.805987
+
+Neural network elapsed time (seconds): 4.352
+
+----------------------------------------------
+2  nodes in first hidden layer
+4  nodes in second hidden layer
+0 Build set accuracy: 0.482006 Dev set accuracy: 0.480804
+20 Build set accuracy: 0.679081 Dev set accuracy: 0.683272
+40 Build set accuracy: 0.755741 Dev set accuracy: 0.753885
+60 Build set accuracy: 0.781104 Dev set accuracy: 0.786335
+80 Build set accuracy: 0.790586 Dev set accuracy: 0.798675
+99 Build set accuracy: 0.793557 Dev set accuracy: 0.800731
+
+Neural network elapsed time (seconds): 3.989
+
+----------------------------------------------
+2  nodes in first hidden layer
+8  nodes in second hidden layer
+0 Build set accuracy: 0.580372 Dev set accuracy: 0.581353
+20 Build set accuracy: 0.762824 Dev set accuracy: 0.775594
+40 Build set accuracy: 0.783046 Dev set accuracy: 0.792276
+60 Build set accuracy: 0.792414 Dev set accuracy: 0.801645
+80 Build set accuracy: 0.792871 Dev set accuracy: 0.802102
+99 Build set accuracy: 0.793442 Dev set accuracy: 0.802331
+
+Neural network elapsed time (seconds): 4.532
+
+----------------------------------------------
+2  nodes in first hidden layer
+16  nodes in second hidden layer
+0 Build set accuracy: 0.601851 Dev set accuracy: 0.612888
+20 Build set accuracy: 0.741232 Dev set accuracy: 0.744058
+40 Build set accuracy: 0.768537 Dev set accuracy: 0.774223
+60 Build set accuracy: 0.781218 Dev set accuracy: 0.790448
+80 Build set accuracy: 0.787044 Dev set accuracy: 0.797989
+99 Build set accuracy: 0.790129 Dev set accuracy: 0.799817
+
+Neural network elapsed time (seconds): 5.743
+
+----------------------------------------------
+4  nodes in first hidden layer
+2  nodes in second hidden layer
+0 Build set accuracy: 0.479721 Dev set accuracy: 0.492687
+20 Build set accuracy: 0.75734 Dev set accuracy: 0.768053
+40 Build set accuracy: 0.793785 Dev set accuracy: 0.804388
+60 Build set accuracy: 0.795956 Dev set accuracy: 0.805987
+80 Build set accuracy: 0.795956 Dev set accuracy: 0.805987
+99 Build set accuracy: 0.795956 Dev set accuracy: 0.805987
+
+Neural network elapsed time (seconds): 4.03
+
+----------------------------------------------
+4  nodes in first hidden layer
+4  nodes in second hidden layer
+0 Build set accuracy: 0.26311 Dev set accuracy: 0.246801
+20 Build set accuracy: 0.7073 Dev set accuracy: 0.700411
+40 Build set accuracy: 0.777448 Dev set accuracy: 0.782678
+60 Build set accuracy: 0.789215 Dev set accuracy: 0.799132
+80 Build set accuracy: 0.791957 Dev set accuracy: 0.802331
+99 Build set accuracy: 0.792186 Dev set accuracy: 0.802102
+
+Neural network elapsed time (seconds): 3.744
+
+----------------------------------------------
+4  nodes in first hidden layer
+8  nodes in second hidden layer
+0 Build set accuracy: 0.552839 Dev set accuracy: 0.568327
+20 Build set accuracy: 0.74306 Dev set accuracy: 0.751371
+40 Build set accuracy: 0.780989 Dev set accuracy: 0.789762
+60 Build set accuracy: 0.789558 Dev set accuracy: 0.799817
+80 Build set accuracy: 0.792985 Dev set accuracy: 0.801417
+99 Build set accuracy: 0.794242 Dev set accuracy: 0.803931
+
+Neural network elapsed time (seconds): 4.416
+
+----------------------------------------------
+4  nodes in first hidden layer
+16  nodes in second hidden layer
+0 Build set accuracy: 0.465212 Dev set accuracy: 0.465037
+20 Build set accuracy: 0.76648 Dev set accuracy: 0.777194
+40 Build set accuracy: 0.787273 Dev set accuracy: 0.79776
+60 Build set accuracy: 0.790243 Dev set accuracy: 0.79936
+80 Build set accuracy: 0.792757 Dev set accuracy: 0.802331
+99 Build set accuracy: 0.794128 Dev set accuracy: 0.803016
+
+Neural network elapsed time (seconds): 5.72
+
+----------------------------------------------
+8  nodes in first hidden layer
+2  nodes in second hidden layer
+0 Build set accuracy: 0.348566 Dev set accuracy: 0.335923
+20 Build set accuracy: 0.704101 Dev set accuracy: 0.71138
+40 Build set accuracy: 0.770479 Dev set accuracy: 0.778565
+60 Build set accuracy: 0.788301 Dev set accuracy: 0.795018
+80 Build set accuracy: 0.792414 Dev set accuracy: 0.798218
+99 Build set accuracy: 0.792528 Dev set accuracy: 0.798675
+
+Neural network elapsed time (seconds): 4.733
+
+----------------------------------------------
+8  nodes in first hidden layer
+4  nodes in second hidden layer
+0 Build set accuracy: 0.330173 Dev set accuracy: 0.309415
+20 Build set accuracy: 0.698618 Dev set accuracy: 0.699497
+40 Build set accuracy: 0.763053 Dev set accuracy: 0.76851
+60 Build set accuracy: 0.782018 Dev set accuracy: 0.788391
+80 Build set accuracy: 0.787844 Dev set accuracy: 0.796618
+99 Build set accuracy: 0.789672 Dev set accuracy: 0.797075
+
+Neural network elapsed time (seconds): 4.37
+
+----------------------------------------------
+8  nodes in first hidden layer
+8  nodes in second hidden layer
+0 Build set accuracy: 0.693819 Dev set accuracy: 0.704068
+20 Build set accuracy: 0.755627 Dev set accuracy: 0.767139
+40 Build set accuracy: 0.779847 Dev set accuracy: 0.792962
+60 Build set accuracy: 0.787273 Dev set accuracy: 0.801417
+80 Build set accuracy: 0.790358 Dev set accuracy: 0.803016
+99 Build set accuracy: 0.791729 Dev set accuracy: 0.803702
+
+Neural network elapsed time (seconds): 5.038
+
+----------------------------------------------
+8  nodes in first hidden layer
+16  nodes in second hidden layer
+0 Build set accuracy: 0.448075 Dev set accuracy: 0.427559
+20 Build set accuracy: 0.7915 Dev set accuracy: 0.799817
+40 Build set accuracy: 0.795499 Dev set accuracy: 0.805759
+60 Build set accuracy: 0.795613 Dev set accuracy: 0.806444
+80 Build set accuracy: 0.795613 Dev set accuracy: 0.806444
+99 Build set accuracy: 0.795613 Dev set accuracy: 0.806216
+
+Neural network elapsed time (seconds): 6.431
+
+----------------------------------------------
+16  nodes in first hidden layer
+2  nodes in second hidden layer
+0 Build set accuracy: 0.553524 Dev set accuracy: 0.552788
+20 Build set accuracy: 0.755512 Dev set accuracy: 0.759826
+40 Build set accuracy: 0.788415 Dev set accuracy: 0.798903
+60 Build set accuracy: 0.7923 Dev set accuracy: 0.803473
+80 Build set accuracy: 0.794014 Dev set accuracy: 0.804616
+99 Build set accuracy: 0.794927 Dev set accuracy: 0.805759
+
+Neural network elapsed time (seconds): 6.154
+
+----------------------------------------------
+16  nodes in first hidden layer
+4  nodes in second hidden layer
+0 Build set accuracy: 0.582086 Dev set accuracy: 0.582038
+20 Build set accuracy: 0.754141 Dev set accuracy: 0.770567
+40 Build set accuracy: 0.789558 Dev set accuracy: 0.79776
+60 Build set accuracy: 0.794356 Dev set accuracy: 0.803245
+80 Build set accuracy: 0.795727 Dev set accuracy: 0.80553
+99 Build set accuracy: 0.795841 Dev set accuracy: 0.805987
+
+Neural network elapsed time (seconds): 5.911
+
+----------------------------------------------
+16  nodes in first hidden layer
+8  nodes in second hidden layer
+0 Build set accuracy: 0.633269 Dev set accuracy: 0.619287
+20 Build set accuracy: 0.775163 Dev set accuracy: 0.786792
+40 Build set accuracy: 0.790015 Dev set accuracy: 0.800731
+60 Build set accuracy: 0.794699 Dev set accuracy: 0.80553
+80 Build set accuracy: 0.79527 Dev set accuracy: 0.80553
+99 Build set accuracy: 0.795384 Dev set accuracy: 0.805759
+
+Neural network elapsed time (seconds): 6.609
+
+----------------------------------------------
+16  nodes in first hidden layer
+16  nodes in second hidden layer
+0 Build set accuracy: 0.509311 Dev set accuracy: 0.528565
+20 Build set accuracy: 0.760539 Dev set accuracy: 0.773309
+40 Build set accuracy: 0.781675 Dev set accuracy: 0.797075
+60 Build set accuracy: 0.788872 Dev set accuracy: 0.802788
+80 Build set accuracy: 0.792643 Dev set accuracy: 0.804845
+99 Build set accuracy: 0.794242 Dev set accuracy: 0.805302
+
+Neural network elapsed time (seconds): 7.905
+
+-------------------------------
+      Study 7 Modeling         
+-------------------------------
+
+----------------------------------------------
+Selected neural network architecture:
+16  nodes in first hidden layer
+16  nodes in second hidden layer
+
+0 Build set accuracy: 0.509311 Final test set accuracy: 0.518392
+50 Build set accuracy: 0.785788 Final test set accuracy: 0.797578
+100 Build set accuracy: 0.794242 Final test set accuracy: 0.80329
+150 Build set accuracy: 0.79527 Final test set accuracy: 0.803518
+200 Build set accuracy: 0.795613 Final test set accuracy: 0.803518
+250 Build set accuracy: 0.795727 Final test set accuracy: 0.803518
+300 Build set accuracy: 0.795727 Final test set accuracy: 0.803518
+350 Build set accuracy: 0.795841 Final test set accuracy: 0.803518
+400 Build set accuracy: 0.795956 Final test set accuracy: 0.803518
+450 Build set accuracy: 0.795956 Final test set accuracy: 0.803518
+499 Build set accuracy: 0.795956 Final test set accuracy: 0.803518
+
+Neural network elapsed time (seconds): 39.805
+
+Neural Network Confusion Matrix (rows actual, columns predicted)
+
+             NO   YES 
+       NO  3517     0 
+      YES   860     0 
+
+Neural Network Accuracy:  0.804
+
+-------------------------------
+      Study 8 Modeling         
+-------------------------------
+
+Shape of X_build: (8753, 38)
+Shape of y_build: (8753, 2)
+Shape of X_final_test: (4377, 38)
+Shape of y_final_test: (4377, 2)
+Area under ROC curve: 0.744741818807
+
+Logistic Regression Confusion Matrix (rows actual, columns predicted)
+
+             NO   YES 
+       NO  3349   168 
+      YES   701   159 
+
+Logistic Regression Accuracy:  0.801
+
+RUN COMPLETE
