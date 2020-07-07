@@ -1,0 +1,30 @@
+---
+title: "Decision Analytics"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Course Description
+
+This course covers the fundamental concepts, solution techniques, modeling approaches, and applications of decision analytics, with the purpose of introducing you to the most commonly used applied optimization, simulation, and decision analysis techniques for prescriptive analytics in business. 
+You will explore topics from linear programming, network optimization, integer linear programming, goal programming, multiple objective optimization, nonlinear programming, metaheuristic algorithms, stochastic simulation, queuing modeling, decision analysis, and Markov decision processes.
+
+This course will help you to will develop a contextual understanding of decision analytic techniques useful for providing managerial decision support by implementing the covered methods using state-of-the-art analytical modeling software. 
+This is a problem and project-based course with a strong decision analytic modeling component.
+
+## Course Objectives
+
+* Demonstrate knowledge of fundamental decision analytic concepts along with the skills necessary to perform optimization, simulation, and decision analysis techniques.  
+* Select appropriate decision analytic modeling techniques given particular business situations.  
+* Develop and implement decision analytic solutions to address different types of real-world managerial decision problems using analytical modeling software.  
+* Communicate the results of decision analytic solutions via the delivery of reports and presentation.  
+
+## Books
+
+1. Spreadsheet Modeling and Decision Analysis: A Practical Introduction to Business
+Analytics, 8th Edition, by C. Ragsdale.  
+2. Introduction to Operations Research, 10th Edition, by F. Hillier and G. Lieberman  
+3. HBR Course Pack  

@@ -1,0 +1,780 @@
+---
+title: "Optimized Stratagem for Specific Contests in Daily Fantasy Basketball Line-Up Selection Using Linear Programming"
+author: "Roselle Aquino, Brent Campbell, Jared Christensen, and Jason Lee"
+date: "09-01-2019"
+output: html_notebook
+---
+
+***
+
+
+<br>
+
+
+<br>
+
+
+[![](https://raw.githubusercontent.com/papagorgio23/Python101/master/Logo.png)](https://www.AISportsFirm.com)
+
+
+<br>
+
+
+
+
+
+```{r, out.width="0.3\\linewidth", include=TRUE, fig.align="center", fig.cap=c("your caption"), echo=FALSE}
+knitr::include_graphics("draftkings.png")
+
+```
+
+
+
+Here are the official [Draft Kings rules](https://www.draftkings.com/help/rules/nba) for reference. 
+
+
+# Rules:
+
+$50,000 to spend on a lineup consisting of 8 total players.
+
+PG = 2
+
+SG = 2
+
+SF = 2
+
+PF = 1
+
+C = 1
+
+
+
+***
+
+<br>
+
+
+# Contests
+
+<br>
+
+#### **Tournaments:**
+
+Thousands of people enter. Payout structures vary but typically only the top 15-20% of entries will win some amount of money. 
+
+Optimal strategy is to high points and high variance (high risk) players. High risk players are less expensive. 
+
+<br>
+
+#### **50/50 or Double Ups:**
+
+Half of the people will double their money and the other half will lose there money. 
+
+Optimal strategy is to have low variance (low risk) players.
+
+<br>
+
+
+
+***
+
+<br>
+
+## Definitions:
+
+<br>
+
+**Index Sets:**
+
+Let ***I*** be the set of positions, indexed by *i*
+
+Let ***J*** be the set of players, indexed by *j*
+
+<br>
+
+**Variables:**
+
+Let ***P*** be the projected points
+
+Let ***C*** be the cost of the player
+
+Let ***R*** be the risk of the player
+
+<br>
+
+**Other Variables:**
+
+Let ***n*** be the total number of positions
+
+Let ***m*** be the total number of players
+
+
+***
+
+<br>
+
+$x_{ij} = Player$
+
+<br>
+
+$P_{ij} = Points\ Player\ Scores$
+
+<br>
+
+$C_{ij} = Cost\ of\ Player$
+
+<br>
+
+$R_{ij} = Risk\ of\ Player$
+
+<br>
+
+***
+
+<br>
+
+
+## **Tournaments:**
+
+
+#### implicit Form:
+
+
+$$maximize\ \ \ \ \ \ z = \sum_{i=1}^n\sum_{j=1}^m P_{ij} * x_{ij} $$
+
+<br>
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ subject\ to\ \ \ \ \ \sum_{i=1}^n\sum_{j=1}^m C_{ij} * x_{ij} \leq Max\ Salary$$
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{i=1}^n\sum_{j=1}^m R_{ij} * x_{ij} \geq Risk\ Threshold$$
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =2, \ \ for\ \ i = PG$$
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij}  =2, \ \ for\ \ i = SG$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =2, \ \ for\ \ i = SF$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =1, \ \ for\ \ i = PF$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =1, \ \ for\ \ i = C$$
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{i=1}^n\sum_{j=1}^m x_{ij} = 8$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x_{ij} \geq 0,\ \forall \ i,\ j$$
+
+<br>
+
+***
+
+<br>
+
+
+<br>
+
+
+## **Double Ups:**
+
+
+#### implicit Form:
+
+
+$$minmize\ \ \ \ \ \ z = \sum_{i=1}^n\sum_{j=1}^m R_{ij} * x_{ij} $$
+
+<br>
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ subject\ to\ \ \ \ \ \sum_{i=1}^n\sum_{j=1}^m C_{ij} * x_{ij} \leq Max\ Salary$$
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{i=1}^n\sum_{j=1}^m P_{ij} * x_{ij} \geq Points\ Threshold$$
+
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =2, \ \ for\ \ i = PG$$
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij}  =2, \ \ for\ \ i = SG$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =2, \ \ for\ \ i = SF$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =1, \ \ for\ \ i = PF$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{j=1}^m x_{ij} =1, \ \ for\ \ i = C$$
+
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \sum_{i=1}^n\sum_{j=1}^m x_{ij} = 8$$
+
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x_{ij} \geq 0,\ \forall \ i,\ j$$
+
+
+<br>
+
+***
+
+<br>
+
+<br>
+
+
+
+
+# Linear Programming
+
+<br>
+
+<br>
+
+
+## Load Data
+
+The data includes all the games during the 2017-18 NBA season.
+
+The dataset has each player's Draft Kings and Fan Dual Cost along with their respective Point scores.
+
+
+```{r}
+# load data for A.I. Sports
+dfs_prices <- read_csv("https://raw.githubusercontent.com/papagorgio23/Northwestern/master/Data/NBA%20DFS%20Prices.csv")
+```
+
+
+```{r}
+# fix data type
+dfs_prices$DKSalary <- as.numeric(dfs_prices$DKSalary)
+```
+
+
+
+```{r}
+# view data
+head(dfs_prices)
+```
+
+
+```{r}
+summary(dfs_prices)
+```
+
+
+```{r}
+table(dfs_prices$Season)
+```
+
+
+
+
+
+
+
+
+
+```{r}
+# load library
+library("Rglpk")
+library("tidyverse")
+library("ggjoy")
+library("data.table")
+library("tidyverse")
+library("magrittr")
+library("d3heatmap")
+library("gplots")
+library("knitr")
+```
+
+
+
+
+
+```{r}
+# load data for A.I. Sports
+dfs_prices <- read_csv("https://raw.githubusercontent.com/papagorgio23/Northwestern/master/Data/NBA%20DFS%20Prices18.csv")
+```
+
+
+
+
+
+
+```{r}
+# fix salary
+dfs_prices$DKSalary <- as.numeric(dfs_prices$DKSalary)
+```
+
+
+
+
+```{r}
+# filter no salary data
+dfs_prices <- dfs_prices %>%
+  filter(!is.na(DKSalary))
+```
+
+
+
+
+```{r}
+# prep player data
+players <- dfs_prices %>%
+  group_by(Player) %>%
+  summarise(Position = max(Position),
+            Avg_Score = round(mean(DKPoints, na.rm = TRUE), 2),
+            Risk = round(var(DKPoints, na.rm = TRUE), 2),
+            Games_Played = n())
+```
+
+
+
+
+```{r}
+# get all the data in one place
+full_data <- dfs_prices %>% 
+  select(Date, Player, Position, DKSalary) %>%
+  left_join(players, by = c("Player", "Position")) %>%
+  filter(!is.na(Risk))
+```
+
+
+***
+
+<br>
+
+
+
+### Optimized Tournament Lineup Function
+
+```{r}
+# tournament lineup
+tournament <- function(df = game_day, print = FALSE){
+  
+  # number of variables
+  num_var1 <- length(df)
+  
+  # objective:
+  obj_f1 <- df$Avg_Score
+  
+  # the variables are all booleans
+  var_types1 <- rep("B", num_var1)
+  
+  # the constraints
+  A1 <- rbind(as.numeric(df$Position == "PG"), # num PG
+              as.numeric(df$Position == "SG"), # num SG
+              as.numeric(df$Position == "SF"), # num SF
+              as.numeric(df$Position == "PF"), # num PF
+              as.numeric(df$Position == "C"),  # num C
+              df$Risk,                         # Risk
+              df$DKSalary)                     # Cost
+  
+  
+  dir1 <- c("==",
+            "==",
+            "==",
+            "==",
+            "==",
+            ">=",
+            "<=")
+  
+  ##### RHS Constraints
+  rhs1 <- c(2,     # PG
+            2,     # SG
+            2,     # SF
+            1,     # PF
+            1,     # C
+            1000,  # Risk 
+            50000) # cost
+  
+  # solve
+  lineup1 <- Rglpk_solve_LP(obj = obj_f1, 
+                            mat = A1, 
+                            dir = dir1, 
+                            rhs = rhs1,
+                            types = var_types1, 
+                            max = TRUE)
+  
+  # get players in lineup
+  players <- df$Player[lineup1$solution == 1]
+  
+  # pull full lineup
+  max_lineup <- df %>%
+    filter(Player %in% players)
+  
+  # print the output dataframe of our lineup details
+  if (print == TRUE) {
+    print(kable(max_lineup))
+  }
+  
+  # get results of lineup
+  cost <- sum(max_lineup$DKSalary)
+  score <- sum(max_lineup$Avg_Score)
+  gamedate <- max(max_lineup$Date)
+  type <- "Tournament"
+  
+  # compile results
+  data <- data.frame(Date = gamedate, Cost = cost, Points = score, Type = type)
+  
+  return(data)
+}
+```
+
+
+
+
+```{r}
+# test function
+tournament(print = TRUE)
+```
+
+***
+
+<br>
+
+### Optimized Double Up Lineup Function
+
+
+```{r}
+# doubleup lineup
+doubleup <- function(df = game_day, print = FALSE){
+  
+  # number of variables
+  num_var2 <- length(df)
+  
+  # objective:
+  obj_f2 <- df$Risk
+  
+  # the variables are all booleans
+  var_types2 <- rep("B", num_var2)
+  
+  # the constraints
+  A2 <- rbind(as.numeric(df$Position == "PG"), # num PG
+              as.numeric(df$Position == "SG"), # num SG
+              as.numeric(df$Position == "SF"), # num SF
+              as.numeric(df$Position == "PF"), # num PF
+              as.numeric(df$Position == "C"),  # num C
+              df$Avg_Score,                    # points
+              df$DKSalary)                     # total cost
+  
+  
+  dir2 <- c("==",
+            "==",
+            "==",
+            "==",
+            "==",
+            ">=",
+            "<=")
+  
+  ##### RHS Constraints
+  rhs2 <- c(2,     # PG
+            2,     # SG
+            2,     # SF
+            1,     # PF
+            1,     # C
+            250,   # Points
+            50000) # Cost
+  
+  # Solve
+  lineup2 <- Rglpk_solve_LP(obj = obj_f2, 
+                            mat = A2, 
+                            dir = dir2, 
+                            rhs = rhs2,
+                            types = var_types2, 
+                            max = FALSE)
+  
+  # get players in lineup
+  players <- df$Player[lineup2$solution == 1]
+  
+  # pull full lineup
+  max_lineup <- df %>%
+    filter(Player %in% players)
+  
+  # print the output dataframe of our lineup details
+  if (print == TRUE) {
+    print(kable(max_lineup))
+  }
+  
+  # get results of lineup
+  cost <- sum(max_lineup$DKSalary)
+  score <- sum(max_lineup$Avg_Score)
+  gamedate <- max(max_lineup$Date)
+  type <- "Double Up"
+  
+  # compile results
+  data <- data.frame(Date = gamedate, Cost = cost, Points = score, Type = type)
+  
+  return(data)
+}
+```
+
+
+
+```{r}
+# test function
+doubleup(print = TRUE)
+```
+
+***
+
+<br>
+
+### Randomly Generated Lineup Function
+
+
+```{r}
+## Random Lineup function
+Random_Lineup <- function(df = game_day, print = FALSE){
+  random1 <- sample(df$Player, 8)
+  temp <- df %>%
+    filter(Player %in% random1)
+  
+  # if the salary is over the limit run it again
+  while(sum(temp$DKSalary) > 50000) {
+    random1 <- sample(df$Player, 8)
+    temp <- df %>%
+      filter(Player %in% random1)
+  }
+  
+  # print the output dataframe of our lineup details
+  if (print == TRUE) {
+    print(kable(temp))
+  }
+  
+  cost <- sum(temp$DKSalary)
+  score <- sum(temp$Avg_Score)
+  gamedate <- max(temp$Date)
+  type <- "Random"
+  
+  data <- data.frame(Date = gamedate, Cost = cost, Points = score, Type = type)
+  
+  return(data)
+}
+
+```
+
+
+
+```{r}
+# test function
+Random_Lineup(print = TRUE)
+```
+
+
+***
+
+<br>
+
+### Consensus Generated Lineup Function
+
+
+```{r}
+### Consensus Lineup
+Consensus_Lineup <- function(df = game_day, print = FALSE){
+  
+  # get most popular players
+  top_players <- df %>%
+    top_n(20, wt = DKSalary)
+  
+  # get the lower level players
+  bottom_players <- df %>%
+    filter(DKSalary <= 4000)
+  
+  # get lineup
+  consensus <- sample(top_players$Player, 4)
+  junkers <- sample(bottom_players$Player, 4)
+  
+  # pull full lineup
+  temp1 <- df %>%
+    filter(Player %in% c(consensus, junkers))
+  
+  # if the salary is over the limit run it again
+  while(sum(temp1$DKSalary) > 50000) {
+    consensus1 <- sample(top_players$Player, 4)
+    junkers1 <- sample(bottom_players$Player, 4)
+    temp1 <- df %>%
+      filter(Player %in% c(consensus1, junkers1))
+  }
+  
+  # print the output dataframe of our lineup details
+  if (print == TRUE) {
+    print(kable(temp1))
+  }
+  
+  # get results of lineup
+  cost <- sum(temp1$DKSalary)
+  score <- sum(temp1$Avg_Score)
+  gamedate <- max(temp1$Date)
+  type <- "Consensus"
+  
+  # compile results
+  data <- data.frame(Date = gamedate, Cost = cost, Points = score, Type = type)
+  
+  return(data)
+}
+```
+
+
+
+
+```{r}
+Consensus_Lineup(print = TRUE)
+```
+
+
+
+***
+
+<br>
+
+### Function to simulate 10,000 lineups for a single day
+
+
+```{r}
+### function to simulate 10,000 lineups for a specific day
+sim_day <- function(day = 10212017, data = full_data){
+  # Get all the info needed for a specific Date
+  game_day <- data %>%
+    filter(Date == day)
+  
+  ### Simulate the day's lineup
+  lineup_results <- data.frame(Date = c(), Cost = c(), Points = c(), Type = c(), Lineup_Num = c())
+  
+  # simulate 9,998 lineups
+  for (n in 1:4999) {
+    # random Lineup
+    rand_lineups <- Random_Lineup(df = game_day)
+    rand_lineups$Lineup_Num <- n
+    lineup_results <- rbind(lineup_results, rand_lineups)
+    
+    # consensus Lineup
+    con_Lineup <- Consensus_Lineup(df = game_day)
+    con_Lineup$Lineup_Num <- n
+    lineup_results <- rbind(lineup_results, con_Lineup)
+  }
+  
+  # add in our 2 lineups
+  maxPoints <- tournament(df = game_day)
+  maxPoints$Lineup_Num <- 1
+  minRisk <- doubleup(df = game_day)
+  minRisk$Lineup_Num <- 1
+  lineup_results <- rbind(lineup_results,
+                          maxPoints,
+                          minRisk)
+  
+  
+  return(lineup_results)
+}
+```
+
+
+
+
+***
+
+<br>
+
+### Simulate 60 day Experiment
+
+
+
+```{r}
+## Simulate 60 days
+days <- sample(full_data$Date, 60)
+
+all_results <- data.frame()
+counting <- 0
+for (i in days) {
+  counting <- counting + 1
+  print(paste0("Starting sim number ", counting, ". Date = ", i, "."))
+  day <- sim_day(day = i)
+  day$Rank <- min_rank(desc(day$Points))
+  all_results <- rbind(all_results, day)
+}
+```
+
+
+
+
+
+```{r}
+# view results
+head(all_results)
+```
+
+
+
+
+```{r}
+## View Results
+Sim_Results <- all_results %>%
+  group_by(Type) %>%
+  summarise(Avg_Rank = round(mean(Rank), 2),
+            Med_Rank = median(Rank),
+            Best_Rank = min(Rank),
+            Worst_Rank = max(Rank),
+            Percentile = round(Avg_Rank/100, 2),
+            Avg_Points = round(mean(Points), 2),
+            Med_Points = median(Points),
+            Standard_Deviation = round(sd(Points), 2)) %>%
+  arrange(Avg_Rank)
+```
+
+
+
+***
+
+<br>
+
+<br>
+
+
+# Results
+
+
+```{r}
+kable(Sim_Results)
+```
+
+
+
+
+
+
+```{r}
+# Compare distribution of points per lineup
+ggplot(all_results, aes(x = Points, y = Type, fill = Type)) +
+  geom_joy(scale = 3) +
+  theme_joy() +
+  scale_fill_manual(values = rep(c('gray', 'lightblue'), 2)) +
+  scale_y_discrete(expand = c(0.01, 0)) +
+  scale_x_continuous(expand = c(0, 0)) +
+  theme(legend.position="none") +
+  labs(title = "60 Day Simulation",
+       subtitle = "Distribution of the Points per Lineup",
+       x="Points per Day", 
+       y = "")
+```
+
+
+
+```{r}
+# filter to just our optimized lineups
+MaxLines <- all_results %>%
+  filter(Type == "Double Up" | Type == "Tournament")
+```
+
+
+```{r}
+# Compare distribution of contest ranking
+ggplot(MaxLines, aes(x = Rank, y = Type, fill = Type)) +
+  geom_joy(scale = 3) +
+  theme_joy() +
+  scale_fill_manual(values = c('gray', 'lightblue')) +
+  scale_y_discrete(expand = c(0.01, 0)) +
+  scale_x_continuous(expand = c(0, 0)) +
+  theme(legend.position="none") +
+  labs(title = "60 Day Simulation",
+       subtitle = "Distribution of Daily Lineup Ranks",
+       x="Rank", 
+       y = "")
+```
+

@@ -1,0 +1,44 @@
+---
+title: "Introduction to Data Science"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Course Description
+
+This course introduces the field of data science, which combines business strategy, information
+technology, and analytic modeling. 
+The course reviews applications and methods in data science, explores implementation and development of analytics in organizations, and introduces foundational concepts in data engineering. 
+Students evaluate business problems and solutions in traditional and contemporary data management systems, selecting appropriate tools for data collection, preparation, warehousing, and analysis. 
+The course culminates with students producing an original, professionally presented research plan that includes sampling and survey design for a contemporary research problem.
+
+## Course Objectives
+
+* List and evaluate a variety of methods used in data science.  
+* Articulate the value of data science in organizations.  
+* Rank an organization’s analytic maturity.  
+* Address data quality issues.  
+* Discuss basic principles of data engineering, including database architecture and data warehousing.    
+* Define and describe Big Data, machine learning, and artificial intelligence.  
+* Articulate means of collecting, preparing, storing, and analyzing data.  
+* Evaluate and select appropriate sample, survey, and data collection methods.  
+* Create a professionally presented research plan and proposal for data collection.  
+* Develop and create a survey questionnaire.  
+* Recognize and address sources of bias and error.  
+* Determine sample size using basic probability sampling methods.  
+* Identify and discuss core research ethics issues and compliance requirements.  
+* Use the Northwestern library online to locate refereed articles for data science research.  
+* Develop professional-level written communications skills.   
+
+## Books
+
+1. Davenport, T. H., & Harris, J. G. (2017). Competing on analytics: The new science of winning
+(Updated). Boston, MA: Harvard Business School.
+2. Miller, T. W. (2015). Modeling techniques in predictive analytics with Python and R: A guide to
+data science. NJ: Pearson FT Press.
+3. Provost. F., & Fawcett, T. (2013). Data science for business: What you need to know about data
+mining and data-analytic thinking. Sebastopol, CA: O’Reilly.
+

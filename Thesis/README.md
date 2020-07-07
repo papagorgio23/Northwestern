@@ -1,0 +1,33 @@
+Master’s Thesis - Title (No Clue)
+================
+Jason Lee, Lead Data Scientist/Founder A.I. Sports
+
+## Description
+
+This paper will be great\! Either NFL, NBA, or Sports Betting related
+topic using artificial intelligence.
+
+## Objectives
+
+  - Publish Work
+
+## Books
+
+1.  Sports Performance Measurement and Analytics: The Science of
+    Assessing Performance, Predicting Future Outcomes, Interpreting
+    Statistical Models, and Evaluating the Market Value of Athletes.
+    Lorena Martin ISBN-13:978-0134193304, ISBN-10: 013419330.  
+2.  Mathletics: How Gamblers, Managers, and Sports Enthusiasts Use
+    Mathematics in Baseball, Basketball, and Football. Wayne L. Winston
+    ISBN-13:978-0691154589.  
+3.  Handbook of Statistical Methods and Analyses in Sports. Jim Albert,
+    Mark E. Glickman, Time B. Swartz, Ruud H. Koning ISBN-13:
+    978-1498737364, ISBN-10: 1498737366.  
+4.  Analyzing Baseball Data with R. Max Marchi, Jim Albert ISBN-13:
+    978-1466570221, ISBN-10: 1466570229.  
+5.  Oliver, D. 2004. Basketball on Paper: Rules and Tools for
+    Performance Analysis. Washington D.C: Potomac Books. \[ISBN-13:
+    9781574886887\]  
+6.  Miller, T. W. 2016. Sports Analytics and Data Science: Winning the
+    Game with Methods and Models. Old Tappan, N.J.: Pearson Education.
+    \[ISBN-13: 9780133886436\]

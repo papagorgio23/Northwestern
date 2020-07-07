@@ -1,0 +1,69 @@
+Artificial Intelligence and Deep Learning
+================
+
+## Course Description
+
+An introduction to the field of artificial intelligence, this course
+illustrates probability-rule-based generative models as well as
+discriminative models that learn from training data. The course reviews
+applications of artificial intelligence and deep learning in vision and
+language processing. Students learn best practices for building
+supervised learning models and, in particular, deep neural networks for
+classification and regression. Students also learn about feature
+engineering, autoencoders, and strategies of unsupervised and
+semi-supervised learning, as well as reinforcement learning. This is a
+project-based course with extensive programming assignments.
+
+## Course Objectives
+
+  - Identify key phases in the history of artificial intelligence (AI),
+    including deep learning.  
+  - Distinguish among supervised, unsupervised, and reinforcement
+    learning.  
+  - Describe the structure and operation of neural networks, including
+    deep learning networks.  
+  - Employ neural networks and deep learning to address classification
+    and regression problems (supervised learning with
+    backpropagation).  
+  - Employ probability-rule-based, generative models for deep
+    learning.  
+  - Describe the relevance of AI and deep learning methods to a wide
+    range of applications, including vision and natural language
+    processing.
+
+## Books
+
+1.  Goodfellow, I. Bengio, Y. and Courville, A. 2016. Deep Learning.
+    Cambridge Mass.: MIT Press. \[ISBN-13: 978-0262035613\] This is a
+    highly regarded textbook. It is also very mathematical and abstract.
+    Other texts may be more suitable as introductions. Available online
+    at: <https://www.deeplearningbook.org>  
+2.  Nilsson, N. J. 2010. The Quest for Artificial Intelligence: A
+    History of Ideas and Achievements. New York: Cambridge University
+    Press. \[ISBN-13: 978-0-521-12293-1\] Available online at:
+    <http://ai.stanford.edu/~nilsson/QAI/qai.pdf>  
+3.  Géron, A., 2017. Hands-On Machine Learning with Scikit-Learn and
+    TensorFlow: Concepts, Tools, and Techniques to Build Intelligent
+    Systems. Sebastopol Calif.: O’Reilly. \[ISBN-13: 978-1491962299\]
+    Used as one of the required textbooks in MSDS 422, a prerequisite
+    for this course. Source code available at
+    <https://github.com/ageron/handson-ml>  
+4.  Maren, A. J., Pap, R. M., and Harston, C. T., 1990. Handbook of
+    Neural Computing Applications. New York: Academic Press. Accessible
+    via Google Books. Note: These chapters are being supplanted by new
+    chapter drafts in Maren’s Statistical Mechanics, Neural Networks,
+    and Artificial Intelligence book.  
+5.  Russell, S. J. and Norvig, P. 2015. Artificial Intelligence: A
+    Modern Approach (third ed.). Upper Saddle River, N.J.: Pearson.
+    Encyclopedic reference on the field.  
+6.  Deep Learning Reading List:
+    <http://deeplearning.net/reading-list/>  
+7.  <https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap>
+    - a very good place to start, begins with the text that we’ll be
+    using; this is a curated list.  
+8.  Deng, L. and Yu, D., Deep Learning: Methods and Applications: (a
+    197-page monograph):
+    <http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishingVol7-SIG-039.pdf>  
+9.  Reading list for the Carnegie Mellon University course on Deep
+    Learning, taught by Bhiksha Raj: <http://deeplearning.cs.cmu.edu/>
+    (Includes a number of classic neural network papers.)
