@@ -1,0 +1,19 @@
+---
+title: "Hidden Text - JavaScript"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Use JavaScript to hide and reveal text based on user clicking the title.
+
+<br>
+
+![hidden text](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Hidden%20Text/hidden%20text.png)
+
+<br>
+
+![reveal text](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Hidden%20Text/reveal%20text.png)
