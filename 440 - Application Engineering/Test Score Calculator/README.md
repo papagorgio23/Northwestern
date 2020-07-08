@@ -3,6 +3,9 @@ Test Score Calculator - JavaScript
 
 Use JavaScript to ask for test scores and calculate the average score.
 
+  - [Video Walkthrough of
+    Code](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1410bee8-6c9d-4345-a97d-aae6006baceb)
+
 <br>
 
 ![test

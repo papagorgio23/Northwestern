@@ -10,6 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Use JavaScript to ask for test scores and calculate the average score.
 
+- [Video Walkthrough of Code](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1410bee8-6c9d-4345-a97d-aae6006baceb)
+
+
 <br>
 
 ![test scores](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Test%20Score%20Calculator/scores.png)
