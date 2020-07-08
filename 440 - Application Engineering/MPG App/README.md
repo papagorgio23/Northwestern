@@ -4,6 +4,9 @@ Miles Per Gallon Application - JavaScript
 Pop-ups asking questions and then a displayed result calculating the
 Miles Per Gallon used.
 
+  - [Video Walkthrough of
+    Code](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c1f5c7c-859a-4616-80cc-aae60068a2b3)
+
 <br>
 
 ![MPG1](https://github.com/papagorgio23/Northwestern/blob/master/440%20-%20Application%20Engineering/MPG%20App/MPG-1.png?raw=true)
