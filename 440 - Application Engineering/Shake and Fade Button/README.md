@@ -5,6 +5,9 @@ Import JavaScript file (animations.js) into HTML file
 (ShakeAndFade.html) to create a Button that shakes and fades away when
 clicked.
 
+  - [Video Walkthrough of
+    Code](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=666bbd26-b7c9-4f7f-b105-aae6006edfc5)
+
 <br>
 
 ![button](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Shake%20and%20Fade%20Button/button.png)
