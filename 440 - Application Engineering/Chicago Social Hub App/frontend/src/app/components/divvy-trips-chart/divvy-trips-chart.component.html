@@ -1,0 +1,60 @@
+<br>
+<button mat-raised-button color="primary" routerLink="/list_of_stations" style="float: right;margin-right:20px;">
+Go Back
+&nbsp; &nbsp; &nbsp;
+<mat-icon>keyboard_backspace</mat-icon>
+</button>
+
+<form [formGroup]="form" style="margin-left:40%;">
+<section>
+          <mat-form-field>
+            <input matInput
+                   placeholder="Choose a week"
+                   [satDatepicker]="picker2"
+
+                   formControlName="date"
+
+                   [min]="minDate"
+                   [max]="maxDate">
+
+                  <sat-datepicker [disabled]="datepickerDisabled" #picker2 [rangeMode]="true">
+                  </sat-datepicker>
+                  <sat-datepicker-toggle matSuffix [for]="picker2"></sat-datepicker-toggle>
+
+        </mat-form-field>
+
+
+
+    </section>
+    </form>
+
+
+<div>
+
+  <svg width="500" height="400" id="svg1" >
+  <text x="250" y="15" fill="black">{{chart_1_name}}</text>
+</svg>
+
+  <svg width="500" height="400" id="svg2" >
+  <text x="250" y="15" fill="black">{{chart_2_name}}</text>
+</svg>
+  <svg width="500" height="400" id="svg3" >
+  <text x="250" y="15" fill="black">{{chart_3_name}}</text>
+</svg>
+
+  <svg width="500" height="400" id="svg4" >
+  <text x="250" y="15" fill="black">{{chart_4_name}}</text>
+</svg>
+
+  <svg width="500" height="400" id="svg5" >
+  <text x="250" y="15" fill="black">{{chart_5_name}}</text></svg>
+
+  <svg width="500" height="400" id="svg6" >
+  <text x="250" y="15" fill="black">{{chart_6_name}}</text>
+</svg>
+<svg width="500" height="400" id="svg" >
+   <text x="250" y="15" fill="black">{{chart_7_name}}</text>
+</svg>
+</div>
+
+<!--<h2 style="text-align: center;"> Real Time Chart for Divvy Station: <span style="color:blue">{{stationNm}}</span></h2>-->

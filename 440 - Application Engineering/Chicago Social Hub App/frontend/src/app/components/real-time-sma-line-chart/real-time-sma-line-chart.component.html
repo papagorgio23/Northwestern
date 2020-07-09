@@ -1,0 +1,45 @@
+<!--<mat-checkbox class="checkbox-inner-container" >SMA for 1 hr</mat-checkbox>--<!--(change)="OnChange($event)"
+[(checked)]="IsChecked" -->
+<div>
+    <br>&nbsp; &nbsp; &nbsp;
+    <button mat-raised-button color="primary" routerLink="/find" style="position: absolute;top: 75px;">
+        Home
+        &nbsp;&nbsp; &nbsp;
+        <mat-icon>home</mat-icon>
+
+    </button>&nbsp; &nbsp; &nbsp;
+    <br><br>
+
+<mat-card>
+
+<div style="margin-left: 27px;
+    text-align: left;
+    margin-top: 17px;">
+
+  <mat-form-field>
+
+
+     <mat-select placeholder="Time Range:"  [(ngModel)]="timeRangeSelected" (ngModelChange)="changeTimeRangeSelected($event.value)">
+       <mat-option *ngFor="let timeRange of timeRanges" [value]="timeRange.id">
+         {{timeRange.value}}
+       </mat-option>
+     </mat-select>
+
+  </mat-form-field>&nbsp; &nbsp; &nbsp;
+
+
+    </div>
+    </mat-card>
+
+    <button style="position: absolute;top: 75px;right: 20px;" mat-raised-button  color="primary"
+        routerLink="/list_of_stations">
+        <span> Go Back</span>
+        &nbsp;&nbsp; &nbsp;
+        <mat-icon>keyboard_backspace</mat-icon>
+    </button>
+    <h4 style="margin-left: 27px;">{{title}}</h4>
+    <svg width="1200" height="700" id="svg"></svg>
+
+</div>
+
+<!--<h2 style="text-align: center;"> Real Time Chart for Divvy Station: <span style="color:blue">{{stationNm}}</span></h2>-->

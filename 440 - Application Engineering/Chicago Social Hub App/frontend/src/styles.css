@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.tick text {
+       font-size: 12px;
+   }
+
+   .axis path,
+   .axis line {
+       fill: none;
+       stroke: #4C5554;
+       stroke-width: 1;
+   }
+
+   .x.axis .tick line {
+       display: none
+   }
+
+   .domain {
+       display: block !important;
+       stroke: #4C5554 !important;
+       stroke-width: 2 !important;
+   }
+   .legend {
+       font-size: 12px;
+       font-family: sans-serif;
+       rect {
+           stroke-width: 2;
+       }
+   }

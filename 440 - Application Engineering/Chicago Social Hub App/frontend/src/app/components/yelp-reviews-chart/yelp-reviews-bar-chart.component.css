@@ -1,0 +1,16 @@
+:host ::ng-deep .bar {
+    fill: steelblue;
+}
+
+:host ::ng-deep .bar:hover {
+    fill: brown;
+}
+
+:host ::ng-deep .axis-title {
+    fill: none;
+    stroke: black;
+    stroke-width: 0.5px;
+}
+:host ::ng-deep .space {
+    padding-right: 20px;
+}

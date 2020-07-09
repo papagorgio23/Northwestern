@@ -1,0 +1,210 @@
+<br>  <button mat-raised-button color="primary" routerLink="/find" style="position: absolute;top: 75px;margin-left:20px" >
+        Home
+        &nbsp; &nbsp; &nbsp;
+        <mat-icon>home</mat-icon>
+      </button>
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+  
+
+    <button mat-raised-button color="primary" routerLink="/heat_map" style="position: absolute;top: 75px;margin-left:140px;">
+    Divvy Stations HeatMap
+    &nbsp; &nbsp; &nbsp;
+    <mat-icon>directions_bike</mat-icon>
+  </button>
+  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+
+
+  <button mat-raised-button color="primary" (click)=getDivvyDailyTripsChart() style="position: absolute;top: 75px;margin-left:140px;">
+    Divvy Trips - Trends & Seasonality
+    &nbsp; &nbsp; &nbsp;
+    <mat-icon>trending_up</mat-icon>
+    </button>
+    &nbsp; &nbsp; &nbsp;
+
+
+
+
+    <button mat-raised-button color="primary" routerLink="/list_of_places" style="position: absolute;top: 75px;right: 20px;">
+    Go Back
+    &nbsp; &nbsp; &nbsp;
+    <mat-icon>keyboard_backspace</mat-icon>
+  </button>
+
+
+    <br><br>
+    <mat-divider></mat-divider>
+    <br>
+    <table mat-table [dataSource]="stations">
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef>ID</th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="stationName">
+        <th mat-header-cell *matHeaderCellDef>stationName</th>
+        <td mat-cell *matCellDef="let element"> {{element.stationName}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="availableBikes">
+        <th mat-header-cell *matHeaderCellDef>availableBikes</th>
+        <td mat-cell *matCellDef="let element"> {{element.availableBikes}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="availableDocks">
+        <th mat-header-cell *matHeaderCellDef>availableDocks</th>
+        <td mat-cell *matCellDef="let element"> {{element.availableDocks}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="is_renting">
+        <th mat-header-cell *matHeaderCellDef>is_renting</th>
+        <td mat-cell *matCellDef="let element"> {{element.is_renting}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="lastCommunicationTime">
+        <th mat-header-cell *matHeaderCellDef>lastCommunicationTime </th>
+        <td mat-cell *matCellDef="let element"> {{element.lastCommunicationTime}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="latitude">
+        <th mat-header-cell *matHeaderCellDef>latitude</th>
+        <td mat-cell *matCellDef="let element"> {{element.latitude}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="longitude">
+        <th mat-header-cell *matHeaderCellDef>longitude</th>
+        <td mat-cell *matCellDef="let element"> {{element.longitude}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="status">
+        <th mat-header-cell *matHeaderCellDef>status</th>
+        <td mat-cell *matCellDef="let element"> {{element.status}} </td>
+      </ng-container>
+
+        <th mat-header-cell *matHeaderCellDef>totalDocks</th>
+      <ng-container matColumnDef="totalDocks">
+        <th mat-header-cell *matHeaderCellDef>totalDocks</th>
+        <td mat-cell *matCellDef="let element"> {{element.totalDocks}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="ChartData">
+        <th mat-header-cell *matHeaderCellDef class="mat-column-right"></th>
+        <td mat-cell *matCellDef="let element" class="mat-column-right">
+          <button mat-raised-button color="primary" (click)="getLineChart(element.stationName);">Real-Time Chart
+          <mat-icon>show_chart</mat-icon></button>
+
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="smachart">
+        <th mat-header-cell *matHeaderCellDef class="mat-column-right"></th>
+        <td mat-cell *matCellDef="let element" class="mat-column-right">
+          <button mat-raised-button color="primary" (click)="getSMALineChart(element.stationName);">SMA Chart
+          <mat-icon>show_chart</mat-icon></button>
+
+        </td>
+      </ng-container>
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+
+
+
+<agm-map [(latitude)]="location.lat" [(longitude)]="location.lng" [(zoom)]="location.zoom" [disableDefaultUI]="true" [zoomControl]="true" >
+
+  <!-- Possible icons to use -->
+  <!--  http://maps.google.com/mapfiles/ms/icons/green-dot.png   -->
+  <!--  http://maps.google.com/mapfiles/ms/icons/blue-dot.png    -->
+  <!--  http://maps.google.com/mapfiles/ms/icons/red-dot.png     -->
+
+
+  <!-- Google Maps Developer - Docs -->
+  <!--  https://developers.google.com/maps/documentation/   -->
+
+
+  <!-- Angular Google Maps - Docs -->
+  <!--  https://angular-maps.com/   -->
+
+
+
+  <!-- Angular Google Maps - Demo -->
+  <!--  https://stackblitz.com/edit/angular-google-maps-demo?file=app%2Fapp.module.ts   -->
+
+
+
+  <agm-marker
+  (markerClick)="clickedMarker('Union Station', 0)"
+  [latitude]="location.lat"
+  [longitude]="location.lng"
+  [iconUrl]= "icon"
+  [label]="{ color: 'white', text: 'You are Here'}">
+
+  <agm-info-window #infoWindow>
+    <strong>You are currently here by the Union Station</strong>
+
+  </agm-info-window>
+  </agm-marker>
+
+
+
+
+  <agm-marker
+  (markerClick)="clickedMarker('placeSelected', 0)"
+  [latitude]="placeSelected.latitude"
+  [longitude]="placeSelected.longitude"
+  [iconUrl] = "{ url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+                scaledSize: {
+                  width: 40,
+                  height: 60
+              }}" >
+
+  <agm-info-window #infoWindow>
+    <strong>You have selected this place</strong>
+    <br><br><br>
+    <strong>Name: {{placeSelected.name}}</strong>
+    <br><br>
+    <strong>Phone: {{placeSelected.display_phone}}</strong>
+    <br><br>
+    <strong>Address: {{placeSelected.address1}}</strong>
+  </agm-info-window>
+  </agm-marker>
+
+
+
+
+
+  <agm-marker
+    *ngFor="let m of markers; let i = index"
+    (markerClick)="clickedMarker(m.stationName, i)"
+    [latitude]="m.latitude"
+    [longitude]="m.longitude"
+    [label]="m.id">
+
+    <agm-info-window #infoWindow>
+      <strong>Divvy Station</strong>
+      <br><br>
+      <strong>stationName: {{m.stationName}}</strong>
+      <br><br>
+      <strong>status: {{m.status}}</strong>
+      <br><br>
+      <strong>availableDocks: {{m.availableDocks}}</strong>
+    </agm-info-window>
+
+
+  </agm-marker>
+
+
+
+
+  <agm-circle [latitude]="location.lat" [longitude]="location.lng"
+  [(radius)]="circleRadius"
+  [fillColor]="'blue'"
+  [circleDraggable]="true"
+  [editable]="true"></agm-circle>
+
+
+</agm-map>

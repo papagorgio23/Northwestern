@@ -1,0 +1,20 @@
+agm-map {
+    height: 600px;
+}
+#map_canvas{
+    width:500px;
+    height:500px;
+}
+#floating-panel {
+    position: absolute;
+    top: 378px;
+    left: 64%;
+    color: black;
+    font-size: large;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}

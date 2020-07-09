@@ -1,0 +1,11 @@
+table {
+    width: 100%;
+}
+
+.mat-column-right {
+    text-align: center;
+}
+
+agm-map {
+    height: 500px;
+}

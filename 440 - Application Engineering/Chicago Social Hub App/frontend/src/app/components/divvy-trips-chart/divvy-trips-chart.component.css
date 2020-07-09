@@ -1,0 +1,34 @@
+:host ::ng-deep .bar {
+    fill: steelblue;
+}
+
+:host ::ng-deep .bar:hover {
+    fill: brown;
+}
+
+:host ::ng-deep .axis-title {
+    fill: none;
+    stroke: black;
+    stroke-width: 0.5px;
+}
+:host ::ng-deep .space {
+    padding-right: 20px;
+}
+.custom-day {
+      text-align: center;
+      padding: 0.185rem 0.25rem;
+      display: inline-block;
+      height: 2rem;
+      width: 2rem;
+    }
+    .custom-day.range, .custom-day:hover {
+      background-color: rgb(2, 117, 216);
+      color: white;
+    }
+    .custom-day.faded {
+      background-color: rgba(2, 117, 216, 0.5);
+    }
+    .custom-day.selected{
+      background-color: rgba(255, 255, 0, .5);
+
+    }

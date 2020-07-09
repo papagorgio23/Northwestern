@@ -1,0 +1,43 @@
+<div>
+
+    <br>
+
+    <mat-card>
+
+
+      <mat-divider></mat-divider>
+      <br>
+      <form [formGroup]="createForm" class="create-form">
+
+
+
+                <mat-form-field class="field-full-width">
+                    <mat-label color=blue> Find</mat-label>
+                    <input align="start" matInput  formControlName="find" #find>
+                    <mat-hint [ngStyle]="{color: hintColor}">Restaurants, Bars, Cafe, ... </mat-hint>
+                  </mat-form-field>
+
+                  <br><br>
+
+                <mat-form-field  class="field-full-width">
+                    <mat-label color=blue> Where</mat-label>
+                    <input align="start" matInput  formControlName="where" #where>
+                    <mat-hint [ngStyle]="{color: hintColor}">Near me, ... </mat-hint>
+
+                  </mat-form-field>
+
+                  <br><br>
+
+                <mat-divider></mat-divider>
+                  <br><br>
+
+                <button type="submit" (click)="findPlaces(find.value,  where.value)"  mat-raised-button >
+                    Go
+                    &nbsp; &nbsp; &nbsp;
+                    <mat-icon>search</mat-icon>
+                </button>
+
+
+      </form>
+    </mat-card>
+  </div>

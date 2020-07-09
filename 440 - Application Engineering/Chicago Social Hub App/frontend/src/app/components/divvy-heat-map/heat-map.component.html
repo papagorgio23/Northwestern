@@ -1,0 +1,32 @@
+<div>
+    <br>
+    <mat-card>
+
+      <button mat-raised-button color="primary" routerLink="/list_of_stations" style="float: right;">
+      Go Back
+      &nbsp; &nbsp; &nbsp;
+      <mat-icon>keyboard_backspace</mat-icon>
+      </button>
+        &nbsp; &nbsp; &nbsp;
+
+      <br><br>
+      <mat-form-field>
+
+
+         <mat-select placeholder="Time Range:"  [(ngModel)]="timeRangeSelected" (ngModelChange)="changeTimeRangeSelected($event.value)">
+           <mat-option *ngFor="let timeValue of timeValues" [value]="timeValue.id">
+             {{timeValue.value}}
+           </mat-option>
+         </mat-select>
+
+      </mat-form-field>
+      <mat-divider></mat-divider>
+      <br>
+       <div id="floating-panel">
+         {{timeStamp}}
+         </div>
+      <agm-map  [(latitude)]="location.lat" [(longitude)]="location.lng" [(zoom)]="location.zoom" [disableDefaultUI]="true" [zoomControl]="true" (mapReady)="onMapLoad($event)" >
+  </agm-map>
+
+    </mat-card>
+  </div>
