@@ -1,0 +1,609 @@
+altitude,availableBikes,availableDocks,city,id,is_renting,kioskType,landMark,lastCommunicationTime,latitude,location,longitude,postalCode,stAddress1,stAddress2,stationName,status,statusKey,statusValue,testStation,totalDocks
+0.0,5,31,Chicago,2,True,True,Chicago,2019-07-13 22:56:15,41.86943,Chicago,-87.622391,60602,Chicago,Chicago,Buckingham Fountain (Temp),IN_SERVICE,1,IN_SERVICE,False,39
+0.0,5,49,Chicago,3,True,True,Chicago,2019-07-13 22:38:03,41.86722595682,Chicago,-87.6153553902,60602,Chicago,Chicago,Shedd Aquarium,IN_SERVICE,1,IN_SERVICE,False,55
+0.0,13,10,Chicago,4,True,True,Chicago,2019-07-13 22:55:36,41.856268,Chicago,-87.613348,60602,Chicago,Chicago,Burnham Harbor,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,5,18,Chicago,5,True,True,Chicago,2019-07-13 23:09:52,41.874053,Chicago,-87.627716,60602,Chicago,Chicago,State St & Harrison St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,3,36,Chicago,6,True,True,Chicago,2019-07-13 23:07:14,41.886976,Chicago,-87.612813,60602,Chicago,Chicago,Dusable Harbor,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,13,2,Chicago,7,True,True,Chicago,2019-07-13 23:08:28,41.88634906269,Chicago,-87.6175165471,60602,Chicago,Chicago,Field Blvd & South Water St,IN_SERVICE,1,IN_SERVICE,False,17
+0.0,14,1,Chicago,9,True,True,Chicago,2019-07-13 22:57:42,41.82879201994,Chicago,-87.6806044594,60602,Chicago,Chicago,Leavitt St & Archer Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,6,Chicago,11,True,True,Chicago,2019-07-13 22:59:37,41.76663823695,Chicago,-87.5764501141,60602,Chicago,Chicago,Jeffery Blvd & 71st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,0,15,Chicago,12,True,True,Chicago,2019-07-13 22:54:56,41.7664094567,Chicago,-87.5656875719,60602,Chicago,Chicago,South Shore Dr & 71st St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,35,0,Chicago,13,True,True,Chicago,2019-07-13 23:09:52,41.932418,Chicago,-87.652705,60602,Chicago,Chicago,Wilton Ave & Diversey Pkwy,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,3,10,Chicago,14,True,True,Chicago,2019-07-13 22:59:52,41.858086,Chicago,-87.651073,60602,Chicago,Chicago,Morgan St & 18th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,3,11,Chicago,15,True,True,Chicago,2019-07-13 23:09:46,41.858166,Chicago,-87.656495,60602,Chicago,Chicago,Racine Ave & 18th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,8,Chicago,16,True,True,Chicago,2019-07-13 23:07:11,41.910337,Chicago,-87.670072,60602,Chicago,Chicago,Paulina Ave & North Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,14,Chicago,17,True,True,Chicago,2019-07-13 23:08:15,41.903119,Chicago,-87.673935,60602,Chicago,Chicago,Honore St & Division St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,3,14,Chicago,18,True,True,Chicago,2019-07-13 22:56:25,41.883132,Chicago,-87.637321,60602,Chicago,Chicago,Wacker Dr & Washington St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,9,7,Chicago,19,True,True,Chicago,2019-07-13 22:56:50,41.868968,Chicago,-87.659141,60602,Chicago,Chicago,Loomis St & Taylor St (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,5,8,Chicago,20,True,True,Chicago,2019-07-13 22:57:47,41.910522,Chicago,-87.653106,60602,Chicago,Chicago,Sheffield Ave & Kingsbury St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,11,Chicago,21,True,True,Chicago,2019-07-13 23:08:04,41.87772613,Chicago,-87.65478743,60602,Chicago,Chicago,Aberdeen St & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,3,12,Chicago,22,True,True,Chicago,2019-07-13 22:57:50,41.8694821,Chicago,-87.6554864,60602,Chicago,Chicago,May St & Taylor St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,15,Chicago,23,True,True,Chicago,2019-07-13 22:58:30,41.902924,Chicago,-87.637715,60602,Chicago,Chicago,Orleans St & Elm St (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,14,0,Chicago,24,True,True,Chicago,2019-07-13 22:58:02,41.8925,Chicago,-87.6207,60602,Chicago,Chicago,Fairbanks Ct & Grand Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,22,Chicago,25,True,True,Chicago,2019-07-13 22:58:25,41.89766,Chicago,-87.62351,60602,Chicago,Chicago,Michigan Ave & Pearson St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,12,17,Chicago,26,True,True,Chicago,2019-07-13 23:09:08,41.890359,Chicago,-87.617532,60602,Chicago,Chicago,McClurg Ct & Illinois St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,10,9,Chicago,27,True,True,Chicago,2019-07-13 22:56:58,41.91021,Chicago,-87.6435,60602,Chicago,Chicago,Larrabee St & North Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,11,4,Chicago,28,True,True,Chicago,2019-07-13 22:57:25,41.91468,Chicago,-87.64332,60602,Chicago,Chicago,Larrabee St & Menomonee St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,0,Chicago,29,True,True,Chicago,2019-07-13 22:56:57,41.90068,Chicago,-87.6626,60602,Chicago,Chicago,Noble St & Milwaukee Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,3,Chicago,30,True,True,Chicago,2019-07-13 23:09:33,41.899643,Chicago,-87.6677,60602,Chicago,Chicago,Ashland Ave & Augusta Blvd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,13,Chicago,31,True,True,Chicago,2019-07-13 23:07:50,41.896776,Chicago,-87.635633,60602,Chicago,Chicago,Franklin St & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,0,19,Chicago,32,True,True,Chicago,2019-07-13 22:57:24,41.87464,Chicago,-87.65703,60602,Chicago,Chicago,Racine Ave & Congress Pkwy,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,7,20,Chicago,33,True,True,Chicago,2019-07-13 23:09:24,41.877181,Chicago,-87.627844,60602,Chicago,Chicago,State St & Van Buren St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,3,12,Chicago,34,True,True,Chicago,2019-07-13 22:57:55,41.9267559875,Chicago,-87.6344287848,60602,Chicago,Chicago,Cannon Dr & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,32,Chicago,35,True,True,Chicago,2019-07-13 23:05:40,41.892278,Chicago,-87.612043,60602,Chicago,Chicago,Streeter Dr & Grand Ave,IN_SERVICE,1,IN_SERVICE,False,47
+0.0,5,34,Chicago,36,True,True,Chicago,2019-07-13 22:58:29,41.8777079559,Chicago,-87.6353211408,60602,Chicago,Chicago,Franklin St & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,1,17,Chicago,37,True,True,Chicago,2019-07-13 23:09:30,41.8793563587,Chicago,-87.6297910363,60602,Chicago,Chicago,Dearborn St & Adams St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,8,17,Chicago,38,True,True,Chicago,2019-07-13 23:10:29,41.88602082773,Chicago,-87.6308760584,60602,Chicago,Chicago,Clark St & Lake St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,7,16,Chicago,39,True,True,Chicago,2019-07-13 23:07:24,41.87947235235,Chicago,-87.6256886059,60602,Chicago,Chicago,Wabash Ave & Adams St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,1,13,Chicago,40,True,True,Chicago,2019-07-13 23:11:03,41.87934437346,Chicago,-87.6319852213,60602,Chicago,Chicago,LaSalle St & Adams St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,6,Chicago,41,True,True,Chicago,2019-07-13 22:59:47,41.87207763285,Chicago,-87.6295437729,60602,Chicago,Chicago,Federal St & Polk St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,7,2,Chicago,42,True,True,Chicago,2019-07-13 22:55:53,41.852619,Chicago,-87.626488,60602,Chicago,Chicago,Wabash Ave & Cermak Rd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,28,12,Chicago,43,True,True,Chicago,2019-07-13 23:09:20,41.88355,Chicago,-87.62418,60602,Chicago,Chicago,Michigan Ave & Washington St,IN_SERVICE,1,IN_SERVICE,False,43
+0.0,9,14,Chicago,44,True,True,Chicago,2019-07-13 23:08:41,41.8847302006,Chicago,-87.6277335692,60602,Chicago,Chicago,State St & Randolph St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,1,14,Chicago,45,True,True,Chicago,2019-07-13 22:56:46,41.876243,Chicago,-87.624426,60602,Chicago,Chicago,Michigan Ave & Ida B Wells Dr,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,7,Chicago,46,True,True,Chicago,2019-07-13 22:58:17,41.89993001,Chicago,-87.63443007,60602,Chicago,Chicago,Wells St & Walton St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,27,2,Chicago,47,True,True,Chicago,2019-07-13 23:09:09,41.889187,Chicago,-87.627754,60602,Chicago,Chicago,State St & Kinzie St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,24,18,Chicago,48,True,True,Chicago,2019-07-13 22:54:57,41.897764,Chicago,-87.642884,60602,Chicago,Chicago,Larrabee St & Kingsbury St,IN_SERVICE,1,IN_SERVICE,False,43
+0.0,0,38,Chicago,49,True,True,Chicago,2019-07-13 23:08:24,41.881319815,Chicago,-87.6295209193,60602,Chicago,Chicago,Dearborn St & Monroe St,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,0,34,Chicago,50,True,True,Chicago,2019-07-13 22:57:19,41.8759326655,Chicago,-87.6305845355,60602,Chicago,Chicago,Clark St & Ida B Wells Dr,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,10,26,Chicago,51,True,True,Chicago,2019-07-13 22:58:03,41.884576228,Chicago,-87.63188991,60602,Chicago,Chicago,Clark St & Randolph St,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,17,18,Chicago,52,True,True,Chicago,2019-07-13 23:09:16,41.886024,Chicago,-87.624117,60602,Chicago,Chicago,Michigan Ave & Lake St,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,17,10,Chicago,53,True,True,Chicago,2019-07-13 23:09:05,41.894722,Chicago,-87.634362,60602,Chicago,Chicago,Wells St & Huron St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,14,4,Chicago,54,True,True,Chicago,2019-07-13 22:57:09,41.896362458,Chicago,-87.6540612729,60602,Chicago,Chicago,Ogden Ave & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,8,14,Chicago,55,True,True,Chicago,2019-07-13 22:56:13,41.867324,Chicago,-87.648625,60602,Chicago,Chicago,Halsted St & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,19,8,Chicago,56,True,True,Chicago,2019-07-13 23:10:15,41.888716036,Chicago,-87.6444478533,60602,Chicago,Chicago,Desplaines St & Kinzie St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,1,14,Chicago,57,True,True,Chicago,2019-07-13 22:56:00,41.8671177825,Chicago,-87.6410879593,60602,Chicago,Chicago,Clinton St & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,17,Chicago,58,True,True,Chicago,2019-07-13 22:59:10,41.916017,Chicago,-87.668879,60602,Chicago,Chicago,Marshfield Ave & Cortland St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,16,7,Chicago,59,True,True,Chicago,2019-07-13 23:09:03,41.867227,Chicago,-87.625961,60602,Chicago,Chicago,Wabash Ave & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,11,5,Chicago,60,True,True,Chicago,2019-07-13 22:55:02,41.9105780349,Chicago,-87.6494219288,60602,Chicago,Chicago,Dayton St & North Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,16,1,Chicago,61,True,True,Chicago,2019-07-13 23:07:54,41.907655,Chicago,-87.672552,60602,Chicago,Chicago,Wood St & Milwaukee Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,17,8,Chicago,62,True,True,Chicago,2019-07-13 23:09:53,41.8513751729,Chicago,-87.6188346489,60602,Chicago,Chicago,McCormick Place,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,8,11,Chicago,66,True,True,Chicago,2019-07-13 22:57:02,41.885637,Chicago,-87.641823,60602,Chicago,Chicago,Clinton St & Lake St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,21,3,Chicago,67,True,True,Chicago,2019-07-13 23:11:03,41.9256018819,Chicago,-87.6537080423,60602,Chicago,Chicago,Sheffield Ave & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,5,18,Chicago,68,True,True,Chicago,2019-07-13 22:56:17,41.875885,Chicago,-87.640795,60602,Chicago,Chicago,Clinton St & Tilden St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,20,3,Chicago,69,True,True,Chicago,2019-07-13 23:08:58,41.9093960065,Chicago,-87.6776919292,60602,Chicago,Chicago,Damen Ave & Pierce Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,15,7,Chicago,71,True,True,Chicago,2019-07-13 22:57:58,41.8854833079,Chicago,-87.6523048564,60602,Chicago,Chicago,Morgan St & Lake St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,30,9,Chicago,72,True,True,Chicago,2019-07-13 23:10:27,41.860384,Chicago,-87.625813,60602,Chicago,Chicago,Wabash Ave & 16th St,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,7,11,Chicago,73,True,True,Chicago,2019-07-13 22:55:02,41.880422,Chicago,-87.642746,60602,Chicago,Chicago,Jefferson St & Monroe St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,19,4,Chicago,74,True,True,Chicago,2019-07-13 23:08:14,41.893626,Chicago,-87.641527,60602,Chicago,Chicago,Kingsbury St & Erie St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,5,34,Chicago,75,True,True,Chicago,2019-07-13 22:56:36,41.877245,Chicago,-87.639366,60602,Chicago,Chicago,Canal St & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,1,32,Chicago,76,True,True,Chicago,2019-07-13 23:10:31,41.880958,Chicago,-87.616743,60602,Chicago,Chicago,Lake Shore Dr & Monroe St,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,13,17,Chicago,77,True,True,Chicago,2019-07-13 22:57:32,41.882242,Chicago,-87.641066,60602,Chicago,Chicago,Clinton St & Madison St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,1,17,Chicago,80,True,True,Chicago,2019-07-13 22:58:30,41.880419,Chicago,-87.655519,60602,Chicago,Chicago,Aberdeen St & Monroe St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,0,36,Chicago,81,True,True,Chicago,2019-07-13 22:58:32,41.884241,Chicago,-87.629634,60602,Chicago,Chicago,Daley Center Plaza,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,3,14,Chicago,84,True,True,Chicago,2019-07-13 23:10:53,41.891578,Chicago,-87.648384,60602,Chicago,Chicago,Milwaukee Ave & Grand Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,18,4,Chicago,85,True,True,Chicago,2019-07-13 23:09:30,41.90096039,Chicago,-87.62377664,60602,Chicago,Chicago,Michigan Ave & Oak St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,13,6,Chicago,86,True,True,Chicago,2019-07-13 22:56:40,41.89637337,Chicago,-87.66098386,60602,Chicago,Chicago,Eckhart Park,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,16,2,Chicago,87,True,True,Chicago,2019-07-13 23:10:24,41.92556258,Chicago,-87.65840426,60602,Chicago,Chicago,Racine Ave & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,2,15,Chicago,88,True,True,Chicago,2019-07-13 23:09:58,41.884069,Chicago,-87.656853,60602,Chicago,Chicago,Racine Ave & Randolph St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,3,12,Chicago,89,True,True,Chicago,2019-07-13 22:56:49,41.874618,Chicago,-87.632882,60602,Chicago,Chicago,Financial Pl & Ida B Wells Dr (Temp),IN_SERVICE,1,IN_SERVICE,False,15
+0.0,35,12,Chicago,90,True,True,Chicago,2019-07-13 22:56:52,41.8810317,Chicago,-87.62408432,60602,Chicago,Chicago,Millennium Park,IN_SERVICE,1,IN_SERVICE,False,47
+0.0,0,26,Chicago,91,True,True,Chicago,2019-07-13 22:56:06,41.88338,Chicago,-87.64117,60602,Chicago,Chicago,Clinton St & Washington Blvd,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,10,9,Chicago,92,True,True,Chicago,2019-07-13 22:59:16,41.894556,Chicago,-87.653449,60602,Chicago,Chicago,Carpenter St & Huron St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,9,Chicago,93,True,True,Chicago,2019-07-13 23:09:22,41.913688,Chicago,-87.652855,60602,Chicago,Chicago,Sheffield Ave & Willow St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,18,11,Chicago,94,True,True,Chicago,2019-07-13 23:06:16,41.918306,Chicago,-87.636282,60602,Chicago,Chicago,Clark St & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,6,5,Chicago,95,True,True,Chicago,2019-07-13 22:56:43,41.778881,Chicago,-87.586647,60602,Chicago,Chicago,Stony Island Ave & 64th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,20,Chicago,96,True,True,Chicago,2019-07-13 22:58:38,41.88461618962,Chicago,-87.6445705849,60602,Chicago,Chicago,Desplaines St & Randolph St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,9,46,Chicago,97,True,True,Chicago,2019-07-13 22:38:03,41.865312,Chicago,-87.617867,60602,Chicago,Chicago,Field Museum,IN_SERVICE,1,IN_SERVICE,False,55
+0.0,2,11,Chicago,98,True,True,Chicago,2019-07-13 22:59:01,41.882664,Chicago,-87.63253,60602,Chicago,Chicago,LaSalle St & Washington St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,18,0,Chicago,99,True,True,Chicago,2019-07-13 22:59:36,41.89257,Chicago,-87.614492,60602,Chicago,Chicago,Lake Shore Dr & Ohio St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,24,10,Chicago,100,True,True,Chicago,2019-07-13 22:57:42,41.888243,Chicago,-87.63639,60602,Chicago,Chicago,Orleans St & Merchandise Mart Plaza,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,9,6,Chicago,101,True,True,Chicago,2019-07-13 22:56:40,41.78101637196,Chicago,-87.5761197602,60602,Chicago,Chicago,63rd St Beach,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,3,8,Chicago,102,True,True,Chicago,2019-07-13 22:56:12,41.77345849948,Chicago,-87.5853397391,60602,Chicago,Chicago,Stony Island Ave & 67th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,7,Chicago,103,True,True,Chicago,2019-07-13 22:54:59,41.87146651779,Chicago,-87.6409491327,60602,Chicago,Chicago,Clinton St & Polk St (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,13,13,Chicago,106,True,True,Chicago,2019-07-13 22:59:35,41.897448,Chicago,-87.628722,60602,Chicago,Chicago,State St & Pearson St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,8,18,Chicago,107,True,True,Chicago,2019-07-13 22:59:59,41.878287,Chicago,-87.643909,60602,Chicago,Chicago,Desplaines St & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,6,13,Chicago,108,True,True,Chicago,2019-07-13 22:55:21,41.87184,Chicago,-87.64664,60602,Chicago,Chicago,Halsted St & Polk St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,2,17,Chicago,109,True,True,Chicago,2019-07-13 23:08:53,41.874754,Chicago,-87.649807,60602,Chicago,Chicago,900 W Harrison St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,8,16,Chicago,110,True,True,Chicago,2019-07-13 22:57:04,41.893992,Chicago,-87.629318,60602,Chicago,Chicago,Dearborn St & Erie St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,4,22,Chicago,111,True,True,Chicago,2019-07-13 23:10:14,41.894666,Chicago,-87.638437,60602,Chicago,Chicago,Sedgwick St & Huron St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,11,4,Chicago,112,True,True,Chicago,2019-07-13 22:55:04,41.883668,Chicago,-87.64867,60602,Chicago,Chicago,Green St & Randolph St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,0,Chicago,113,True,True,Chicago,2019-07-13 22:59:04,41.91844,Chicago,-87.65222,60602,Chicago,Chicago,Bissell St & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,0,25,Chicago,114,True,True,Chicago,2019-07-13 21:27:25,41.949399,Chicago,-87.654529,60602,Chicago,Chicago,Sheffield Ave & Waveland Ave,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,17,5,Chicago,115,True,True,Chicago,2019-07-13 23:11:03,41.936266,Chicago,-87.652662,60602,Chicago,Chicago,Sheffield Ave & Wellington Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,6,6,Chicago,116,True,True,Chicago,2019-07-13 22:59:06,41.91552,Chicago,-87.687022,60602,Chicago,Chicago,Western Ave & Winnebago Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,23,Chicago,117,True,True,Chicago,2019-07-13 23:10:04,41.94018,Chicago,-87.65304,60602,Chicago,Chicago,Wilton Ave & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,12,7,Chicago,118,True,True,Chicago,2019-07-13 23:07:47,41.911386,Chicago,-87.638677,60602,Chicago,Chicago,Sedgwick St & North Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,0,19,Chicago,119,True,True,Chicago,2019-07-13 23:09:11,41.88592,Chicago,-87.66717,60602,Chicago,Chicago,Ashland Ave & Lake St (Temp),IN_SERVICE,1,IN_SERVICE,False,19
+0.0,14,3,Chicago,120,True,True,Chicago,2019-07-13 22:59:31,41.853005,Chicago,-87.630578,60602,Chicago,Chicago,Wentworth Ave & Cermak Rd (Temp),IN_SERVICE,1,IN_SERVICE,False,19
+0.0,3,16,Chicago,121,True,True,Chicago,2019-07-13 23:07:01,41.802562,Chicago,-87.590368,60602,Chicago,Chicago,Blackstone Ave & Hyde Park Blvd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,12,3,Chicago,122,True,True,Chicago,2019-07-13 22:58:22,41.87501,Chicago,-87.67328,60602,Chicago,Chicago,Ogden Ave & Congress Pkwy,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,6,Chicago,123,True,True,Chicago,2019-07-13 22:56:42,41.922695,Chicago,-87.697153,60602,Chicago,Chicago,California Ave & Milwaukee Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,5,Chicago,124,True,True,Chicago,2019-07-13 22:55:50,41.855048,Chicago,-87.675726,60602,Chicago,Chicago,Damen Ave & Cullerton St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,17,6,Chicago,125,True,True,Chicago,2019-07-13 22:58:09,41.890173,Chicago,-87.626185,60602,Chicago,Chicago,Rush St & Hubbard St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,3,11,Chicago,126,True,True,Chicago,2019-07-13 22:54:33,41.911974,Chicago,-87.631942,60602,Chicago,Chicago,Clark St & North Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,1,Chicago,127,True,True,Chicago,2019-07-13 22:57:50,41.925905,Chicago,-87.64926,60602,Chicago,Chicago,Lincoln Ave & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,13,5,Chicago,128,True,True,Chicago,2019-07-13 23:09:21,41.895769,Chicago,-87.67722,60602,Chicago,Chicago,Damen Ave & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,12,3,Chicago,129,True,True,Chicago,2019-07-13 22:57:42,41.857556,Chicago,-87.661535,60602,Chicago,Chicago,Blue Island Ave & 18th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,3,Chicago,130,True,True,Chicago,2019-07-13 23:07:25,41.903266,Chicago,-87.678435,60602,Chicago,Chicago,Damen Ave & Division St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,3,9,Chicago,131,True,True,Chicago,2019-07-13 23:10:31,41.939365,Chicago,-87.668385,60602,Chicago,Chicago,Lincoln Ave & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,10,Chicago,132,True,True,Chicago,2019-07-13 22:56:47,41.849237,Chicago,-87.631715,60602,Chicago,Chicago,Wentworth Ave & 24th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,24,Chicago,133,True,True,Chicago,2019-07-13 22:58:58,41.88917683258,Chicago,-87.6385057718,60602,Chicago,Chicago,Kingsbury St & Kinzie St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,9,10,Chicago,134,True,True,Chicago,2019-07-13 23:10:17,41.877749,Chicago,-87.649633,60602,Chicago,Chicago,Peoria St & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,6,Chicago,135,True,True,Chicago,2019-07-13 22:55:35,41.85378,Chicago,-87.64665,60602,Chicago,Chicago,Halsted St & 21st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,14,1,Chicago,136,True,True,Chicago,2019-07-13 22:56:10,41.865054,Chicago,-87.656959,60602,Chicago,Chicago,Racine Ave & 13th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,8,Chicago,137,True,True,Chicago,2019-07-13 23:11:04,41.862378,Chicago,-87.651062,60602,Chicago,Chicago,Morgan Ave & 14th Pl,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,6,Chicago,138,True,True,Chicago,2019-07-13 22:57:46,41.904613,Chicago,-87.640552,60602,Chicago,Chicago,Clybourn Ave & Division St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,14,4,Chicago,140,True,True,Chicago,2019-07-13 22:55:22,41.898969,Chicago,-87.629912,60602,Chicago,Chicago,Dearborn Pkwy & Delaware Pl,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,0,22,Chicago,141,True,True,Chicago,2019-07-13 22:56:34,41.915689,Chicago,-87.6346,60602,Chicago,Chicago,Clark St & Lincoln Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,27,1,Chicago,142,True,True,Chicago,2019-07-13 23:08:55,41.894503,Chicago,-87.617854,60602,Chicago,Chicago,McClurg Ct & Erie St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,9,6,Chicago,143,True,True,Chicago,2019-07-13 22:59:32,41.922167,Chicago,-87.638888,60602,Chicago,Chicago,Sedgwick St & Webster Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,19,0,Chicago,144,True,True,Chicago,2019-07-13 23:09:41,41.921822,Chicago,-87.64414,60602,Chicago,Chicago,Larrabee St & Webster Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,6,11,Chicago,145,True,True,Chicago,2019-07-13 22:56:39,41.8985866514,Chicago,-87.6219152258,60602,Chicago,Chicago,Mies van der Rohe Way & Chestnut St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,4,14,Chicago,146,True,True,Chicago,2019-07-13 22:58:12,41.877945,Chicago,-87.662007,60602,Chicago,Chicago,Loomis St & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,8,7,Chicago,147,True,True,Chicago,2019-07-13 22:59:29,41.845687,Chicago,-87.622481,60602,Chicago,Chicago,Indiana Ave & 26th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,14,Chicago,148,True,True,Chicago,2019-07-13 22:55:56,41.834734,Chicago,-87.625813,60602,Chicago,Chicago,State St & 33rd St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,3,Chicago,149,True,True,Chicago,2019-07-13 22:57:53,41.8349,Chicago,-87.61793,60602,Chicago,Chicago,Calumet Ave & 33rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,23,Chicago,150,True,True,Chicago,2019-07-13 22:57:35,41.838556,Chicago,-87.608218,60602,Chicago,Chicago,Fort Dearborn Dr & 31st St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,13,1,Chicago,152,True,True,Chicago,2019-07-13 23:11:04,41.932225,Chicago,-87.658617,60602,Chicago,Chicago,Lincoln Ave & Diversey Pkwy,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,15,Chicago,153,True,True,Chicago,2019-07-13 23:10:28,41.935733,Chicago,-87.663576,60602,Chicago,Chicago,Southport Ave & Wellington Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,13,2,Chicago,154,True,True,Chicago,2019-07-13 22:58:20,41.93949,Chicago,-87.66378,60602,Chicago,Chicago,Southport Ave & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,10,Chicago,156,True,True,Chicago,2019-07-13 23:08:40,41.9364968219,Chicago,-87.6475386582,60602,Chicago,Chicago,Clark St & Wellington Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,5,Chicago,157,True,True,Chicago,2019-07-13 22:57:57,41.936669,Chicago,-87.636794,60602,Chicago,Chicago,Lake Shore Dr & Wellington Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,8,Chicago,158,True,True,Chicago,2019-07-13 23:09:30,41.912616,Chicago,-87.681391,60602,Chicago,Chicago,Milwaukee Ave & Wabansia Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,5,Chicago,159,True,True,Chicago,2019-07-13 22:56:34,41.907781,Chicago,-87.685854,60602,Chicago,Chicago,Claremont Ave & Hirsch St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,10,Chicago,160,True,True,Chicago,2019-07-13 22:57:55,41.910535,Chicago,-87.689556,60602,Chicago,Chicago,Campbell Ave & North Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,18,5,Chicago,161,True,True,Chicago,2019-07-13 23:10:04,41.89576474564,Chicago,-87.6259080327,60602,Chicago,Chicago,Rush St & Superior St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,12,1,Chicago,162,True,True,Chicago,2019-07-13 22:56:52,41.93588,Chicago,-87.67842,60602,Chicago,Chicago,Damen Ave & Wellington Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,4,Chicago,163,True,True,Chicago,2019-07-13 22:56:34,41.931931,Chicago,-87.677856,60602,Chicago,Chicago,Damen Ave & Clybourn Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,17,Chicago,164,True,True,Chicago,2019-07-13 23:10:10,41.885837,Chicago,-87.6355,60602,Chicago,Chicago,Franklin St & Lake St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,1,22,Chicago,165,True,True,Chicago,2019-07-13 22:59:57,41.95078,Chicago,-87.659172,60602,Chicago,Chicago,Clark St & Grace St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,10,5,Chicago,166,True,True,Chicago,2019-07-13 23:10:33,41.92883,Chicago,-87.668507,60602,Chicago,Chicago,Ashland Ave & Wrightwood Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,2,Chicago,167,True,True,Chicago,2019-07-13 22:57:43,41.8492,Chicago,-87.67564,60602,Chicago,Chicago,Damen Ave & Coulter St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,14,4,Chicago,168,True,True,Chicago,2019-07-13 22:59:43,41.864059,Chicago,-87.623727,60602,Chicago,Chicago,Michigan Ave & 14th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,6,9,Chicago,169,True,True,Chicago,2019-07-13 22:57:02,41.874255,Chicago,-87.639573,60602,Chicago,Chicago,Canal St & Harrison St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,6,Chicago,170,True,True,Chicago,2019-07-13 22:55:01,41.85795,Chicago,-87.640826,60602,Chicago,Chicago,Clinton St & 18th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,4,Chicago,171,True,True,Chicago,2019-07-13 22:57:33,41.855136,Chicago,-87.654127,60602,Chicago,Chicago,May St & Cullerton St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,0,Chicago,172,True,True,Chicago,2019-07-13 22:59:22,41.90230870122,Chicago,-87.627690528,60602,Chicago,Chicago,Rush St & Cedar St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,13,Chicago,173,True,True,Chicago,2019-07-13 22:55:19,41.89691,Chicago,-87.621743,60602,Chicago,Chicago,Mies van der Rohe Way & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,0,33,Chicago,174,True,True,Chicago,2019-07-13 23:07:27,41.882091,Chicago,-87.639833,60602,Chicago,Chicago,Canal St & Madison St,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,10,7,Chicago,175,True,True,Chicago,2019-07-13 22:59:12,41.872596,Chicago,-87.633502,60602,Chicago,Chicago,Wells St & Polk St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,32,4,Chicago,176,True,True,Chicago,2019-07-13 23:06:23,41.902973,Chicago,-87.63128,60602,Chicago,Chicago,Clark St & Elm St,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,2,28,Chicago,177,True,True,Chicago,2019-07-13 22:59:14,41.926277,Chicago,-87.630834,60602,Chicago,Chicago,Theater on the Lake,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,10,4,Chicago,178,True,True,Chicago,2019-07-13 22:56:36,41.856594,Chicago,-87.627542,60602,Chicago,Chicago,State St & 19th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,10,Chicago,179,True,True,Chicago,2019-07-13 22:58:12,41.8246,Chicago,-87.61678,60602,Chicago,Chicago,MLK Jr Dr & Pershing Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,10,Chicago,180,True,True,Chicago,2019-07-13 22:57:54,41.906866,Chicago,-87.626217,60602,Chicago,Chicago,Ritchie Ct & Banks St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,26,Chicago,181,True,True,Chicago,2019-07-13 23:10:49,41.890762,Chicago,-87.631697,60602,Chicago,Chicago,LaSalle St & Illinois St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,12,10,Chicago,182,True,True,Chicago,2019-07-13 23:10:39,41.903222,Chicago,-87.634324,60602,Chicago,Chicago,Wells St & Elm St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,9,13,Chicago,183,True,True,Chicago,2019-07-13 22:59:09,41.901315,Chicago,-87.677409,60602,Chicago,Chicago,Damen Ave & Thomas St (Augusta Blvd),IN_SERVICE,1,IN_SERVICE,False,23
+0.0,3,16,Chicago,184,True,True,Chicago,2019-07-13 22:57:12,41.8309,Chicago,-87.62803,60602,Chicago,Chicago,State St & 35th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,10,0,Chicago,185,True,True,Chicago,2019-07-13 22:58:04,41.917741,Chicago,-87.691392,60602,Chicago,Chicago,Stave St & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,10,Chicago,186,True,True,Chicago,2019-07-13 22:59:15,41.891795,Chicago,-87.658751,60602,Chicago,Chicago,Ogden Ave & Race Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,10,Chicago,188,True,True,Chicago,2019-07-13 22:55:33,41.92533,Chicago,-87.6658,60602,Chicago,Chicago,Greenview Ave & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,3,11,Chicago,190,True,True,Chicago,2019-07-13 22:57:05,41.928773,Chicago,-87.663913,60602,Chicago,Chicago,Southport Ave & Wrightwood Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,25,Chicago,191,True,True,Chicago,2019-07-13 23:07:51,41.88169,Chicago,-87.63953,60602,Chicago,Chicago,Canal St & Monroe St (*),IN_SERVICE,1,IN_SERVICE,False,28
+0.0,2,45,Chicago,192,True,True,Chicago,2019-07-13 23:08:05,41.879255,Chicago,-87.639904,60602,Chicago,Chicago,Canal St & Adams St,IN_SERVICE,1,IN_SERVICE,False,47
+0.0,7,4,Chicago,193,True,True,Chicago,2019-07-13 22:59:26,41.841707,Chicago,-87.626938,60602,Chicago,Chicago,State St & 29th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,12,5,Chicago,194,True,True,Chicago,2019-07-13 23:10:44,41.886875,Chicago,-87.62603,60602,Chicago,Chicago,Wabash Ave & Wacker Pl,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,15,40,Chicago,195,True,True,Chicago,2019-07-13 22:54:57,41.884728,Chicago,-87.619521,60602,Chicago,Chicago,Columbus Dr & Randolph St,IN_SERVICE,1,IN_SERVICE,False,55
+0.0,25,6,Chicago,196,True,True,Chicago,2019-07-13 22:57:50,41.890573,Chicago,-87.622072,60602,Chicago,Chicago,Cityfront Plaza Dr & Pioneer Ct,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,2,16,Chicago,197,True,True,Chicago,2019-07-13 22:55:52,41.882134,Chicago,-87.625125,60602,Chicago,Chicago,Michigan Ave & Madison St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,18,7,Chicago,198,True,True,Chicago,2019-07-13 23:10:30,41.881892,Chicago,-87.648789,60602,Chicago,Chicago,Green St & Madison St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,21,10,Chicago,199,True,True,Chicago,2019-07-13 22:59:40,41.891466,Chicago,-87.626761,60602,Chicago,Chicago,Wabash Ave & Grand Ave,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,6,2,Chicago,200,True,True,Chicago,2019-07-13 22:59:00,41.809851,Chicago,-87.616279,60602,Chicago,Chicago,MLK Jr Dr & 47th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,3,Chicago,201,True,True,Chicago,2019-07-13 22:58:21,41.82168,Chicago,-87.6216,60602,Chicago,Chicago,Indiana Ave & 40th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,9,Chicago,202,True,True,Chicago,2019-07-13 22:55:21,41.857499,Chicago,-87.646277,60602,Chicago,Chicago,Halsted St & 18th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,1,Chicago,203,True,True,Chicago,2019-07-13 22:55:16,41.854109,Chicago,-87.685838,60602,Chicago,Chicago,Western Ave & 21st St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,9,Chicago,204,True,True,Chicago,2019-07-13 22:58:54,41.794853,Chicago,-87.618691,60602,Chicago,Chicago,Prairie Ave & Garfield Blvd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,9,4,Chicago,205,True,True,Chicago,2019-07-13 22:56:48,41.857901,Chicago,-87.668745,60602,Chicago,Chicago,Paulina St & 18th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,11,Chicago,206,True,True,Chicago,2019-07-13 22:57:49,41.847203,Chicago,-87.646795,60602,Chicago,Chicago,Halsted St & Archer Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,4,Chicago,207,True,True,Chicago,2019-07-13 22:56:55,41.84358,Chicago,-87.645368,60602,Chicago,Chicago,Emerald Ave & 28th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,7,Chicago,208,True,True,Chicago,2019-07-13 22:57:47,41.85381,Chicago,-87.665897,60602,Chicago,Chicago,Ashland Ave & 21st St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,9,Chicago,209,True,True,Chicago,2019-07-13 22:59:04,41.849527,Chicago,-87.640591,60602,Chicago,Chicago,Normal Ave & Archer Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,16,11,Chicago,210,True,True,Chicago,2019-07-13 22:56:40,41.90345,Chicago,-87.667747,60602,Chicago,Chicago,Ashland Ave & Division St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,16,3,Chicago,211,True,True,Chicago,2019-07-13 23:08:28,41.894448,Chicago,-87.622663,60602,Chicago,Chicago,St. Clair St & Erie St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,19,12,Chicago,212,True,True,Chicago,2019-07-13 22:57:30,41.889906,Chicago,-87.634266,60602,Chicago,Chicago,Wells St & Hubbard St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,2,13,Chicago,213,True,True,Chicago,2019-07-13 22:55:51,41.910153,Chicago,-87.68229,60602,Chicago,Chicago,Leavitt St & North Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,19,Chicago,214,True,True,Chicago,2019-07-13 22:57:54,41.89122,Chicago,-87.67686,60602,Chicago,Chicago,Damen Ave & Grand Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,0,15,Chicago,215,True,True,Chicago,2019-07-13 22:58:55,41.88137,Chicago,-87.67493,60602,Chicago,Chicago,Damen Ave & Madison St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,9,Chicago,216,True,True,Chicago,2019-07-13 23:10:58,41.903029,Chicago,-87.697474,60602,Chicago,Chicago,California Ave & Division St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,3,10,Chicago,217,True,True,Chicago,2019-07-13 22:57:07,41.886926,Chicago,-87.656919,60602,Chicago,Chicago,Racine Ave (May St) & Fulton St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,4,Chicago,218,True,True,Chicago,2019-07-13 22:58:36,41.856802,Chicago,-87.633879,60602,Chicago,Chicago,Wells St & 19th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,19,0,Chicago,219,True,True,Chicago,2019-07-13 22:55:12,41.915983,Chicago,-87.677335,60602,Chicago,Chicago,Damen Ave & Cortland St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,4,18,Chicago,220,True,True,Chicago,2019-07-13 22:57:00,41.931248,Chicago,-87.644336,60602,Chicago,Chicago,Clark St & Drummond Pl,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,10,9,Chicago,222,True,True,Chicago,2019-07-13 22:59:08,41.920195,Chicago,-87.693033,60602,Chicago,Chicago,Milwaukee Ave & Rockwell St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,11,2,Chicago,223,True,True,Chicago,2019-07-13 23:10:11,41.918216,Chicago,-87.656936,60602,Chicago,Chicago,Clifton Ave & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,4,Chicago,224,True,True,Chicago,2019-07-13 22:59:31,41.913865,Chicago,-87.648755,60602,Chicago,Chicago,Halsted St & Willow St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,17,6,Chicago,225,True,True,Chicago,2019-07-13 23:11:01,41.919936,Chicago,-87.64883,60602,Chicago,Chicago,Halsted St & Dickens Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,7,8,Chicago,226,True,True,Chicago,2019-07-13 23:10:24,41.939743,Chicago,-87.658865,60602,Chicago,Chicago,Racine Ave & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,22,Chicago,227,True,True,Chicago,2019-07-13 22:57:40,41.94815,Chicago,-87.66394,60602,Chicago,Chicago,Southport Ave & Waveland Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,0,13,Chicago,228,True,True,Chicago,2019-07-13 23:05:50,41.9406,Chicago,-87.6785,60602,Chicago,Chicago,Damen Ave & Melrose Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,12,Chicago,229,True,True,Chicago,2019-07-13 22:58:09,41.943739,Chicago,-87.66402,60602,Chicago,Chicago,Southport Ave & Roscoe St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,17,2,Chicago,230,True,True,Chicago,2019-07-13 22:55:16,41.94334,Chicago,-87.67097,60602,Chicago,Chicago,Lincoln Ave & Roscoe St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,12,10,Chicago,231,True,True,Chicago,2019-07-13 22:57:58,41.96167,Chicago,-87.65464,60602,Chicago,Chicago,Sheridan Rd & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,15,8,Chicago,232,True,True,Chicago,2019-07-13 22:57:11,41.949275,Chicago,-87.646303,60602,Chicago,Chicago,Pine Grove Ave & Waveland Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,4,11,Chicago,233,True,True,Chicago,2019-07-13 22:59:16,41.883165,Chicago,-87.6511,60602,Chicago,Chicago,Sangamon St & Washington Blvd (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,9,10,Chicago,234,True,True,Chicago,2019-07-13 22:55:56,41.961588,Chicago,-87.666036,60602,Chicago,Chicago,Clark St & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,13,1,Chicago,236,True,True,Chicago,2019-07-13 22:58:00,41.907626,Chicago,-87.638566,60602,Chicago,Chicago,Sedgwick St & Schiller St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,7,Chicago,237,True,True,Chicago,2019-07-13 22:57:55,41.842052,Chicago,-87.617,60602,Chicago,Chicago,MLK Jr Dr & 29th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,9,7,Chicago,238,True,True,Chicago,2019-07-13 22:56:31,41.961406,Chicago,-87.676169,60602,Chicago,Chicago,Wolcott (Ravenswood) Ave & Montrose Ave (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,11,8,Chicago,239,True,True,Chicago,2019-07-13 22:57:10,41.966555,Chicago,-87.688487,60602,Chicago,Chicago,Western Ave & Leland Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,19,6,Chicago,240,True,True,Chicago,2019-07-13 23:10:46,41.954245,Chicago,-87.654406,60602,Chicago,Chicago,Sheridan Rd & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,6,13,Chicago,241,True,True,Chicago,2019-07-13 22:59:54,41.871737,Chicago,-87.65103,60602,Chicago,Chicago,Morgan St & Polk St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,12,2,Chicago,242,True,True,Chicago,2019-07-13 22:56:19,41.967094,Chicago,-87.679028,60602,Chicago,Chicago,Damen Ave & Leland Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,14,Chicago,243,True,True,Chicago,2019-07-13 22:58:28,41.963004,Chicago,-87.684781,60602,Chicago,Chicago,Lincoln Ave & Sunnyside Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,3,Chicago,244,True,True,Chicago,2019-07-13 23:07:22,41.95469,Chicago,-87.67393,60602,Chicago,Chicago,Ravenswood Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,4,18,Chicago,245,True,True,Chicago,2019-07-13 22:56:48,41.961004,Chicago,-87.649603,60602,Chicago,Chicago,Clarendon Ave & Junior Ter,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,2,9,Chicago,246,True,True,Chicago,2019-07-13 23:09:22,41.956057,Chicago,-87.668835,60602,Chicago,Chicago,Ashland Ave & Belle Plaine Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,18,1,Chicago,247,True,True,Chicago,2019-07-13 22:56:47,41.795212,Chicago,-87.580715,60602,Chicago,Chicago,Shore Dr & 55th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,3,15,Chicago,248,True,True,Chicago,2019-07-13 22:55:13,41.795264,Chicago,-87.596471,60602,Chicago,Chicago,Woodlawn Ave & 55th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,1,28,Chicago,249,True,True,Chicago,2019-07-13 22:58:40,41.963982,Chicago,-87.638181,60602,Chicago,Chicago,Montrose Harbor,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,18,1,Chicago,250,True,True,Chicago,2019-07-13 22:59:08,41.936083,Chicago,-87.669807,60602,Chicago,Chicago,Ashland Ave & Wellington Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,4,11,Chicago,251,True,True,Chicago,2019-07-13 23:08:48,41.967968,Chicago,-87.650001,60602,Chicago,Chicago,Clarendon Ave & Leland Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,10,Chicago,252,True,True,Chicago,2019-07-13 22:56:59,41.809835,Chicago,-87.599383,60602,Chicago,Chicago,Greenwood Ave & 47th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,13,2,Chicago,253,True,True,Chicago,2019-07-13 22:55:41,41.968812,Chicago,-87.657659,60602,Chicago,Chicago,Winthrop Ave & Lawrence Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,13,1,Chicago,254,True,True,Chicago,2019-07-13 22:58:01,41.954383,Chicago,-87.648043,60602,Chicago,Chicago,Pine Grove Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,17,22,Chicago,255,True,True,Chicago,2019-07-13 23:07:04,41.867888,Chicago,-87.623041,60602,Chicago,Chicago,Indiana Ave & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,12,1,Chicago,256,True,True,Chicago,2019-07-13 22:56:46,41.952833,Chicago,-87.649993,60602,Chicago,Chicago,Broadway & Sheridan Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,3,Chicago,257,True,True,Chicago,2019-07-13 22:56:32,41.948797,Chicago,-87.675278,60602,Chicago,Chicago,Lincoln Ave & Waveland Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,26,1,Chicago,258,True,True,Chicago,2019-07-13 22:57:26,41.929465,Chicago,-87.684158,60602,Chicago,Chicago,Logan Blvd & Elston Ave,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,9,6,Chicago,259,True,True,Chicago,2019-07-13 22:58:18,41.918121,Chicago,-87.696972,60602,Chicago,Chicago,California Ave & Francis Pl,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,33,1,Chicago,260,True,True,Chicago,2019-07-13 22:59:45,41.929567,Chicago,-87.707857,60602,Chicago,Chicago,Kedzie Ave & Milwaukee Ave,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,0,15,Chicago,261,True,True,Chicago,2019-07-13 22:59:15,41.871514,Chicago,-87.669886,60602,Chicago,Chicago,Hermitage Ave & Polk St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,1,Chicago,262,True,True,Chicago,2019-07-13 22:55:59,41.827059,Chicago,-87.64572,60602,Chicago,Chicago,Halsted St & 37th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,3,Chicago,263,True,True,Chicago,2019-07-13 22:59:30,41.836208,Chicago,-87.613533,60602,Chicago,Chicago,Rhodes Ave & 32nd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,14,Chicago,264,True,True,Chicago,2019-07-13 22:57:37,41.886835,Chicago,-87.62232,60602,Chicago,Chicago,Stetson Ave & South Water St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,12,3,Chicago,265,True,True,Chicago,2019-07-13 23:09:26,41.822985,Chicago,-87.6071,60602,Chicago,Chicago,Cottage Grove Ave & Oakwood Blvd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,0,15,Chicago,267,True,True,Chicago,2019-07-13 22:59:54,41.809443,Chicago,-87.591875,60602,Chicago,Chicago,Lake Park Ave & 47th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,30,Chicago,268,True,True,Chicago,2019-07-13 22:52:24,41.911722,Chicago,-87.626804,60602,Chicago,Chicago,Lake Shore Dr & North Blvd,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,9,2,Chicago,270,True,True,Chicago,2019-07-13 22:58:08,41.7586696704,Chicago,-87.586882871,60602,Chicago,Chicago,Stony Island Ave & 75th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,0,Chicago,271,True,True,Chicago,2019-07-13 22:59:13,41.816499,Chicago,-87.606582,60602,Chicago,Chicago,Cottage Grove Ave & 43rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,272,True,True,Chicago,2019-07-13 22:57:52,41.838842,Chicago,-87.621857,60602,Chicago,Chicago,Indiana Ave & 31st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,16,5,Chicago,273,True,True,Chicago,2019-07-13 22:57:15,41.857813,Chicago,-87.62455,60602,Chicago,Chicago,Michigan Ave & 18th St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,6,9,Chicago,274,True,True,Chicago,2019-07-13 22:57:26,41.861267,Chicago,-87.656625,60602,Chicago,Chicago,Racine Ave & 15th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,4,Chicago,275,True,True,Chicago,2019-07-13 22:55:51,41.865234,Chicago,-87.666507,60602,Chicago,Chicago,Ashland Ave & 13th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,3,Chicago,276,True,True,Chicago,2019-07-13 22:58:51,41.91044,Chicago,-87.6972,60602,Chicago,Chicago,California Ave & North Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,11,4,Chicago,277,True,True,Chicago,2019-07-13 22:59:22,41.891072,Chicago,-87.666611,60602,Chicago,Chicago,Ashland Ave & Grand Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,13,Chicago,278,True,True,Chicago,2019-07-13 22:59:33,41.830629,Chicago,-87.64129,60602,Chicago,Chicago,Wallace St & 35th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,8,Chicago,279,True,True,Chicago,2019-07-13 22:57:05,41.830661,Chicago,-87.647172,60602,Chicago,Chicago,Halsted St & 35th St (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,7,4,Chicago,280,True,True,Chicago,2019-07-13 22:59:42,41.8378,Chicago,-87.65114,60602,Chicago,Chicago,Morgan St & 31st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,0,Chicago,281,True,True,Chicago,2019-07-13 22:57:03,41.84847,Chicago,-87.685109,60602,Chicago,Chicago,Western Ave & 24th St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,8,7,Chicago,282,True,True,Chicago,2019-07-13 22:57:59,41.864883,Chicago,-87.647071,60602,Chicago,Chicago,Halsted St & Maxwell St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,31,Chicago,283,True,True,Chicago,2019-07-13 22:56:01,41.878166,Chicago,-87.631929,60602,Chicago,Chicago,LaSalle St & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,4,19,Chicago,284,True,True,Chicago,2019-07-13 22:56:53,41.87785,Chicago,-87.62408,60602,Chicago,Chicago,Michigan Ave & Jackson Blvd,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,15,4,Chicago,285,True,True,Chicago,2019-07-13 22:56:44,41.889899,Chicago,-87.671473,60602,Chicago,Chicago,Wood St & Hubbard St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,2,21,Chicago,286,True,True,Chicago,2019-07-13 22:59:43,41.878724,Chicago,-87.634793,60602,Chicago,Chicago,Franklin St & Quincy St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,1,24,Chicago,287,True,True,Chicago,2019-07-13 22:58:41,41.880317,Chicago,-87.635185,60602,Chicago,Chicago,Franklin St & Monroe St,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,9,5,Chicago,288,True,True,Chicago,2019-07-13 22:57:53,41.918084,Chicago,-87.643749,60602,Chicago,Chicago,Larrabee St & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,11,Chicago,289,True,True,Chicago,2019-07-13 23:09:20,41.912133,Chicago,-87.634656,60602,Chicago,Chicago,Wells St & Concord Ln,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,14,1,Chicago,290,True,True,Chicago,2019-07-13 22:55:14,41.921525,Chicago,-87.707322,60602,Chicago,Chicago,Kedzie Ave & Palmer Ct,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,8,Chicago,291,True,True,Chicago,2019-07-13 23:10:36,41.906724,Chicago,-87.63483,60602,Chicago,Chicago,Wells St & Evergreen Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,3,7,Chicago,292,True,True,Chicago,2019-07-13 22:55:17,41.957081,Chicago,-87.664199,60602,Chicago,Chicago,Southport Ave & Clark St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,22,0,Chicago,293,True,True,Chicago,2019-07-13 22:57:02,41.965221,Chicago,-87.658139,60602,Chicago,Chicago,Broadway & Wilson Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,10,5,Chicago,294,True,True,Chicago,2019-07-13 23:09:48,41.978353,Chicago,-87.659753,60602,Chicago,Chicago,Broadway & Berwyn Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,16,3,Chicago,295,True,True,Chicago,2019-07-13 22:57:52,41.973815,Chicago,-87.65966,60602,Chicago,Chicago,Broadway & Argyle St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,1,17,Chicago,296,True,True,Chicago,2019-07-13 23:06:43,41.940106,Chicago,-87.645451,60602,Chicago,Chicago,Broadway & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,9,Chicago,297,True,True,Chicago,2019-07-13 22:55:32,41.961507,Chicago,-87.671387,60602,Chicago,Chicago,Paulina St & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,3,12,Chicago,298,True,True,Chicago,2019-07-13 23:07:32,41.95602,Chicago,-87.680293,60602,Chicago,Chicago,Lincoln Ave & Belle Plaine Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,0,Chicago,299,True,True,Chicago,2019-07-13 22:59:44,41.94367,Chicago,-87.64895,60602,Chicago,Chicago,Halsted St & Roscoe St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,9,Chicago,300,True,True,Chicago,2019-07-13 23:07:12,41.937725,Chicago,-87.644095,60602,Chicago,Chicago,Broadway & Barry Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,14,Chicago,301,True,True,Chicago,2019-07-13 22:59:55,41.907993,Chicago,-87.631501,60602,Chicago,Chicago,Clark St & Schiller St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,27,4,Chicago,302,True,True,Chicago,2019-07-13 22:56:07,41.928712,Chicago,-87.653833,60602,Chicago,Chicago,Sheffield Ave & Wrightwood Ave,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,10,10,Chicago,303,True,True,Chicago,2019-07-13 22:58:12,41.945529,Chicago,-87.646439,60602,Chicago,Chicago,Broadway & Cornelia Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,3,11,Chicago,304,True,True,Chicago,2019-07-13 22:55:48,41.949074,Chicago,-87.648636,60602,Chicago,Chicago,Broadway & Waveland Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,21,2,Chicago,305,True,True,Chicago,2019-07-13 22:58:15,41.902893,Chicago,-87.687275,60602,Chicago,Chicago,Western Ave & Division St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,6,12,Chicago,306,True,True,Chicago,2019-07-13 22:59:45,41.958494,Chicago,-87.654966,60602,Chicago,Chicago,Sheridan Rd & Buena Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,13,2,Chicago,307,True,True,Chicago,2019-07-13 22:55:30,41.920771,Chicago,-87.663712,60602,Chicago,Chicago,Southport Ave & Clybourn Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,3,Chicago,308,True,True,Chicago,2019-07-13 22:59:35,41.943403,Chicago,-87.679618,60602,Chicago,Chicago,Seeley Ave & Roscoe St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,309,True,True,Chicago,2019-07-13 23:06:59,41.917805,Chicago,-87.682437,60602,Chicago,Chicago,Leavitt St & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,3,Chicago,310,True,True,Chicago,2019-07-13 22:57:48,41.920082,Chicago,-87.677855,60602,Chicago,Chicago,Damen Ave & Charleston St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,18,1,Chicago,311,True,True,Chicago,2019-07-13 22:57:40,41.968885,Chicago,-87.684001,60602,Chicago,Chicago,Leavitt St & Lawrence Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,15,0,Chicago,312,True,True,Chicago,2019-07-13 23:09:24,41.957879,Chicago,-87.649519,60602,Chicago,Chicago,Clarendon Ave & Gordon Ter,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,14,Chicago,313,True,True,Chicago,2019-07-13 23:10:29,41.925858,Chicago,-87.638973,60602,Chicago,Chicago,Lakeview Ave & Fullerton Pkwy,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,3,11,Chicago,314,True,True,Chicago,2019-07-13 22:56:42,41.957921,Chicago,-87.673567,60602,Chicago,Chicago,Ravenswood Ave & Berteau Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,12,Chicago,315,True,True,Chicago,2019-07-13 22:56:46,41.912919,Chicago,-87.664169,60602,Chicago,Chicago,Elston Ave & Wabansia Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,18,1,Chicago,316,True,True,Chicago,2019-07-13 22:59:58,41.96325,Chicago,-87.679258,60602,Chicago,Chicago,Damen Ave & Sunnyside Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,0,23,Chicago,317,True,True,Chicago,2019-07-13 22:55:40,41.869154,Chicago,-87.671045,60602,Chicago,Chicago,Wood St & Taylor St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,4,10,Chicago,318,True,True,Chicago,2019-07-13 23:08:06,41.954177,Chicago,-87.664358,60602,Chicago,Chicago,Southport Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,3,Chicago,319,True,True,Chicago,2019-07-13 22:58:14,41.932595,Chicago,-87.665939,60602,Chicago,Chicago,Greenview Ave & Diversey Pkwy,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,11,Chicago,320,True,True,Chicago,2019-07-13 22:56:51,41.872187,Chicago,-87.661501,60602,Chicago,Chicago,Loomis St & Lexington St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,7,10,Chicago,321,True,True,Chicago,2019-07-13 22:57:40,41.870769,Chicago,-87.625734,60602,Chicago,Chicago,Wabash Ave & 9th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,14,4,Chicago,322,True,True,Chicago,2019-07-13 22:56:00,41.799568,Chicago,-87.594747,60602,Chicago,Chicago,Kimbark Ave & 53rd St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,16,2,Chicago,323,True,True,Chicago,2019-07-13 23:00:01,41.969517,Chicago,-87.654691,60602,Chicago,Chicago,Sheridan Rd & Lawrence Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,9,Chicago,324,True,True,Chicago,2019-07-13 22:59:04,41.93132,Chicago,-87.638742,60602,Chicago,Chicago,Stockton Dr & Wrightwood Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,17,0,Chicago,325,True,True,Chicago,2019-07-13 22:55:19,41.97334,Chicago,-87.66778,60602,Chicago,Chicago,Clark St & Winnemac Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,19,0,Chicago,326,True,True,Chicago,2019-07-13 22:55:12,41.967096,Chicago,-87.667429,60602,Chicago,Chicago,Clark St & Leland Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,6,13,Chicago,327,True,True,Chicago,2019-07-13 22:55:13,41.92154,Chicago,-87.653818,60602,Chicago,Chicago,Sheffield Ave & Webster Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,6,13,Chicago,328,True,True,Chicago,2019-07-13 22:56:17,41.788746,Chicago,-87.601334,60602,Chicago,Chicago,Ellis Ave & 58th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,1,20,Chicago,329,True,True,Chicago,2019-07-13 22:55:24,41.932588,Chicago,-87.636427,60602,Chicago,Chicago,Lake Shore Dr & Diversey Pkwy,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,18,1,Chicago,330,True,True,Chicago,2019-07-13 22:58:23,41.946176,Chicago,-87.673308,60602,Chicago,Chicago,Lincoln Ave & Addison St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,22,4,Chicago,331,True,True,Chicago,2019-07-13 23:10:40,41.909668,Chicago,-87.648128,60602,Chicago,Chicago,Halsted St & Clybourn Ave (*),IN_SERVICE,1,IN_SERVICE,False,28
+0.0,2,17,Chicago,332,True,True,Chicago,2019-07-13 23:10:33,41.93314,Chicago,-87.64776,60602,Chicago,Chicago,Burling St (Halsted) & Diversey Pkwy (Temp),IN_SERVICE,1,IN_SERVICE,False,19
+0.0,13,1,Chicago,333,True,True,Chicago,2019-07-13 22:58:50,41.907066,Chicago,-87.667252,60602,Chicago,Chicago,Ashland Ave & Blackhawk St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,9,Chicago,334,True,True,Chicago,2019-07-13 22:56:53,41.940775,Chicago,-87.639192,60602,Chicago,Chicago,Lake Shore Dr & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,14,1,Chicago,335,True,True,Chicago,2019-07-13 22:59:56,41.831379,Chicago,-87.618034,60602,Chicago,Chicago,Calumet Ave & 35th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,13,2,Chicago,336,True,True,Chicago,2019-07-13 22:59:13,41.809855,Chicago,-87.606755,60602,Chicago,Chicago,Cottage Grove Ave & 47th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,15,Chicago,337,True,True,Chicago,2019-07-13 22:58:58,41.89675,Chicago,-87.63089,60602,Chicago,Chicago,Clark St & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,6,7,Chicago,338,True,True,Chicago,2019-07-13 22:57:21,41.857611,Chicago,-87.619407,60602,Chicago,Chicago,Calumet Ave & 18th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,7,Chicago,339,True,True,Chicago,2019-07-13 22:56:51,41.838198,Chicago,-87.645143,60602,Chicago,Chicago,Emerald Ave & 31st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,7,Chicago,340,True,True,Chicago,2019-07-13 22:57:26,41.929546,Chicago,-87.643118,60602,Chicago,Chicago,Clark St & Wrightwood Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,3,33,Chicago,341,True,True,Chicago,2019-07-13 23:05:46,41.866095,Chicago,-87.607267,60602,Chicago,Chicago,Adler Planetarium,IN_SERVICE,1,IN_SERVICE,False,39
+0.0,1,21,Chicago,342,True,True,Chicago,2019-07-13 22:55:36,41.871262,Chicago,-87.673688,60602,Chicago,Chicago,Wolcott Ave & Polk St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,13,2,Chicago,343,True,True,Chicago,2019-07-13 22:59:10,41.928887,Chicago,-87.658971,60602,Chicago,Chicago,Racine Ave & Wrightwood Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,18,28,Chicago,344,True,True,Chicago,2019-07-13 22:55:39,41.96909,Chicago,-87.674237,60602,Chicago,Chicago,Ravenswood Ave & Lawrence Ave,IN_SERVICE,1,IN_SERVICE,False,47
+0.0,8,10,Chicago,345,True,True,Chicago,2019-07-13 22:56:54,41.793242,Chicago,-87.587782,60602,Chicago,Chicago,Lake Park Ave & 56th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,0,14,Chicago,346,True,True,Chicago,2019-07-13 22:59:55,41.88283,Chicago,-87.661206,60602,Chicago,Chicago,Ada St & Washington Blvd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,6,Chicago,347,True,True,Chicago,2019-07-13 22:58:47,41.950687,Chicago,-87.6687,60602,Chicago,Chicago,Ashland Ave & Grace St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,5,Chicago,348,True,True,Chicago,2019-07-13 22:59:43,41.854016,Chicago,-87.695445,60602,Chicago,Chicago,California Ave & 21st St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,3,11,Chicago,349,True,True,Chicago,2019-07-13 22:58:09,41.929143,Chicago,-87.649077,60602,Chicago,Chicago,Halsted St & Wrightwood Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,4,Chicago,350,True,True,Chicago,2019-07-13 22:57:15,41.895966,Chicago,-87.667747,60602,Chicago,Chicago,Ashland Ave & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,8,Chicago,351,True,True,Chicago,2019-07-13 22:56:24,41.803038,Chicago,-87.606615,60602,Chicago,Chicago,Cottage Grove Ave & 51st St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,10,Chicago,352,True,True,Chicago,2019-07-13 22:59:20,41.77351755125,Chicago,-87.5771428255,60602,Chicago,Chicago,Jeffery Blvd & 67th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,0,15,Chicago,353,True,True,Chicago,2019-07-13 22:56:45,42.01256011541,Chicago,-87.6743671152,60602,Chicago,Chicago,Clark St & Touhy Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,2,Chicago,354,True,True,Chicago,2019-07-13 22:55:08,42.01058656284,Chicago,-87.6624120948,60602,Chicago,Chicago,Sheridan Rd & Greenleaf Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,11,Chicago,355,True,True,Chicago,2019-07-13 22:55:37,41.773643,Chicago,-87.567514,60602,Chicago,Chicago,South Shore Dr & 67th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,6,Chicago,356,True,True,Chicago,2019-07-13 23:07:10,41.7664929373,Chicago,-87.5864608775,60602,Chicago,Chicago,Stony Island Ave & 71st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,11,Chicago,359,True,True,Chicago,2019-07-13 22:59:31,41.90348607004,Chicago,-87.6433534936,60602,Chicago,Chicago,Larrabee St & Division St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,13,6,Chicago,364,True,True,Chicago,2019-07-13 23:09:16,41.90021949323,Chicago,-87.6429854676,60602,Chicago,Chicago,Larrabee St & Oak St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,0,15,Chicago,365,True,True,Chicago,2019-07-13 22:56:31,41.89936843921,Chicago,-87.6484798752,60602,Chicago,Chicago,Halsted St & North Branch St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,1,Chicago,366,True,True,Chicago,2019-07-13 22:59:38,41.84163253965,Chicago,-87.6574349533,60602,Chicago,Chicago,Loomis St & Archer Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,10,Chicago,367,True,True,Chicago,2019-07-13 22:55:14,41.83069611252,Chicago,-87.6559759116,60602,Chicago,Chicago,Racine Ave & 35th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,10,Chicago,368,True,True,Chicago,2019-07-13 22:59:55,41.83920868403,Chicago,-87.6656098589,60602,Chicago,Chicago,Ashland Ave & Archer Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,7,Chicago,369,True,True,Chicago,2019-07-13 22:58:52,41.83010465416,Chicago,-87.6702983089,60602,Chicago,Chicago,Wood St & 35th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,11,1,Chicago,370,True,True,Chicago,2019-07-13 22:55:30,41.85418424947,Chicago,-87.6191537415,60602,Chicago,Chicago,Calumet Ave & 21st St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,2,Chicago,373,True,True,Chicago,2019-07-13 22:56:05,41.89546530305,Chicago,-87.7061278837,60602,Chicago,Chicago,Kedzie Ave & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,9,13,Chicago,374,True,True,Chicago,2019-07-13 22:59:32,41.89841768945,Chicago,-87.6865960164,60602,Chicago,Chicago,Western Ave & Walton St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,9,2,Chicago,375,True,True,Chicago,2019-07-13 22:58:13,41.889727,Chicago,-87.70103,60602,Chicago,Chicago,Sacramento Blvd & Franklin Blvd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,30,Chicago,376,True,True,Chicago,2019-07-13 22:57:53,41.88949181977,Chicago,-87.6882193648,60602,Chicago,Chicago,Artesian Ave & Hubbard St,IN_SERVICE,1,IN_SERVICE,False,35
+0.0,15,0,Chicago,377,True,True,Chicago,2019-07-13 22:58:06,41.88460328501,Chicago,-87.7063037436,60602,Chicago,Chicago,Kedzie Ave & Lake St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,1,Chicago,378,True,True,Chicago,2019-07-13 22:58:53,41.88445395657,Chicago,-87.6962981368,60602,Chicago,Chicago,California Ave & Lake St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,7,Chicago,381,True,True,Chicago,2019-07-13 22:57:07,41.8797877089,Chicago,-87.686112808,60602,Chicago,Chicago,Western Ave & Monroe St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,7,Chicago,382,True,True,Chicago,2019-07-13 22:57:09,41.87474885079,Chicago,-87.6864452757,60602,Chicago,Chicago,Western Ave & Congress Pkwy,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,2,28,Chicago,383,True,True,Chicago,2019-07-13 22:58:51,41.87295,Chicago,-87.66913,60602,Chicago,Chicago,Paulina St & Flournoy St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,7,4,Chicago,384,True,True,Chicago,2019-07-13 22:59:14,41.80183164049,Chicago,-87.645213904,60602,Chicago,Chicago,Halsted St & 51st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,385,True,True,Chicago,2019-07-13 22:59:28,41.794982,Chicago,-87.633124,60602,Chicago,Chicago,Princeton Ave & Garfield Blvd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,386,True,True,Chicago,2019-07-12 22:56:35,41.79292964599,Chicago,-87.6449900565,60602,Chicago,Chicago,Halsted St & 56th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,388,True,True,Chicago,2019-07-11 22:57:50,41.77938114228,Chicago,-87.6446208145,60602,Chicago,Chicago,Halsted St & 63rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,390,True,True,Chicago,2019-07-13 22:55:05,41.78007963264,Chicago,-87.6297463052,60602,Chicago,Chicago,Wentworth Ave & 63rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,7,Chicago,391,True,True,Chicago,2019-07-13 22:56:34,41.76906172032,Chicago,-87.6446135779,60602,Chicago,Chicago,Halsted St & 69th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,392,True,True,Chicago,2019-07-11 22:59:32,41.76929308995,Chicago,-87.6281959291,60602,Chicago,Chicago,Perry Ave & 69th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,3,Chicago,393,True,True,Chicago,2019-07-11 22:58:16,41.76550800581,Chicago,-87.616917925,60602,Chicago,Chicago,Calumet Ave & 71st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,8,Chicago,394,True,True,Chicago,2019-07-13 22:56:50,41.870816,Chicago,-87.631246,60602,Chicago,Chicago,Clark St & 9th St (AMLI),IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,7,Chicago,395,True,True,Chicago,2019-07-13 22:56:50,41.75712006802,Chicago,-87.5758393587,60602,Chicago,Chicago,Jeffery Blvd & 76th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,396,True,True,Chicago,2019-07-13 22:57:38,41.758768,Chicago,-87.56644,60602,Chicago,Chicago,Yates Blvd & 75th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,12,Chicago,398,True,True,Chicago,2019-07-13 22:57:45,41.75787144829,Chicago,-87.54938625,60602,Chicago,Chicago,Rainbow Beach,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,6,Chicago,399,True,True,Chicago,2019-07-13 22:56:06,41.76218896038,Chicago,-87.55927465,60602,Chicago,Chicago,South Shore Dr & 74th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,400,True,True,Chicago,2019-07-11 13:38:56,41.76571903697,Chicago,-87.604959713,60602,Chicago,Chicago,Cottage Grove Ave & 71st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,7,Chicago,401,True,True,Chicago,2019-07-13 22:56:58,41.842733,Chicago,-87.635491,60602,Chicago,Chicago,Shields Ave & 28th Pl,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,8,Chicago,402,True,True,Chicago,2019-07-13 22:55:24,41.838464,Chicago,-87.635406,60602,Chicago,Chicago,Shields Ave & 31st St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,0,15,Chicago,403,True,True,Chicago,2019-07-13 22:58:57,41.83452988563,Chicago,-87.6318229814,60602,Chicago,Chicago,Wentworth Ave & 33rd St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,9,Chicago,405,True,True,Chicago,2019-07-13 23:10:29,41.830777,Chicago,-87.632504,60602,Chicago,Chicago,Wentworth Ave & 35th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,8,Chicago,406,True,True,Chicago,2019-07-13 22:57:30,41.83127423549,Chicago,-87.6087991946,60602,Chicago,Chicago,Lake Park Ave & 35th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,6,Chicago,407,True,True,Chicago,2019-07-08 10:57:52,41.82301523798,Chicago,-87.6265680185,60602,Chicago,Chicago,State St & Pershing Rd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,408,True,True,Chicago,2019-07-13 22:57:20,41.819102,Chicago,-87.643278,60602,Chicago,Chicago,Union Ave & Root St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,409,True,True,Chicago,2019-07-13 22:57:38,41.81620767856,Chicago,-87.6348193497,60602,Chicago,Chicago,Shields Ave & 43rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,15,0,Chicago,410,True,True,Chicago,2019-07-13 22:58:54,41.81665889302,Chicago,-87.6194124619,60602,Chicago,Chicago,Prairie Ave & 43rd St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,9,Chicago,411,True,True,Chicago,2019-07-13 22:56:30,41.80813391481,Chicago,-87.6456165545,60602,Chicago,Chicago,Halsted St & 47th Pl,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,412,True,True,Chicago,2019-07-13 23:08:13,41.80931770924,Chicago,-87.633449288,60602,Chicago,Chicago,Princeton Ave & 47th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,11,4,Chicago,413,True,True,Chicago,2019-07-13 22:55:00,41.81409271048,Chicago,-87.5970051479,60602,Chicago,Chicago,Woodlawn Ave & Lake Park Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,13,Chicago,414,True,True,Chicago,2019-07-13 22:59:38,41.870257,Chicago,-87.639474,60602,Chicago,Chicago,Canal St & Taylor St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,7,Chicago,415,True,True,Chicago,2019-07-13 22:59:35,41.80229465088,Chicago,-87.6180535802,60602,Chicago,Chicago,Calumet Ave & 51st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,9,Chicago,416,True,True,Chicago,2019-07-13 22:57:03,41.805772,Chicago,-87.592464,60602,Chicago,Chicago,Dorchester Ave & 49th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,14,Chicago,417,True,True,Chicago,2019-07-13 22:59:13,41.802406,Chicago,-87.586924,60602,Chicago,Chicago,Cornell Ave & Hyde Park Blvd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,2,7,Chicago,418,True,True,Chicago,2019-07-13 23:09:18,41.79933626261,Chicago,-87.6009581145,60602,Chicago,Chicago,Ellis Ave & 53rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,11,Chicago,419,True,True,Chicago,2019-07-13 22:56:29,41.79949429373,Chicago,-87.5864498959,60602,Chicago,Chicago,Lake Park Ave & 53rd St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,0,17,Chicago,420,True,True,Chicago,2019-07-13 22:56:49,41.79430062054,Chicago,-87.6014497734,60602,Chicago,Chicago,Ellis Ave & 55th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,1,11,Chicago,421,True,True,Chicago,2019-07-13 22:57:02,41.79342945658,Chicago,-87.6158532619,60602,Chicago,Chicago,MLK Jr Dr & 56th St (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,7,4,Chicago,422,True,True,Chicago,2019-07-13 22:56:57,41.79156801058,Chicago,-87.6078521774,60602,Chicago,Chicago,DuSable Museum,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,20,Chicago,423,True,True,Chicago,2019-07-13 22:58:57,41.791478,Chicago,-87.599861,60602,Chicago,Chicago,University Ave & 57th St,IN_SERVICE,1,IN_SERVICE,False,31
+0.0,3,23,Chicago,424,True,True,Chicago,2019-07-13 22:55:33,41.79172820953,Chicago,-87.583945009,60602,Chicago,Chicago,Museum of Science and Industry,IN_SERVICE,1,IN_SERVICE,False,27
+0.0,1,14,Chicago,425,True,True,Chicago,2019-07-13 22:58:36,41.78794281287,Chicago,-87.5883151702,60602,Chicago,Chicago,Harper Ave & 59th St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,13,Chicago,426,True,True,Chicago,2019-07-13 22:57:58,41.78509714636,Chicago,-87.6010727606,60602,Chicago,Chicago,Ellis Ave & 60th St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,10,Chicago,427,True,True,Chicago,2019-07-13 22:59:02,41.78059901484,Chicago,-87.606112388,60602,Chicago,Chicago,Cottage Grove Ave & 63rd St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,7,Chicago,428,True,True,Chicago,2019-07-13 22:58:53,41.7804056457,Chicago,-87.5914159893,60602,Chicago,Chicago,Dorchester Ave & 63rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,7,Chicago,429,True,True,Chicago,2019-07-13 22:57:41,41.77372095205,Chicago,-87.60563486,60602,Chicago,Chicago,Cottage Grove Ave & 67th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,430,True,True,Chicago,2019-07-12 22:57:03,41.78008063659,Chicago,-87.6159428567,60602,Chicago,Chicago,MLK Jr Dr & 63rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,431,True,True,Chicago,2019-07-12 22:56:23,41.78414169317,Chicago,-87.6133078304,60602,Chicago,Chicago,Eberhart Ave & 61st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,16,Chicago,432,True,True,Chicago,2019-07-13 22:59:11,42.009074,Chicago,-87.67419,60602,Chicago,Chicago,Clark St & Lunt Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,6,5,Chicago,433,True,True,Chicago,2019-07-13 22:58:24,41.87359967462,Chicago,-87.7048707493,60602,Chicago,Chicago,Kedzie Ave & Harrison St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,13,6,Chicago,434,True,True,Chicago,2019-07-13 22:58:33,41.86650148316,Chicago,-87.68469707,60602,Chicago,Chicago,Ogden Ave & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,5,6,Chicago,435,True,True,Chicago,2019-07-13 22:56:36,41.86649278172,Chicago,-87.7064961757,60602,Chicago,Chicago,Kedzie Ave & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,1,Chicago,436,True,True,Chicago,2019-07-13 23:08:57,41.866624,Chicago,-87.694521,60602,Chicago,Chicago,Fairfield Ave & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,11,Chicago,437,True,True,Chicago,2019-07-12 22:55:02,41.861894,Chicago,-87.693511,60602,Chicago,Chicago,Washtenaw Ave & Ogden Ave (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,6,9,Chicago,438,True,True,Chicago,2019-07-13 22:58:41,41.85420431327,Chicago,-87.7154058381,60602,Chicago,Chicago,Central Park Ave & Ogden Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,4,Chicago,439,True,True,Chicago,2019-07-13 22:58:02,41.85353363213,Chicago,-87.7050730318,60602,Chicago,Chicago,Kedzie Ave & 21st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,4,Chicago,440,True,True,Chicago,2019-07-13 22:57:46,41.8481,Chicago,-87.715068,60602,Chicago,Chicago,Central Park Ave & 24th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,9,2,Chicago,441,True,True,Chicago,2019-07-13 22:59:01,41.84819094491,Chicago,-87.7054137458,60602,Chicago,Chicago,Kedzie Ave & 24th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,442,True,True,Chicago,2019-07-13 22:58:35,41.84910969176,Chicago,-87.6951398068,60602,Chicago,Chicago,California Ave & 23rd Pl,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,5,Chicago,443,True,True,Chicago,2019-07-12 22:59:50,41.84456684891,Chicago,-87.7159103081,60602,Chicago,Chicago,Millard Ave & 26th St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,3,8,Chicago,444,True,True,Chicago,2019-07-13 22:55:18,41.84447501366,Chicago,-87.7020130128,60602,Chicago,Chicago,Albany Ave & 26th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,9,Chicago,445,True,True,Chicago,2019-07-13 22:56:29,41.84404003127,Chicago,-87.6952959227,60602,Chicago,Chicago,California Ave & 26th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,7,Chicago,446,True,True,Chicago,2019-07-13 22:58:17,41.84151770807,Chicago,-87.6851314409,60602,Chicago,Chicago,Western Ave & 28th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,14,1,Chicago,447,True,True,Chicago,2019-07-13 22:58:26,42.00797192287,Chicago,-87.6655023944,60602,Chicago,Chicago,Glenwood Ave & Morse Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,4,Chicago,448,True,True,Chicago,2019-07-13 22:59:44,42.00454962194,Chicago,-87.6806661451,60602,Chicago,Chicago,Warren Park East,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,14,1,Chicago,449,True,True,Chicago,2019-07-13 22:57:08,42.00445062934,Chicago,-87.6724024047,60602,Chicago,Chicago,Clark St & Columbia Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,1,Chicago,450,True,True,Chicago,2019-07-13 22:57:25,42.001785,Chicago,-87.688829,60602,Chicago,Chicago,Warren Park West,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,21,2,Chicago,451,True,True,Chicago,2019-07-13 22:55:33,42.00104377979,Chicago,-87.6611982433,60602,Chicago,Chicago,Sheridan Rd & Loyola Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,10,1,Chicago,452,True,True,Chicago,2019-07-13 22:58:08,41.99416136902,Chicago,-87.689438282,60602,Chicago,Chicago,Western Ave & Granville Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,13,2,Chicago,453,True,True,Chicago,2019-07-13 23:10:15,41.99925182186,Chicago,-87.6713773393,60602,Chicago,Chicago,Clark St & Schreiber Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,19,4,Chicago,454,True,True,Chicago,2019-07-13 23:10:52,41.9947796884,Chicago,-87.6602845349,60602,Chicago,Chicago,Broadway & Granville Ave,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,11,0,Chicago,455,True,True,Chicago,2019-07-13 22:59:51,41.99023602867,Chicago,-87.6933696402,60602,Chicago,Chicago,Maplewood Ave & Peterson Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,456,True,True,Chicago,2019-07-13 22:58:59,41.991178,Chicago,-87.683593,60602,Chicago,Chicago,2112 W Peterson Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,12,7,Chicago,457,True,True,Chicago,2019-07-13 22:59:42,41.990887,Chicago,-87.669758,60602,Chicago,Chicago,Clark St & Elmdale Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,18,1,Chicago,458,True,True,Chicago,2019-07-13 23:10:57,41.98974251144,Chicago,-87.6601406209,60602,Chicago,Chicago,Broadway & Thorndale Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,18,0,Chicago,459,True,True,Chicago,2019-07-13 13:47:17,41.98403669612,Chicago,-87.6523104689,60602,Chicago,Chicago,Lakefront Trail & Bryn Mawr Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,13,1,Chicago,460,True,True,Chicago,2019-07-13 23:09:08,41.983593,Chicago,-87.669154,60602,Chicago,Chicago,Clark St & Bryn Mawr Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,4,Chicago,461,True,True,Chicago,2019-07-13 23:10:19,41.9840446107,Chicago,-87.6602738295,60602,Chicago,Chicago,Broadway & Ridge Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,4,Chicago,462,True,True,Chicago,2019-07-13 22:58:03,41.979762,Chicago,-87.67753,60602,Chicago,Chicago,Winchester (Ravenswood) Ave & Balmoral Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,19,0,Chicago,463,True,True,Chicago,2019-07-13 22:58:08,41.9779966544,Chicago,-87.6680471047,60602,Chicago,Chicago,Clark St & Berwyn Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,14,1,Chicago,464,True,True,Chicago,2019-07-13 22:57:30,41.97561480459,Chicago,-87.6794590387,60602,Chicago,Chicago,Damen Ave & Foster Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,14,9,Chicago,465,True,True,Chicago,2019-07-13 22:59:56,41.9716,Chicago,-87.650154,60602,Chicago,Chicago,Marine Dr & Ainslie St,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,10,1,Chicago,466,True,True,Chicago,2019-07-13 22:57:53,42.01213227742,Chicago,-87.6829126443,60602,Chicago,Chicago,Ridge Blvd & Touhy Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,14,1,Chicago,467,True,True,Chicago,2019-07-13 22:56:24,42.0085943972,Chicago,-87.6904922389,60602,Chicago,Chicago,Western Ave & Lunt Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,6,Chicago,468,True,True,Chicago,2019-07-13 22:57:20,41.98366470886,Chicago,-87.6964225611,60602,Chicago,Chicago,Budlong Woods Library,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,8,Chicago,469,True,True,Chicago,2019-07-13 22:55:47,41.98039423475,Chicago,-87.7161149615,60602,Chicago,Chicago,St. Louis Ave & Balmoral Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,0,Chicago,470,True,True,Chicago,2019-07-13 22:56:30,41.975672,Chicago,-87.709261,60602,Chicago,Chicago,Kedzie Ave & Foster Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,9,6,Chicago,471,True,True,Chicago,2019-07-13 22:59:39,41.97563272521,Chicago,-87.7014194389,60602,Chicago,Chicago,Francisco Ave & Foster Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,2,Chicago,472,True,True,Chicago,2019-07-13 22:55:53,41.97491129677,Chicago,-87.6925025594,60602,Chicago,Chicago,Lincoln Ave & Winona St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,0,Chicago,474,True,True,Chicago,2019-07-13 22:57:03,41.96835449363,Chicago,-87.7118306675,60602,Chicago,Chicago,Christiana Ave & Lawrence Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,0,Chicago,475,True,True,Chicago,2019-07-13 22:58:09,41.968987,Chicago,-87.696027,60602,Chicago,Chicago,Washtenaw Ave & Lawrence Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,0,Chicago,476,True,True,Chicago,2019-07-13 22:58:26,41.96668636205,Chicago,-87.7080519806,60602,Chicago,Chicago,Kedzie Ave & Leland Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,0,Chicago,477,True,True,Chicago,2019-07-13 22:57:07,41.965875,Chicago,-87.700825,60602,Chicago,Chicago,Manor Ave & Leland Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,14,1,Chicago,478,True,True,Chicago,2019-07-13 22:56:34,41.96590013976,Chicago,-87.6936384935,60602,Chicago,Chicago,Rockwell St & Eastwood Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,4,Chicago,479,True,True,Chicago,2019-07-13 22:57:03,41.96115407569,Chicago,-87.7165690733,60602,Chicago,Chicago,Drake Ave & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,1,Chicago,480,True,True,Chicago,2019-07-13 22:59:28,41.961041,Chicago,-87.705866,60602,Chicago,Chicago,Albany Ave & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,13,2,Chicago,481,True,True,Chicago,2019-07-13 22:56:22,41.961068,Chicago,-87.695439,60602,Chicago,Chicago,California Ave & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,14,1,Chicago,482,True,True,Chicago,2019-07-13 22:59:13,41.96152593287,Chicago,-87.6911650414,60602,Chicago,Chicago,Campbell Ave & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,17,Chicago,483,True,True,Chicago,2019-07-13 22:58:29,41.953393,Chicago,-87.732002,60602,Chicago,Chicago,Avondale Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,9,6,Chicago,484,True,True,Chicago,2019-07-13 22:57:44,41.95400483876,Chicago,-87.7191281797,60602,Chicago,Chicago,Monticello Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,9,Chicago,485,True,True,Chicago,2019-07-13 22:57:56,41.95358617895,Chicago,-87.7093107999,60602,Chicago,Chicago,Sawyer Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,0,Chicago,486,True,True,Chicago,2019-07-13 22:58:31,41.95434085219,Chicago,-87.6860796243,60602,Chicago,Chicago,Oakley Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,15,Chicago,487,True,True,Chicago,2019-07-13 22:55:28,41.95216219326,Chicago,-87.698051113,60602,Chicago,Chicago,California Ave & Byron St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,7,4,Chicago,488,True,True,Chicago,2019-07-13 22:57:56,41.946264,Chicago,-87.731023,60602,Chicago,Chicago,Pulaski Rd & Eddy St (Temp),IN_SERVICE,1,IN_SERVICE,False,11
+0.0,15,0,Chicago,489,True,True,Chicago,2019-07-13 22:55:22,41.947326,Chicago,-87.717582,60602,Chicago,Chicago,Drake Ave & Addison St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,13,2,Chicago,490,True,True,Chicago,2019-07-13 22:55:45,41.94524356848,Chicago,-87.7066499009,60602,Chicago,Chicago,Troy St & Elston Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,13,Chicago,491,True,True,Chicago,2019-07-13 22:58:58,41.9466358306,Chicago,-87.694614758,60602,Chicago,Chicago,Talman Ave & Addison St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,3,Chicago,492,True,True,Chicago,2019-07-13 22:55:48,41.946655,Chicago,-87.683359,60602,Chicago,Chicago,Leavitt St & Addison St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,2,Chicago,493,True,True,Chicago,2019-07-13 22:58:35,41.943034,Chicago,-87.687288,60602,Chicago,Chicago,Western Ave & Roscoe St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,15,0,Chicago,494,True,True,Chicago,2019-07-13 22:54:56,41.98239708485,Chicago,-87.7089225202,60602,Chicago,Chicago,Kedzie Ave & Bryn Mawr Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,3,Chicago,495,True,True,Chicago,2019-07-13 22:56:33,41.96110801623,Chicago,-87.7289701012,60602,Chicago,Chicago,Keystone Ave & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,496,True,True,Chicago,2019-07-13 22:58:44,41.939408,Chicago,-87.723574,60602,Chicago,Chicago,Avers Ave & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,4,Chicago,497,True,True,Chicago,2019-07-13 22:55:48,41.939398,Chicago,-87.711561,60602,Chicago,Chicago,Kimball Ave & Belmont Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,13,Chicago,498,True,True,Chicago,2019-07-13 22:59:17,41.93842879148,Chicago,-87.698007756,60602,Chicago,Chicago,California Ave & Fletcher St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,8,4,Chicago,499,True,True,Chicago,2019-07-13 22:59:05,41.93058537138,Chicago,-87.7237773635,60602,Chicago,Chicago,Kosciuszko Park,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,6,Chicago,500,True,True,Chicago,2019-07-13 22:55:42,41.93533728263,Chicago,-87.7168892935,60602,Chicago,Chicago,Central Park Ave & Elbridge Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,14,0,Chicago,501,True,True,Chicago,2019-07-13 22:56:08,41.93190196886,Chicago,-87.7011951301,60602,Chicago,Chicago,Richmond St & Diversey Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,5,Chicago,502,True,True,Chicago,2019-07-13 22:59:35,41.92669,Chicago,-87.697668,60602,Chicago,Chicago,California Ave & Altgeld St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,3,Chicago,503,True,True,Chicago,2019-07-13 23:06:55,41.924398819,Chicago,-87.7154410355,60602,Chicago,Chicago,Drake Ave & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,13,Chicago,504,True,True,Chicago,2019-07-13 22:56:21,41.92463247165,Chicago,-87.6893070063,60602,Chicago,Chicago,Campbell Ave & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,3,Chicago,505,True,True,Chicago,2019-07-13 22:55:16,41.92409085038,Chicago,-87.6764600747,60602,Chicago,Chicago,Winchester Ave & Elston Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,12,1,Chicago,506,True,True,Chicago,2019-07-13 22:59:57,41.91718375155,Chicago,-87.7103566522,60602,Chicago,Chicago,Spaulding Ave & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,8,Chicago,507,True,True,Chicago,2019-07-13 22:59:43,41.91751339399,Chicago,-87.7018089555,60602,Chicago,Chicago,Humboldt Blvd & Armitage Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,1,14,Chicago,508,True,True,Chicago,2019-07-13 22:59:19,41.90965687563,Chicago,-87.7166319516,60602,Chicago,Chicago,Central Park Ave & North Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,5,Chicago,509,True,True,Chicago,2019-07-13 22:57:54,41.90976930169,Chicago,-87.7052804871,60602,Chicago,Chicago,Troy St & North Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,2,Chicago,510,True,True,Chicago,2019-07-13 22:59:57,41.90270659438,Chicago,-87.709219571,60602,Chicago,Chicago,Spaulding Ave & Division St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,12,Chicago,511,True,True,Chicago,2019-07-13 22:57:51,41.91402671273,Chicago,-87.705126462,60602,Chicago,Chicago,Albany Ave & Bloomingdale Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,5,Chicago,514,True,True,Chicago,2019-07-13 22:59:11,42.019276,Chicago,-87.68452,60602,Chicago,Chicago,Ridge Blvd & Howard St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,11,Chicago,515,True,True,Chicago,2019-07-13 22:56:47,42.019159,Chicago,-87.673573,60602,Chicago,Chicago,Paulina St & Howard St,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,2,9,Chicago,517,True,True,Chicago,2019-07-13 23:08:35,42.015963,Chicago,-87.675005,60602,Chicago,Chicago,Clark St & Jarvis Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,1,Chicago,518,True,True,Chicago,2019-07-13 22:57:14,41.885502,Chicago,-87.716866,60602,Chicago,Chicago,Conservatory Dr & Lake St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,7,Chicago,519,True,True,Chicago,2019-07-13 22:56:04,42.016977,Chicago,-87.677725,60602,Chicago,Chicago,Wolcott Ave & Fargo Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,16,3,Chicago,520,True,True,Chicago,2019-07-13 22:49:53,42.015962,Chicago,-87.66857,60602,Chicago,Chicago,Greenview Ave & Jarvis Ave,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,3,8,Chicago,522,True,True,Chicago,2019-07-13 22:57:08,42.019537,Chicago,-87.669563,60602,Chicago,Chicago,Bosworth Ave & Howard St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,8,Chicago,523,True,True,Chicago,2019-07-13 22:57:12,42.021019,Chicago,-87.665086,60602,Chicago,Chicago,Eastlake Ter & Rogers Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,2,Chicago,524,True,True,Chicago,2019-07-12 22:58:19,41.894887,Chicago,-87.774704,60602,Chicago,Chicago,Austin Blvd & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,14,1,Chicago,525,True,True,Chicago,2019-07-13 22:58:01,42.012701,Chicago,-87.666058,60602,Chicago,Chicago,Glenwood Ave & Touhy Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,1,Chicago,526,True,True,Chicago,2019-07-13 22:57:54,42.012342,Chicago,-87.688243,60602,Chicago,Chicago,Oakley Ave & Touhy Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,11,4,Chicago,527,True,True,Chicago,2019-07-13 22:55:02,42.018901,Chicago,-87.690048,60602,Chicago,Chicago,Western Ave & Howard St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,10,Chicago,528,True,True,Chicago,2019-07-13 22:58:13,41.885409,Chicago,-87.726491,60602,Chicago,Chicago,Pulaski Rd & Lake St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,529,True,True,Chicago,2019-07-13 22:54:57,41.886841,Chicago,-87.745261,60602,Chicago,Chicago,Cicero Ave & Lake St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,530,True,True,Chicago,2019-07-13 22:59:25,41.887832,Chicago,-87.755527,60602,Chicago,Chicago,Laramie Ave & Kinzie St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,2,Chicago,531,True,True,Chicago,2019-07-13 22:57:16,41.887664,Chicago,-87.765469,60602,Chicago,Chicago,Central Ave & Lake St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,4,Chicago,532,True,True,Chicago,2019-07-13 22:57:39,41.887919,Chicago,-87.774446,60602,Chicago,Chicago,Austin Blvd & Lake St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,533,True,True,Chicago,2019-07-13 22:56:42,41.875679,Chicago,-87.71547,60602,Chicago,Chicago,Central Park Blvd & 5th Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,534,True,True,Chicago,2019-07-13 22:57:07,41.88085,Chicago,-87.727907,60602,Chicago,Chicago,Karlov Ave & Madison St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,3,Chicago,535,True,True,Chicago,2019-07-13 22:55:33,41.874325,Chicago,-87.725704,60602,Chicago,Chicago,Pulaski Rd & Congress Pkwy,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,536,True,True,Chicago,2019-07-10 22:55:30,41.885928,Chicago,-87.73541,60602,Chicago,Chicago,Kostner Ave & Lake St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,537,True,True,Chicago,2019-07-08 10:59:57,41.880708,Chicago,-87.741018,60602,Chicago,Chicago,Kenton Ave & Madison St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,538,True,True,Chicago,2019-07-08 20:58:09,41.872131,Chicago,-87.746619,60602,Chicago,Chicago,Cicero Ave & Flournoy St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,539,True,True,Chicago,2019-07-08 10:59:40,41.877613,Chicago,-87.745405,60602,Chicago,Chicago,Cicero Ave & Quincy St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,540,True,True,Chicago,2019-07-13 22:55:14,41.880207,Chicago,-87.755337,60602,Chicago,Chicago,Laramie Ave & Madison St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,541,True,True,Chicago,2019-07-13 22:56:55,41.872993,Chicago,-87.764499,60602,Chicago,Chicago,Central Ave & Harrison St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,7,Chicago,542,True,True,Chicago,2019-07-13 22:58:21,41.880121,Chicago,-87.763238,60602,Chicago,Chicago,Central Ave & Madison St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,543,True,True,Chicago,2019-07-13 22:55:16,41.875806,Chicago,-87.755285,60602,Chicago,Chicago,Laramie Ave & Gladys Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,544,True,True,Chicago,2019-07-12 22:59:38,41.880281,Chicago,-87.774453,60602,Chicago,Chicago,Austin Blvd & Madison St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,3,Chicago,545,True,True,Chicago,2019-07-13 22:55:52,41.877917,Chicago,-87.735737,60602,Chicago,Chicago,Kostner Ave & Adams St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,546,True,True,Chicago,2019-07-11 13:37:31,41.823192,Chicago,-87.676597,60602,Chicago,Chicago,Damen Ave & Pershing Rd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,10,1,Chicago,547,True,True,Chicago,2019-07-13 22:55:03,41.823465,Chicago,-87.665577,60602,Chicago,Chicago,Ashland Ave & Pershing Rd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,3,Chicago,548,True,True,Chicago,2019-07-13 22:59:28,41.823613,Chicago,-87.650931,60602,Chicago,Chicago,Morgan St & Pershing Rd,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,3,1,Chicago,549,True,True,Chicago,2019-07-13 22:58:06,41.813996,Chicago,-87.666589,60602,Chicago,Chicago,Marshfield Ave & 44th St,IN_SERVICE,1,IN_SERVICE,False,4
+0.0,8,3,Chicago,550,True,True,Chicago,2019-07-13 22:56:54,41.894958,Chicago,-87.764902,60602,Chicago,Chicago,Central Ave & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,551,True,True,Chicago,2019-07-12 22:57:04,41.808227,Chicago,-87.67718,60602,Chicago,Chicago,Hoyne Ave & 47th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,552,True,True,Chicago,2019-07-13 22:59:54,41.80887,Chicago,-87.66454,60602,Chicago,Chicago,Ashland Ave & McDowell Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,553,True,True,Chicago,2019-07-10 22:59:44,41.80839,Chicago,-87.656526,60602,Chicago,Chicago,Elizabeth St & 47th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,3,Chicago,554,True,True,Chicago,2019-07-12 22:56:19,41.800908,Chicago,-87.674684,60602,Chicago,Chicago,Damen Ave & 51st St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,7,4,Chicago,555,True,True,Chicago,2019-07-12 22:55:24,41.803023,Chicago,-87.664699,60602,Chicago,Chicago,Ashland Ave & 50th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,4,Chicago,556,True,True,Chicago,2019-07-11 22:58:01,41.799659,Chicago,-87.657195,60602,Chicago,Chicago,Throop St & 52nd St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,7,4,Chicago,557,True,True,Chicago,2019-07-12 22:58:23,41.794087,Chicago,-87.675478,60602,Chicago,Chicago,Seeley Ave & Garfield Blvd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,8,Chicago,558,True,True,Chicago,2019-07-13 08:02:36,41.792822,Chicago,-87.664429,60602,Chicago,Chicago,Ashland Ave & Garfield Blvd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,9,Chicago,559,True,True,Chicago,2019-07-12 22:56:36,41.794228,Chicago,-87.655073,60602,Chicago,Chicago,Racine Ave & Garfield Blvd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,560,True,True,Chicago,2019-07-08 10:59:52,41.786833,Chicago,-87.666215,60602,Chicago,Chicago,Marshfield Ave & 59th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,4,Chicago,561,True,True,Chicago,2019-07-12 22:57:14,41.78602,Chicago,-87.674167,60602,Chicago,Chicago,Damen Ave & 59th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,562,True,True,Chicago,2019-07-10 22:59:48,41.783189,Chicago,-87.654372,60602,Chicago,Chicago,Racine Ave & 61st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,9,2,Chicago,563,True,True,Chicago,2019-07-13 22:57:37,41.779374,Chicago,-87.664843,60602,Chicago,Chicago,Ashland Ave & 63rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,9,Chicago,564,True,True,Chicago,2019-07-08 10:59:56,41.775393,Chicago,-87.654308,60602,Chicago,Chicago,Racine Ave & 65th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,5,Chicago,565,True,True,Chicago,2019-07-08 10:59:55,41.774074,Chicago,-87.663815,60602,Chicago,Chicago,Ashland Ave & 66th St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,2,9,Chicago,566,True,True,Chicago,2019-07-09 22:54:56,41.768726,Chicago,-87.664069,60602,Chicago,Chicago,Ashland Ave & 69th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,567,True,True,Chicago,2019-07-08 10:59:58,41.768938,Chicago,-87.652934,60602,Chicago,Chicago,May St & 69th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,6,Chicago,568,True,True,Chicago,2019-07-12 22:55:45,41.75797,Chicago,-87.63121,60602,Chicago,Chicago,Vincennes Ave & 75th St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,5,6,Chicago,569,True,True,Chicago,2019-07-08 10:59:52,41.75916,Chicago,-87.595751,60602,Chicago,Chicago,Woodlawn Ave & 75th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,5,Chicago,570,True,True,Chicago,2019-07-08 11:02:29,41.75849,Chicago,-87.60641,60602,Chicago,Chicago,Evans Ave & 75th St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,10,1,Chicago,571,True,True,Chicago,2019-07-13 22:56:59,41.758361,Chicago,-87.614138,60602,Chicago,Chicago,Vernon Ave & 75th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,572,True,True,Chicago,2019-07-13 22:57:06,41.756971,Chicago,-87.624621,60602,Chicago,Chicago,State St & 76th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,573,True,True,Chicago,2019-07-13 22:58:47,41.750794,Chicago,-87.624424,60602,Chicago,Chicago,State St & 79th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,574,True,True,Chicago,2019-07-13 22:56:41,41.75094,Chicago,-87.61379,60602,Chicago,Chicago,Vernon Ave & 79th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,3,Chicago,575,True,True,Chicago,2019-07-13 22:58:45,41.753174,Chicago,-87.605026,60602,Chicago,Chicago,Cottage Grove Ave & 78th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,576,True,True,Chicago,2019-07-12 22:58:57,41.751294,Chicago,-87.597552,60602,Chicago,Chicago,Greenwood Ave & 79th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,9,Chicago,577,True,True,Chicago,2019-07-10 22:57:34,41.751173,Chicago,-87.585337,60602,Chicago,Chicago,Stony Island Ave & South Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,578,True,True,Chicago,2019-07-12 22:57:16,41.751785,Chicago,-87.578496,60602,Chicago,Chicago,Bennett Ave & 79th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,9,Chicago,579,True,True,Chicago,2019-07-13 22:57:53,41.75182,Chicago,-87.565211,60602,Chicago,Chicago,Phillips Ave & 79th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,580,True,True,Chicago,2019-07-08 10:59:54,41.751731,Chicago,-87.552812,60602,Chicago,Chicago,Exchange Ave & 79th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,8,3,Chicago,581,True,True,Chicago,2019-07-12 00:11:37,41.744615,Chicago,-87.551208,60602,Chicago,Chicago,Commercial Ave & 83rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,582,True,True,Chicago,2019-07-08 11:17:00,41.744531,Chicago,-87.56506,60602,Chicago,Chicago,Phillips Ave & 83rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,583,True,True,Chicago,2019-07-12 22:59:49,41.746559,Chicago,-87.586005,60602,Chicago,Chicago,Stony Island Ave & 82nd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,4,Chicago,584,True,True,Chicago,2019-07-11 13:38:53,41.744123,Chicago,-87.599034,60602,Chicago,Chicago,Ellis Ave & 83rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,585,True,True,Chicago,2019-07-13 22:55:28,41.743441,Chicago,-87.604836,60602,Chicago,Chicago,Cottage Grove Ave & 83rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,6,5,Chicago,586,True,True,Chicago,2019-07-12 22:57:49,41.743116,Chicago,-87.6148,60602,Chicago,Chicago,MLK Jr Dr & 83rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,9,Chicago,587,True,True,Chicago,2019-07-12 22:57:06,41.743316,Chicago,-87.622849,60602,Chicago,Chicago,Wabash Ave & 83rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,588,True,True,Chicago,2019-07-10 22:58:26,41.743921,Chicago,-87.575225,60602,Chicago,Chicago,South Chicago Ave & 83rd St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,589,True,True,Chicago,2019-07-13 22:58:47,41.954468,Chicago,-87.749594,60602,Chicago,Chicago,Milwaukee Ave & Cuyler Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,4,Chicago,590,True,True,Chicago,2019-07-13 22:57:23,41.953733,Chicago,-87.740569,60602,Chicago,Chicago,Kilbourn Ave & Irving Park Rd,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,7,8,Chicago,591,True,True,Chicago,2019-07-13 22:59:18,41.948818,Chicago,-87.74002,60602,Chicago,Chicago,Kilbourn Ave & Milwaukee Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,4,Chicago,592,True,True,Chicago,2019-07-13 22:58:30,41.960631,Chicago,-87.745359,60602,Chicago,Chicago,Knox Ave & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,6,Chicago,593,True,True,Chicago,2019-07-10 22:59:38,41.787539,Chicago,-87.644874,60602,Chicago,Chicago,Halsted St & 59th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,1,10,Chicago,594,True,True,Chicago,2019-07-12 22:57:49,41.805661,Chicago,-87.683392,60602,Chicago,Chicago,Western Blvd & 48th Pl,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,8,Chicago,595,True,True,Chicago,2019-07-12 22:58:30,41.736646,Chicago,-87.622634,60602,Chicago,Chicago,Wabash Ave & 87th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,5,9,Chicago,596,True,True,Chicago,2019-07-13 22:59:53,42.048214,Chicago,-87.683485,60602,Chicago,Chicago,Benson Ave & Church St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,15,0,Chicago,597,True,True,Chicago,2019-07-13 22:56:14,42.032562,Chicago,-87.679101,60602,Chicago,Chicago,Chicago Ave & Washington St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,11,Chicago,598,True,True,Chicago,2019-07-13 22:59:40,42.025784,Chicago,-87.684107,60602,Chicago,Chicago,Elmwood Ave & Austin St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,9,6,Chicago,599,True,True,Chicago,2019-07-12 22:57:00,42.039742,Chicago,-87.699413,60602,Chicago,Chicago,Valli Produce - Evanston Plaza,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,2,13,Chicago,600,True,True,Chicago,2019-07-13 22:55:02,42.048308,Chicago,-87.698224,60602,Chicago,Chicago,Dodge Ave & Church St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,5,Chicago,601,True,True,Chicago,2019-07-13 22:57:45,42.063598,Chicago,-87.69873,60602,Chicago,Chicago,Central St Metra,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,7,8,Chicago,602,True,True,Chicago,2019-07-13 22:59:24,42.064313,Chicago,-87.686152,60602,Chicago,Chicago,Central St & Girard Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,14,Chicago,603,True,True,Chicago,2019-07-13 22:58:11,42.050491,Chicago,-87.677821,60602,Chicago,Chicago,Chicago Ave & Sheridan Rd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,0,15,Chicago,604,True,True,Chicago,2019-07-13 22:57:31,42.058239,Chicago,-87.677432,60602,Chicago,Chicago,Sheridan Rd & Noyes St (NU),IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,14,Chicago,605,True,True,Chicago,2019-07-13 22:55:59,42.052939,Chicago,-87.673447,60602,Chicago,Chicago,University Library (NU),IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,4,Chicago,619,True,True,Chicago,2019-07-13 22:57:43,41.92459,Chicago,-87.72785,60602,Chicago,Chicago,Keystone Ave & Fullerton Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,0,14,Chicago,620,True,True,Chicago,2019-07-13 22:59:28,41.898203,Chicago,-87.637536,60602,Chicago,Chicago,Orleans St & Chestnut St (NEXT Apts),IN_SERVICE,1,IN_SERVICE,False,15
+0.0,5,7,Chicago,621,True,True,Chicago,2019-07-13 22:57:00,41.884114,Chicago,-87.654264,60602,Chicago,Chicago,Aberdeen St & Randolph St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,5,Chicago,622,True,True,Chicago,2019-07-13 22:58:15,41.900363,Chicago,-87.696704,60602,Chicago,Chicago,California Ave & Cortez St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,22,21,Chicago,623,True,True,Chicago,2019-07-13 23:07:28,41.872773,Chicago,-87.623981,60602,Chicago,Chicago,Michigan Ave & 8th St,IN_SERVICE,1,IN_SERVICE,False,43
+0.0,0,15,Chicago,624,True,True,Chicago,2019-07-13 22:58:39,41.876268,Chicago,-87.629155,60602,Chicago,Chicago,Dearborn St & Van Buren St (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,14,1,Chicago,625,True,True,Chicago,2019-07-13 22:57:46,42.041691,Chicago,-87.680687,60602,Chicago,Chicago,Chicago Ave & Dempster St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,14,Chicago,626,True,True,Chicago,2019-07-13 22:58:54,41.867491,Chicago,-87.63219,60602,Chicago,Chicago,Delano Ct & Roosevelt Rd,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,12,7,Chicago,627,True,True,Chicago,2019-07-13 22:56:04,41.894877,Chicago,-87.632326,60602,Chicago,Chicago,LaSalle Dr & Huron St (*),IN_SERVICE,1,IN_SERVICE,False,20
+0.0,2,19,Chicago,628,True,True,Chicago,2019-07-13 22:55:56,41.91461,Chicago,-87.667968,60602,Chicago,Chicago,Walsh Park,IN_SERVICE,1,IN_SERVICE,False,23
+0.0,15,0,Chicago,630,True,True,Chicago,2019-07-13 22:59:55,41.96108,Chicago,-87.73569,60602,Chicago,Chicago,Kildare Ave & Montrose Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,13,6,Chicago,631,True,True,Chicago,2019-07-13 22:57:19,41.877618,Chicago,-87.673895,60602,Chicago,Chicago,Malcolm X College,IN_SERVICE,1,IN_SERVICE,False,19
+0.0,2,12,Chicago,632,True,True,Chicago,2019-07-13 23:09:11,41.94454,Chicago,-87.654678,60602,Chicago,Chicago,Clark St & Newport St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,6,6,Chicago,635,True,True,Chicago,2019-07-13 23:10:33,41.895748,Chicago,-87.620104,60602,Chicago,Chicago,Fairbanks St & Superior St (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,5,7,Chicago,636,True,True,Chicago,2019-07-13 22:57:27,41.890028,Chicago,-87.636618,60602,Chicago,Chicago,Orleans St & Hubbard St (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,10,6,Chicago,637,True,True,Chicago,2019-07-13 22:59:06,41.895634,Chicago,-87.672069,60602,Chicago,Chicago,Wood St & Chicago Ave (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,8,20,Chicago,638,True,True,Chicago,2019-07-13 22:57:01,41.878419,Chicago,-87.640977,60602,Chicago,Chicago,Clinton St & Jackson Blvd (*),IN_SERVICE,1,IN_SERVICE,False,32
+0.0,3,12,Chicago,639,True,True,Chicago,2019-07-13 23:09:07,41.965845,Chicago,-87.645361,60602,Chicago,Chicago,Lakefront Trail & Wilson Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,11,0,Chicago,640,True,True,Chicago,2019-07-13 22:56:03,41.949923,Chicago,-87.713949,60602,Chicago,Chicago,Bernard St & Elston Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,6,Chicago,641,True,True,Chicago,2019-07-13 22:58:35,41.914166,Chicago,-87.716755,60602,Chicago,Chicago,Central Park Ave & Bloomingdale Ave,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,4,3,Chicago,642,True,True,Chicago,2019-07-13 22:56:52,41.894745,Chicago,-87.756895,60602,Chicago,Chicago,Latrobe Ave & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,2,13,Chicago,643,True,True,Chicago,2019-07-13 22:57:32,41.892048,Chicago,-87.689397,60602,Chicago,Chicago,Smith Park (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,4,8,Chicago,644,True,True,Chicago,2019-07-13 22:59:31,41.868563,Chicago,-87.686234,60602,Chicago,Chicago,Western Ave & Fillmore St (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,8,4,Chicago,645,True,True,Chicago,2019-07-13 22:55:41,41.826712,Chicago,-87.683144,60602,Chicago,Chicago,Archer (Damen) Ave & 37th St (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,3,8,Chicago,646,True,True,Chicago,2019-07-11 13:38:20,41.796642,Chicago,-87.625923,60602,Chicago,Chicago,State St & 54th St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,3,4,Chicago,647,True,True,Chicago,2019-07-08 11:16:36,41.786691,Chicago,-87.655859,60602,Chicago,Chicago,Elizabeth St & 59th St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,3,4,Chicago,648,True,True,Chicago,2019-07-12 22:57:25,41.77987,Chicago,-87.650919,60602,Chicago,Chicago,Carpenter St & 63rd St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,2,9,Chicago,649,True,True,Chicago,2019-07-11 22:58:03,41.779835,Chicago,-87.634774,60602,Chicago,Chicago,Stewart Ave & 63rd St (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,6,6,Chicago,650,True,True,Chicago,2019-07-08 11:00:00,41.768898,Chicago,-87.635876,60602,Chicago,Chicago,Eggleston Ave & 69th St (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,2,5,Chicago,651,True,True,Chicago,2019-07-12 22:59:38,41.765286,Chicago,-87.621748,60602,Chicago,Chicago,Michigan Ave & 71st St,IN_SERVICE,1,IN_SERVICE,False,7
+0.0,3,8,Chicago,652,True,True,Chicago,2019-07-08 11:16:51,41.766,Chicago,-87.611726,60602,Chicago,Chicago,Rhodes Ave & 71st St,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,2,9,Chicago,653,True,True,Chicago,2019-07-13 22:56:26,41.780595,Chicago,-87.584846,60602,Chicago,Chicago,Cornell Dr & Hayes Dr,IN_SERVICE,1,IN_SERVICE,False,11
+0.0,0,12,Chicago,654,True,True,Chicago,2019-07-13 22:59:57,41.883073,Chicago,-87.656952,60602,Chicago,Chicago,Racine Ave & Washington Blvd (*),IN_SERVICE,1,IN_SERVICE,False,12
+0.0,14,1,Chicago,655,True,True,Chicago,2019-07-13 22:55:40,41.979851,Chicago,-87.681932,60602,Chicago,Chicago,Hoyne Ave & Balmoral Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,1,13,Chicago,656,True,True,Chicago,2019-07-13 22:57:32,41.885951,Chicago,-87.677009,60602,Chicago,Chicago,Damen Ave & Walnut (Lake) St (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,4,11,Chicago,657,True,True,Chicago,2019-07-13 22:55:53,41.899181,Chicago,-87.6722,60602,Chicago,Chicago,Wood St & Augusta Blvd,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,14,2,Chicago,658,True,True,Chicago,2019-07-13 22:55:39,41.902997,Chicago,-87.683825,60602,Chicago,Chicago,Leavitt St & Division St (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,2,13,Chicago,659,True,True,Chicago,2019-07-13 22:55:21,41.895501,Chicago,-87.682017,60602,Chicago,Chicago,Leavitt St & Chicago Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,8,7,Chicago,660,True,True,Chicago,2019-07-13 22:58:04,42.004583,Chicago,-87.661406,60602,Chicago,Chicago,Sheridan Rd & Columbia Ave,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,4,11,Chicago,661,True,True,Chicago,2019-07-13 22:57:31,42.057044,Chicago,-87.686554,60602,Chicago,Chicago,Evanston Civic Center,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,10,5,Chicago,662,True,True,Chicago,2019-07-13 22:56:37,42.023463,Chicago,-87.699595,60602,Chicago,Chicago,Dodge Ave & Mulford St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,14,1,Chicago,663,True,True,Chicago,2019-07-13 22:56:50,42.064854,Chicago,-87.715297,60602,Chicago,Chicago,Lincolnwood Dr & Central St,IN_SERVICE,1,IN_SERVICE,False,15
+0.0,14,2,Chicago,664,True,True,Chicago,2019-07-13 22:55:52,41.939354,Chicago,-87.683282,60602,Chicago,Chicago,Leavitt St & Belmont Ave (*),IN_SERVICE,1,IN_SERVICE,False,16
+0.0,6,1,Chicago,665,True,True,Chicago,2019-07-08 10:59:59,41.747363,Chicago,-87.580046,60602,Chicago,Chicago,South Chicago Ave & Elliot Ave,IN_SERVICE,1,IN_SERVICE,False,7
