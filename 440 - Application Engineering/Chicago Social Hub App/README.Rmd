@@ -8,12 +8,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+Run:
 ```{bash eval=FALSE}
 git clone https://github.com/papagorgio23/Northwestern.git
 ```
 
 ### Backend
 
+Run:
 ```{bash eval=FALSE}
 cd Northwestern/440\ -\ Application\ Engineering/Chicago\ Social\ Hub\ App/backend/
 node server
@@ -21,6 +23,7 @@ node server
 
 ### Frontend
 
+Run:
 ```{bash eval=FALSE}
 cd Northwestern/440\ -\ Application\ Engineering/Chicago\ Social\ Hub\ App/frontend/
 ng serve
@@ -30,11 +33,11 @@ ng serve
 
 ## Project Overview Statement:
 
-In this project we will design and implement a web-based real-time application for Divvy bikers that will allow them to search and chart Yelp reviewed Chicago social places (restaurants, bars, coffee shops, etc) and plot real-time available docks in near-by Divvy docking stations on Chicago downtown area map; we will call our application ChicagoSocialHub. The following sections document the technologies, data sources, and the detailed requirements
+In this project we will design and implement a web-based real-time application for Divvy bikers that will allow them to search and chart Yelp reviewed Chicago social places (restaurants, bars, coffee shops, etc) and plot real-time available docks in near-by Divvy docking stations on Chicago downtown area map; we will call our application Chicago Social Hub. The following sections document the technologies, data sources, and the detailed requirements
 
 ## Technologies and Platforms:
 
-The following is the list of technologies, platforms, and packages used in the design and development of the ChicagoSocialHub real-time app:  
+The following is the list of technologies, platforms, and packages used in the design and development of the Chicago Social Hub real-time app:  
 
 
 1. Angular 7 or higher  

@@ -1,11 +1,15 @@
 Final Project - Chicago Social Hub Real-Time Analytics Application
 ================
 
+Run:
+
 ``` bash
 git clone https://github.com/papagorgio23/Northwestern.git
 ```
 
 ### Backend
+
+Run:
 
 ``` bash
 cd Northwestern/440\ -\ Application\ Engineering/Chicago\ Social\ Hub\ App/backend/
@@ -13,6 +17,8 @@ node server
 ```
 
 ### Frontend
+
+Run:
 
 ``` bash
 cd Northwestern/440\ -\ Application\ Engineering/Chicago\ Social\ Hub\ App/frontend/
