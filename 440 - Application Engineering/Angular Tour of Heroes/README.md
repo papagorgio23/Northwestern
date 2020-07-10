@@ -3,6 +3,8 @@ Angular Tour of Heroes\!
 
 Angular Tour of Heroes\!
 
+Run:
+
 ``` bash
 cd angular-tour-of-heroes
 ng serve
@@ -15,4 +17,4 @@ ng serve
 
 #### Webpage:
 
-![linechart](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Simulated%20Stock%20Market%20App/MarketChart.png)
+![linechart](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Angular%20Tour%20of%20Heroes/heroes.png)
