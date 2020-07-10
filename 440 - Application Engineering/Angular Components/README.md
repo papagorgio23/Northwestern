@@ -1,0 +1,22 @@
+Angular Components
+================
+
+Testing out various Angular App components.
+
+Run:
+
+``` bash
+cd angular-tour-of-heroes
+ng serve
+```
+
+  - [Video Walkthrough of
+    Code](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4945f98-a8b2-44bf-bab7-ab040034f872)  
+  - [Video Walkthrough of
+    Code](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d79b98d0-d94b-4704-8e2f-ab040049f3a3)
+
+<br>
+
+#### Webpage:
+
+![linechart](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Angular%20Components/angular.png)
