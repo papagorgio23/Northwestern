@@ -19,4 +19,4 @@ ng serve
 
 #### Webpage:
 
-![linechart](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Angular%20Components/angular.png)
+![angular](https://raw.githubusercontent.com/papagorgio23/Northwestern/master/440%20-%20Application%20Engineering/Angular%20Components/angular.png)
