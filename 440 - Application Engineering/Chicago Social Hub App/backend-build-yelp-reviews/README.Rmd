@@ -1,0 +1,13 @@
+---
+title: "Scraping Yelp Data"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+- [Video Walkthrough of Code](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c16a7478-05c0-4274-b1b5-aaf4005bbdd2)  
+
+
