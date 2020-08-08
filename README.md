@@ -1,4 +1,4 @@
 # Northwestern
 ### Master's of Data Science Program
 
-Northwestern Code
+Fall '18 - Spring '20
