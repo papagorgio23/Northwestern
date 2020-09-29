@@ -1,6 +1,7 @@
 Final Project - Chicago Social Hub Real-Time Analytics Application
 ================
 
+
 Run:
 
 ``` bash
@@ -152,5 +153,7 @@ the following requirements:
     the bell-curve bar-chart for the weekends or holiday days.
 
 ## Appendix A. Yelp Business Reviews
+
+This section provides insights into Yelp API
 
 ## Appendix B. Divvy Bikes and Docking Stations
