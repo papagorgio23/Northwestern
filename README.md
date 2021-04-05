@@ -1,4 +1,4 @@
 # Northwestern
-### Master's of Data Science Program
+### Master's of Science in Data Science
 
 Fall '18 - Spring '20
