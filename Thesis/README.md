@@ -1,4 +1,4 @@
-Master’s Thesis - Title (No Clue)
+Master’s Thesis - Beating Vegas - Predicting the NBA using Graph Neural Networks
 ================
 Jason Lee, Lead Data Scientist/Founder A.I. Sports
 
