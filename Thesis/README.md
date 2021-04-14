@@ -4,6 +4,8 @@ Jason Lee, Lead Data Scientist/Founder A.I. Sports
 
 ## Description
 
+Prediction Model for the NBA vs. Betting Market closing line.
+
 This paper will be great\! Either NFL, NBA, or Sports Betting related
 topic using artificial intelligence.
 
